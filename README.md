@@ -9,7 +9,7 @@
 
 ### Wireframes
 
-The layout of the pages for this project were planned using Balsamiq's wireframes. These wireframes can be found [here.](docs/wireframes/wireframems1mobile.pdf)
+The layout of the pages for this project were planned using Balsamiq's wireframes. The wireframes for mobile devices can be found [here.](docs/wireframes/wireframems1mobile.pdf) The wireframes for tablets can be found [here.](docs/wireframes/wireframems1tablet.pdf) The wireframes for desktops can be found [here.](docs/wireframes/wireframems1desktop.pdf)
 
 ## Technologies Used
 
