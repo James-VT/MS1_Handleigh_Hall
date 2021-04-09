@@ -30,5 +30,8 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 ## Navigation bar
 * The original code for the site's navigation bar in the header is taken from Bootstrap 4's [Nav code.](https://getbootstrap.com/docs/4.0/components/navbar/#nav)
 
+## Footer spacing
+* The column spacing in the footer was acheived using Bootstrap 4's [Grid system.](https://getbootstrap.com/docs/4.0/layout/grid/#auto-layout-columns)
+
 ## Font
 * The font used throughout is Roboto, a google fonts font, and sans-serif is used the backup for if Roboto cannot load. [Roboto.](https://fonts.google.com/specimen/Roboto#standard-styles)
