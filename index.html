@@ -57,14 +57,29 @@
 
 <footer class="container-fluid">
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 left-footer">
             <h4>Find us and follow us on:</h4>
-            <i class="fab fa-facebook-square"></i>
-            <span class="sr-only">Facebook</span>
-            <i class="fab fa-twitter-square"></i>
-            <span class="sr-only">Twitter</span>
-            <i class="fab fa-instagram-square"></i>
-            <span class="sr-only">Instagram</span>
+<!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
+            <ul class="list-inline iconstyle inline-block">
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="col-sm-6">
             <div class="row">

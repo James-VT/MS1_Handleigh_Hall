@@ -12,15 +12,27 @@ body {
 #charity-number {
     margin: 0 auto;
     border-style: solid;
-    border: 15px;
-    padding-top: 10px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 footer {
     background-color: #b3ecff;
-    margin: 0;
 }
 
 .inline-block {
     display: inline-block;
+}
+
+/*-----------------------------------------------Fontawesome Icons*/
+
+.left-footer {
+    text-align: center;
+}
+
+.iconstyle i {
+    color: #36454f;
+    font-size: 50px;
+    padding: 20px 20px 10px 20px;
 }
