@@ -24,3 +24,11 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 
 * [Bootstrap](https://getbootstrap.com/)
     * Bootstrap was used in this project to provide styling frameworks. The version I have used is Bootstrap 4.
+
+# Credits
+
+## Navigation bar
+* The original code for the site's navigation bar in the header is taken from Bootstrap 4's [Nav code.](https://getbootstrap.com/docs/4.0/components/navbar/#nav)
+
+## Font
+* The font used throughout is Roboto, a google fonts font, and sans-serif is used the backup for if Roboto cannot load. [Roboto.](https://fonts.google.com/specimen/Roboto#standard-styles)
