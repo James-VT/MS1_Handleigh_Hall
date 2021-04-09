@@ -2,8 +2,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*---------------------------Header*/
+/*-----------------------------------------------Header*/
 .navbarstyle {
     background-color: #ffffe6;
     font-weight: 800;
+}
+
+/*-----------------------------------------------Footer*/
+#charity-number {
+    margin: 0 auto;
+    border-style: solid;
+    border: 15px;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #b3ecff;
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
 }
