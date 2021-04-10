@@ -25,11 +25,24 @@ footer {
     display: inline-block;
 }
 
-/*-----------------------------------------------Fontawesome Icons*/
+.block {
+    display: block;
+}
 
 .left-footer {
     text-align: center;
 }
+
+.right-footer {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------------Fontawesome Icons*/
 
 .iconstyle i {
     color: #36454f;
