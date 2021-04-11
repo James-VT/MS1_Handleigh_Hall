@@ -10,6 +10,10 @@ The Scope Plane: This plane helped to prevent the project growing beyond its imm
 
 The Structure Plane: my wireframes can be found below. These have been constructed with the idea that mobile design should come first, and that the main aim from the point of the view of the site owner is to generate income via bookings to visit the historic house. This is why the BOOK button is visible for as much of the time as possible, and each page presents its information in a way that encourages the selling of tickets.
 
+The Skeleton Plane:
+
+The Surface Plane: Colours for the website were chosen based on those colours associated with the visual look of Handleigh Hall itself. Green for the grass around it, blue for the (optimistically) blue sky above, and the beige colour of the navigation bar to resemble the colour of the local stone from which the property was constructed.
+
 * This is the visitor website of the organisation looking after a historic building opened to the public as a visitor attraction.
 * This website exists to provide information to visitors, and to convey information from the site owners to said visitors.
 * As a visitor to the website, I want to know what's on offer, the location, and how to book tickets to visit.
@@ -31,7 +35,7 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
     * The CSS styling for this site was written using CSS3. TODO: CHECK IF THIS SITE IS CORRECT
 
 * [Bootstrap](https://getbootstrap.com/)
-    * Bootstrap was used in this project to provide styling frameworks. The version I have used is Bootstrap 4.
+    * Bootstrap was used in this project to provide styling frameworks and for the automatic elements of responsive design it comes with. The version I have used is Bootstrap 4.
 
 # Credits
 

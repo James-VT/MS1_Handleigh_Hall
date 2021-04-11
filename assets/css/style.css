@@ -8,13 +8,16 @@ body {
     font-weight: 800;
 }
 
+.book-button {
+    
+}
+
 /*-----------------------------------------------Footer*/
 #charity-number {
     margin: 0 auto;
-    border-style: solid;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -47,5 +50,5 @@ footer {
 .iconstyle i {
     color: #36454f;
     font-size: 50px;
-    padding: 20px 20px 10px 20px;
+    padding: 30px 20px 0px 20px;
 }
