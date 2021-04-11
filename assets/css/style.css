@@ -9,7 +9,9 @@ body {
 }
 
 .book-button {
-    
+    position: fixed;
+    right: 20px;
+    font-weight: 500;
 }
 
 /*-----------------------------------------------Footer*/
