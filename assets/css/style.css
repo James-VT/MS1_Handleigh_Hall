@@ -14,6 +14,18 @@ body {
     font-weight: 500;
 }
 
+/*-----------------------------------------------Background image*/
+
+section {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1f/Lodge_Park%2C_Gloucestershire%2C_May_2016_side_view.jpg);
+    /*background-image: url(..images/backgroundimage.jpg);*/
+    background-color: #b3ffb3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 4rem;
+}
+
 /*-----------------------------------------------Footer*/
 #charity-number {
     margin: 0 auto;
