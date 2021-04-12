@@ -16,14 +16,23 @@ body {
 
 /*-----------------------------------------------Background image*/
 
-section {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1f/Lodge_Park%2C_Gloucestershire%2C_May_2016_side_view.jpg);
-    /*background-image: url(..images/backgroundimage.jpg);*/
+/*Some of the code for this part was taken from the Hero Image section of the Love Running project. I have edited it to fit. https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/*/
+
+#property-image {
     background-color: #b3ffb3;
-    background-size: cover;
+    height: 600px;
+    width: 90%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1f/Lodge_Park%2C_Gloucestershire%2C_May_2016_side_view.jpg");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-size: 4rem;
+    background-size: cover;
+    position: relative;
+    /*background-image: url(..images/backgroundimage.jpg);*/
+}
+
+#property-container {
+    height: 600px;
+    width: 100%;
 }
 
 /*-----------------------------------------------Footer*/
