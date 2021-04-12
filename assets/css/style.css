@@ -20,18 +20,19 @@ body {
 
 #property-image {
     background-color: #b3ffb3;
-    height: 600px;
-    width: 90%;
+    height: inherit;
+    width: 100%;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1f/Lodge_Park%2C_Gloucestershire%2C_May_2016_side_view.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    clear: both;
     /*background-image: url(..images/backgroundimage.jpg);*/
 }
 
 #property-container {
-    height: 600px;
+    height: 700px;
     width: 100%;
 }
 
