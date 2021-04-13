@@ -1,17 +1,33 @@
+/*Wildcard selector below taken as advice from the Love Running project https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/5de58e6393f84a958bc3342b8e4c987a/?child=first*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    color: #55555f
 }
 
 /*-----------------------------------------------Header*/
+/*--Originally I tried editing the height myself, but found it easier to rely on Bootstrap's deftault styling to dictate the size of the header at all screen sizes.--*/
 .navbarstyle {
     background-color: #ffffe6;
     font-weight: 800;
 }
 
+h1 {
+    letter-spacing: 2px;
+    font-size: 200%;
+}
+
 .book-button {
-    position: fixed;
-    right: 20px;
     font-weight: 500;
+    float: right;
+    margin: 20px 30% 20px 30%;
+    padding: 10px;
 }
 
 /*-----------------------------------------------Background image*/
@@ -26,17 +42,33 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     clear: both;
-    /*background-image: url(..images/backgroundimage.jpg);*/
+    /*background-image: url(../images/backgroundimage.jpg);*/
 }
 
 #property-container {
-    height: 700px;
+    height: 75vh;
     width: 100%;
 }
 
 /*-----------------------------------------------Footer*/
+
+/*--Code from page-container, content-wrap and part of the footer taken from here: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ Keeping the footer at the bottom of the page was proving to be a nuisance. I have edited this code slightly.*/
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  #content-wrap {
+    padding-bottom: 0rem;
+  }
+
 #charity-number {
     margin: 0 auto;
     text-align: center;
@@ -44,7 +76,11 @@ body {
     padding-bottom: 20px;
 }
 
-footer {
+#footer {
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+    height: inherit;
     background-color: #b3ecff;
 }
 
@@ -67,6 +103,7 @@ footer {
 .contact {
     text-align: center;
     margin: 0 auto;
+    letter-spacing: 2px;
 }
 
 /*-----------------------------------------------Fontawesome Icons*/
