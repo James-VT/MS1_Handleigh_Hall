@@ -19,102 +19,139 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
 
-<header>
-    <div class="navbarstyle">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><h2>Handleigh Hall</h2></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">History</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Facilities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Find Us</a>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-success btn-lg book-button">Book Your Visit</button>
+<div id="page-container">
+    <div id="content-wrap">
+        <header>
+            <div class="navbarstyle">
+                <!--The navbar classes below are from Bootstrap https://getbootstrap.com/docs/4.6/components/navbar/-->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html"><h1 id="propertyname">Handleigh Hall</h1></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Facilities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Find Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>  
+        </header>
+
+        <section id="property-container">
+            <div id="property-image">
+                <section id="image-fill">
+                    <div class="row">
+                        <!--Inline styling for button below taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL. Inline styling is no bueno but I had the worst time positioning this infernal button. If I have time, I might try to move this styling to the stylesheet but don't want to risk breaking it again for now.-->
+                        <div style="display:flex;justify-content:center;align-items:center;width:100%;">
+                            <div>
+                                <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size-->
+                                <button type="button" class="btn btn-success btn-lg book-button text-nowrap">Book Your Visit</button>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </section>
+                <section id="about">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3>About</h3>
+                            <p>About text</p>
+                        </div>
+                    </div>
+                </section>
+        
+                <section id="news">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3>News</h3>
+                            <p>News/blog articles x2, the earliest (bottom) of these on work to restore and open the property, and the newest (top) declaring the property open. These links will go nowhere.</p>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </nav>
-    </div>  
-</header>
+        </section>
 
-<section>
-
-</section>
-
-<footer class="container-fluid">
-    <div class="row">
-        <div class="col-sm-5 left-footer">
-            <h4>Find us and follow us on:</h4>
-<!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
-            <ul class="list-inline iconstyle inline-block">
-                <li class="list-inline-item">
-                    <a href="https://www.facebook.com" target="_blank">
-                        <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.twitter.com" target="_blank">
-                        <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.instagram.com" target="_blank">
-                        <i class="fab fa-instagram-square" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-sm-2">
+        <footer id="footer">
             <div class="row">
-                <div class="col-sm-12" id="charity-number">
-                    <h6 class="inline-block">Registered Charity 000000</h6>
+                <div class="col-sm-5 left-footer">
+                    <h4>Find us and follow us on:</h4>
+        <!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
+                    <ul class="list-inline iconstyle inline-block">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-5 right-footer">
-            <div class="row contact">
-                <div class="col-sm-12">
-                    <div class="row block">
-                        <h4>Contact Us:</h4>
+                <div class="col-sm-2">
+                    <div class="row">
+                        <div class="col-sm-12" id="charity-number">
+                            <h6 class="inline-block">Registered Charity 000000</h6>
+                        </div>
                     </div>
                 </div>
-<!--list-unstyled is a Bootstrap class to remove default styling from list items-->
-                <ul class="list-unstyled block contact">
-                    <li>
-                    Handleigh Hall
-                    </li>
-                    <li>
-                    Coley
-                    </li>
-                    <li>
-                    Oxfordshire
-                    </li>
-                    <li>
-                    OX32 3JF
-                    </li>
-                </ul>
+                <div class="col-sm-5 right-footer">
+                    <div class="row contact">
+                        <div class="col-sm-12">
+                            <div class="row block">
+                                <h4>Contact Us:</h4>
+                            </div>
+                        </div>
+        <!--list-unstyled is a Bootstrap class to remove default styling from list items-->
+                        <ul class="list-unstyled block contact">
+                            <li>
+                            Handleigh Hall
+                            </li>
+                            <li>
+                            Coley
+                            </li>
+                            <li>
+                            Oxfordshire
+                            </li>
+                            <li>
+                            OX32 3JF
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fas fa-phone-square-alt"></i> 01993 000000
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope-square"></i> handleighhall@handleighhalltrust.org.uk
+                    </div>
+                </div>
             </div>
-            <div class="contact-details">
-                <i class="fas fa-phone-square-alt"></i> 01993 000000 <i class="fas fa-envelope-square"></i> handleighhall@handleighhalltrust.org.uk
-            </div>
-        </div>
+            
+        </footer>
     </div>
-    
-</footer>
+</div>
+</body>
 
 </html>
