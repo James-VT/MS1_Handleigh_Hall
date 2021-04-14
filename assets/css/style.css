@@ -12,7 +12,7 @@ body {
 }
 
 /*-----------------------------------------------Header*/
-/*--Originally I tried editing the height myself, but found it easier to rely on Bootstrap's deftault styling to dictate the size of the header at all screen sizes.--*/
+/*--Originally I tried editing the height myself, but found it easier to rely on Bootstrap's default styling to dictate the size of the header at all screen sizes.--*/
 .navbarstyle {
     background-color: #ffffe6;
     font-weight: 800;
@@ -25,8 +25,7 @@ h1 {
 
 .book-button {
     font-weight: 500;
-    float: right;
-    margin: 20px 30% 20px 30%;
+    margin-top: 20px;
     padding: 10px;
 }
 
@@ -94,6 +93,7 @@ h1 {
 
 .left-footer {
     text-align: center;
+    margin-bottom: -16px;
 }
 
 .right-footer {
@@ -112,4 +112,5 @@ h1 {
     color: #36454f;
     font-size: 50px;
     padding: 30px 20px 0px 20px;
+
 }
