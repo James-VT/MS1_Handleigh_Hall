@@ -18,11 +18,14 @@ body {
     font-weight: 800;
 }
 
-h1 {
-    letter-spacing: 2px;
-    font-size: 200%;
+#propertyname {
+    letter-spacing: 1px;
+    font-size: 180%;
+    padding-top: 8px;
+    margin: 0;
 }
 
+/*--I have moved the button out of the header proper, but as I want it to sit just under the header near the top of every page on the site I have kept its styling in this section.--*/
 .book-button {
     font-weight: 500;
     margin-top: 20px;
