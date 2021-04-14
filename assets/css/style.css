@@ -115,5 +115,10 @@ body {
     color: #36454f;
     font-size: 50px;
     padding: 30px 20px 0px 20px;
+}
 
+/*-----------------------------------------------Index page*/
+
+.text-section {
+    background-color: rgba(255, 255, 204, 0.5)
 }
