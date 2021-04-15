@@ -55,6 +55,10 @@ body {
     width: 100%;
 }
 
+#image-fill {
+    height: 75vh;
+}
+
 /*-----------------------------------------------Footer*/
 
 /*--Code from page-container, content-wrap and part of the footer taken from here: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ Keeping the footer at the bottom of the page was proving to be a nuisance. I have edited this code slightly.*/
@@ -125,5 +129,7 @@ body {
 }
 
 .text-section {
-    background-color: rgba(255, 255, 204, 0.8)
+    background-color: rgba(255, 255, 204, 0.8);
+    margin: 20px;
+    border-radius: 10px;
 }
