@@ -19,6 +19,12 @@ The Surface Plane: Colours for the website were chosen based on those colours as
 * As a visitor to the website, I want to know what's on offer, the location, and how to book tickets to visit.
 * As the owner or manager of the organisation, I want to relay to customers the info that will generate revenue.
 
+### Colours
+
+For the site's colours, I have chosen gentle pastel colours of beige and blue. The beige is to match the colour of Cotswold stone from which the fictional building is constructed, and the blue is supposed to match the blue sky. I did not choose a directly analogous sky blue as this didn't match the beige so well, so instead a pastel blue was chosen. The background colour of the main image is a gentle green to be similar to the grass. I chose a slightly sharper shade of green than pastel green in order to contrast a little better with the pastel colours between which it would be sandwiched should the background image fail to load.
+
+A similar beige colour to the header was chosen for the text boxes as these will scroll up over the building or sit alongside them at wider screen sizes.
+
 ### Wireframes
 
 The layout of the pages for this project were planned using Balsamiq's wireframes. The wireframes for mobile devices can be found [here.](docs/wireframes/wireframems1mobile.pdf) The wireframes for tablets can be found [here.](docs/wireframes/wireframems1tablet.pdf) The wireframes for desktops can be found [here.](docs/wireframes/wireframems1desktop.pdf)

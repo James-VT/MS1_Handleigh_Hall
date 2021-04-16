@@ -55,7 +55,7 @@ body {
     width: 100%;
 }
 
-#image-fill {
+.image-fill {
     height: 70vh;
 }
 
@@ -75,19 +75,13 @@ body {
     padding-bottom: 0rem;
   }
 
-#charity-number {
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 20px;
-}
 
-#footer {
-    /*--Turning off the below has helped fix the footer where I want it, but rather than deleting the code I'm leaving it here in case more work needs doing to it.--*/
-    /*margin-bottom: 0;
+.footer {
+    margin-top: auto;
     bottom: 0;
-    width: 100%;*/
-    /*height: inherit;*/
+    width: 100%;
+    height: 20vh;
+    position: relative;
     background-color: #b3ecff;
 }
 
@@ -102,16 +96,34 @@ body {
 .left-footer {
     text-align: center;
     margin-bottom: -16px;
+    position: relative;
+    background-color: #b3ecff;
+}
+
+.charity-number {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: #b3ecff;
+    z-index: 2;
 }
 
 .right-footer {
     text-align: center;
+    margin-bottom: -16px;
+    position: relative;
+    background-color: #b3ecff;
 }
 
 .contact {
     text-align: center;
     margin: 0 auto;
     letter-spacing: 2px;
+}
+
+.footer-element {
+    height: inherit;
 }
 
 /*-----------------------------------------------Fontawesome Icons*/
@@ -138,13 +150,18 @@ body {
 /*-----------------------------------------------Media queries*/
 
 @media screen and (min-width: 1200px) {
-    #image-fill {
+    .image-fill {
         float: right;
         width: 75%;
+        height: 600px;
     }
 
-    #large-screen-text-position {
-        /*display: inline;*/
-        float: 40px;
+    .large-screen-text-position {
+        display: inline;
+    }
+
+    .footer {
+        margin: 0;
+        float: center;
     }
 }
