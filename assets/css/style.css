@@ -56,7 +56,7 @@ body {
 }
 
 #image-fill {
-    height: 75vh;
+    height: 70vh;
 }
 
 /*-----------------------------------------------Footer*/
@@ -83,6 +83,7 @@ body {
 }
 
 #footer {
+    /*--Turning off the below has helped fix the footer where I want it, but rather than deleting the code I'm leaving it here in case more work needs doing to it.--*/
     /*margin-bottom: 0;
     bottom: 0;
     width: 100%;*/
@@ -132,4 +133,18 @@ body {
     background-color: rgba(255, 255, 204, 0.8);
     margin: 20px;
     border-radius: 10px;
+}
+
+/*-----------------------------------------------Media queries*/
+
+@media screen and (min-width: 1200px) {
+    #image-fill {
+        float: right;
+        width: 75%;
+    }
+
+    #large-screen-text-position {
+        /*display: inline;*/
+        float: 40px;
+    }
 }
