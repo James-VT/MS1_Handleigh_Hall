@@ -104,9 +104,11 @@ body {
     text-align: center;
     padding-top: 70px;
     padding-bottom: 20px;
+    margin-bottom: -16px;
     position: relative;
     background-color: #b3ecff;
     z-index: 2;
+    float: bottom;
 }
 
 .right-footer {
@@ -157,7 +159,7 @@ body {
     }
 
     .large-screen-text-position {
-        display: inline;
+        /* display: inline; */
     }
 
     .footer {
