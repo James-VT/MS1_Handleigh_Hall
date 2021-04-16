@@ -83,6 +83,7 @@ body {
     height: 20vh;
     position: relative;
     background-color: #b3ecff;
+    /* clear: right; */
 }
 
 .inline-block {
