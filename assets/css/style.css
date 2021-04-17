@@ -32,11 +32,11 @@ body {
     padding: 10px;
 }
 
-/*-----------------------------------------------Background image*/
+/*-----------------------------------------------Background images*/
 
 /*Some of the code for this part was taken from the Hero Image section of the Love Running project. I have edited it to fit. https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/*/
 
-#property-image {
+#index-background {
     background-color: #b3ffb3;
     height: inherit;
     width: 100%;
@@ -48,6 +48,19 @@ body {
     position: relative;
     clear: both;
     /*background-image: url(../images/backgroundimage.jpg);*/
+}
+
+#findus-background {
+    background-image: url("../images/findusbackground.jpg");
+    background-color: #b3ffb3;
+    height: inherit;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    clear: both;
 }
 
 #property-container {
