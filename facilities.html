@@ -33,13 +33,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">History</a>
+                                <a class="nav-link" href="#">Discover</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Facilities</a>
+                                <a class="nav-link" href="#">Facilities <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Find Us</a>
@@ -50,13 +50,13 @@
             </div>  
         </header>
 
-        <section id="property-container">
+        <section id="property-container container-fluid">
             <div id="property-image">
-                <section id="image-fill">
+                <section class="image-fill">
                     <div class="row">
                         <!--Inline styling for button below taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL. Inline styling is no bueno but I had the worst time positioning this infernal button. If I have time, I might try to move this styling to the stylesheet but don't want to risk breaking it again for now.-->
                         <div style="display:flex;justify-content:center;align-items:center;width:100%;">
-                            <div>
+                            <div class="button-container">
                                 <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size-->
                                 <button type="button" class="btn btn-success btn-lg book-button text-nowrap">Book Your Visit</button>
                             </div>
@@ -64,91 +64,108 @@
                             
                     </div>
                 </section>
+                <section>
+                    <div id="image-window container-fluid">
+
+                    </div>
+                </section>
                 <section id="about">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h3>Cafe</h3>
-                            <p></p>
+                    <div class="row large-screen-text-position">
+                        <div class="container-fluid">
+                            <div class="first-text text-section">
+                                <h3>About</h3>
+                                <p>
+                                Handleigh Hall is one of England's best-remaining examples of a seventeenth-century gentleman's country retreat. Begun by the eccentric Sir Clive Graham in 1654 and finished by his son Sir Robert Graham ten years later, 
+                                the hall played residence to the Graham family until 1993, when the last surviving member of the Graham family granted the estate to the Handleigh Hall Trust to preserve this historic house for the nation.
+                                Now open to the public for the first time, Handleigh Hall boasts hidden treasures, beautiful walks in the estate grounds, and a fabulous cafe.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
         
                 <section id="news">
                     <div class="row">
-                        <div class="col-sm-12">
-                            <h3>Public lavatories</h3>
-                            <p></p>
+                        <div class="container-fluid">
+                            <div class="second-text text-section">
+                                <h3>Latest news</h3>
+                                <h6>NEWS: Handleigh Hall opens!</h6>
+                                <p>The Handleigh Hall Trust and the Friends of Handleigh Hall are deligh...<a href="#">Read more</a></p>
+                                <h6>BLOG: Final preparations...</h6>
+                                <p>Read about the conservation and restoration work underway to open Hand...<a href="#">Read more</a></p>
+                            </div>
                         </div>
                     </div>
                 </section>
             </div>
         </section>
 
-        <footer id="footer">
-            <div class="row">
-                <div class="col-sm-5 left-footer">
-                    <h4>Find us and follow us on:</h4>
-        <!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
-                    <ul class="list-inline iconstyle inline-block">
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com" target="_blank">
-                                <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.twitter.com" target="_blank">
-                                <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com" target="_blank">
-                                <i class="fab fa-instagram-square" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <div class="row">
-                        <div class="col-sm-12" id="charity-number">
-                            <h6 class="inline-block">Registered Charity 000000</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5 right-footer">
-                    <div class="row contact">
-                        <div class="col-sm-12">
-                            <div class="row block">
-                                <h4>Contact Us:</h4>
-                            </div>
-                        </div>
-        <!--list-unstyled is a Bootstrap class to remove default styling from list items-->
-                        <ul class="list-unstyled block contact">
-                            <li>
-                            Handleigh Hall
+        <footer>
+            <div class="footer">
+                <div class="row">
+                    <div class="col-sm-5 left-footer footer-element">
+                        <h4>Find us and follow us on:</h4>
+            <!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
+                        <ul class="list-inline iconstyle inline-block">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
                             </li>
-                            <li>
-                            Coley
+                            <li class="list-inline-item">
+                                <a href="https://www.twitter.com" target="_blank">
+                                    <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
                             </li>
-                            <li>
-                            Oxfordshire
-                            </li>
-                            <li>
-                            OX32 3JF
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="contact-details">
-                        <i class="fas fa-phone-square-alt"></i> 01993 000000
+                    <div class="col-sm-2 footer-element charity-number">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h6 class="inline-block">Registered Charity 000000</h6>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <i class="fas fa-envelope-square"></i> handleighhall@handleighhalltrust.org.uk
+                    <div class="col-sm-5 right-footer footer-element">
+                        <div class="row contact">
+                            <div class="col-sm-12">
+                                <div class="row block">
+                                    <h4>Contact Us:</h4>
+                                </div>
+                            </div>
+            <!--list-unstyled is a Bootstrap class to remove default styling from list items-->
+                            <ul class="list-unstyled block contact">
+                                <li>
+                                Handleigh Hall
+                                </li>
+                                <li>
+                                Coley
+                                </li>
+                                <li>
+                                Oxfordshire
+                                </li>
+                                <li>
+                                OX32 3JF
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact-details">
+                            <i class="fas fa-phone-square-alt"></i> 01993 000000
+                        </div>
+                        <div>
+                            <i class="fas fa-envelope-square"></i> handleighhall@handleighhalltrust.org.uk
+                        </div>
                     </div>
                 </div>
             </div>
-            
         </footer>
     </div>
 </div>
