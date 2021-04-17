@@ -167,4 +167,9 @@ body {
         margin: 0;
         float: center;
     }
+
+    .button-container {
+        margin-right: 380px;
+        margin-top: -10px;
+    }
 }
