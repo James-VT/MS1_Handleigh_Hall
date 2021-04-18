@@ -43,6 +43,10 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 * [Bootstrap](https://getbootstrap.com/)
     * Bootstrap was used in this project to provide styling frameworks and for the automatic elements of responsive design it comes with. The version I have used is Bootstrap 4.
 
+## Bugs
+
+* An issue was discovered on very large screen widths with the footer bunching up to the left if the text boxes don't have enough content in them. I suspect this is something to do with the blank space I left for the background image, but I'm uncertain why it only happens at screen widths approaching 1800 pixels. As yet, this is unfixed as the amount of content I have on each page is enough to keep everything where it should be even at these larger widths and in the hypothetical situation in which this was a genuine website for a genuine property, the amount of information in those text sections would become more over time, not less.
+
 # Credits
 
 ## Navigation bar
@@ -61,4 +65,7 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 * The directions and text used on the Find Us page were taken from the website for [Lodge Park and the Sherborne Park Estate](https://www.nationaltrust.org.uk/lodge-park-and-sherborne-park-estate#How%20to%20get%20here) and edited to suit.
 
 * Background image on the Find Us page is an open-source image. [Photo by Randy Fath on Unsplash.](https://unsplash.com/photos/TUXrJZCNHbU)
+
+## Facilities page
+* Background image on the Facilities page is an open-source image. [Photo by Suhyeon Choi on Unsplash](https://unsplash.com/photos/4Ia348kvX7A)
 

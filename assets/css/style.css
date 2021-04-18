@@ -63,6 +63,19 @@ body {
     clear: both;
 }
 
+#facilities-background {
+    background-image: url("../images/facilitiesbackground.jpg");
+    background-color: #b3ffb3;
+    height: inherit;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    clear: both;
+}
+
 #property-container {
     height: 75vh;
     width: 100%;
