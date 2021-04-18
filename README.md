@@ -19,6 +19,11 @@ The Surface Plane: Colours for the website were chosen based on those colours as
 * As a visitor to the website, I want to know what's on offer, the location, and how to book tickets to visit.
 * As the owner or manager of the organisation, I want to relay to customers the info that will generate revenue.
 
+
+## Template
+
+Aspiring to simplicity, the website has been designed with a simple template that can be used across all pages. The background images have been chosen carefully (credit for these can be found below) to provide a visual indication of what's on offer at the property, and space has been left so that these remain visible on all screen sizes.
+
 ### Colours
 
 For the site's colours, I have chosen gentle pastel colours of beige and blue. The beige is to match the colour of Cotswold stone from which the fictional building is constructed, and the blue is supposed to match the blue sky. I did not choose a directly analogous sky blue as this didn't match the beige so well, so instead a pastel blue was chosen. The background colour of the main image is a gentle green to be similar to the grass. I chose a slightly sharper shade of green than pastel green in order to contrast a little better with the pastel colours between which it would be sandwiched should the background image fail to load.
@@ -59,7 +64,10 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 * The .list-unstyled class is a Bootstrap 4 class used for [list styling.](https://getbootstrap.com/docs/4.6/components/list-group/)
 
 ## Font
-* The font used throughout is Roboto, a google fonts font, and sans-serif is used the backup for if Roboto cannot load. [Roboto.](https://fonts.google.com/specimen/Roboto#standard-styles)
+* The font used throughout is Roboto, a google fonts font, and sans-serif is used as the backup for if Roboto cannot load. [Roboto.](https://fonts.google.com/specimen/Roboto#standard-styles)
+
+## Index/home page
+* Background image is from Wikipedia. [Link and licence.](https://commons.wikimedia.org/wiki/File:Lodge_Park,_Gloucestershire,_May_2016_side_view.jpg)
 
 ## Find Us page
 * The directions and text used on the Find Us page were taken from the website for [Lodge Park and the Sherborne Park Estate](https://www.nationaltrust.org.uk/lodge-park-and-sherborne-park-estate#How%20to%20get%20here) and edited to suit.
