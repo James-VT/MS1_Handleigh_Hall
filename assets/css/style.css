@@ -40,14 +40,15 @@ body {
     background-color: #b3ffb3;
     height: inherit;
     width: 100%;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1f/Lodge_Park%2C_Gloucestershire%2C_May_2016_side_view.jpg");
+    /* Below is a back-up background image; it's open-source, same as the others, and is taken from the Wikipedia article for Lodge Park https://en.wikipedia.org/wiki/Lodge_Park_and_Sherborne_Estate#/media/File:Lodge_Park,_Gloucestershire,_May_2016_side_view.jpg*/
+    /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1f/Lodge_Park%2C_Gloucestershire%2C_May_2016_side_view.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     clear: both;
-    /*background-image: url(../images/backgroundimage.jpg);*/
+    background-image: url(../images/backgroundimage.jpg);
 }
 
 #findus-background {
