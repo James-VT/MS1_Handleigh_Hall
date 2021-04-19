@@ -22,6 +22,14 @@ The Surface Plane: Colours for the website were chosen based on those colours as
 * As the owner or manager of the organisation, I want to relay to customers the info that will generate revenue.
 
 
+## User stories
+
+## Site owner stories
+
+## Features
+
+Features to build for the site
+
 ## Template
 
 Aspiring to simplicity, the website has been designed with a simple template that can be used across all pages. The background images have been chosen carefully (credit for these can be found below) to provide a visual indication of what's on offer at the property, and space has been left so that these remain visible on all screen sizes.
@@ -49,6 +57,14 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 
 * [Bootstrap](https://getbootstrap.com/)
     * Bootstrap was used in this project to provide styling frameworks and for the automatic elements of responsive design it comes with. The version I have used is Bootstrap 4.
+
+## Validations
+* HTML + CSS validations, no errors, links to evidence pictures
+* Accessibility - wave
+* Performance - lighthouse
+
+## Testing
+Testing against stories - how was this goal achieved? Evidence - screenshot
 
 ## Bugs
 
