@@ -99,6 +99,7 @@ body {
     height: 70vh;
 }
 
+/*The below was commented out in order to grant a different layout to large screen widths. Rather than delete this code, I have kept it in case a more uniform approach is desired by the site owners.*/
 /* .image-window {
     height: 500px;
     clear: both;
