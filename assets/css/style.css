@@ -194,6 +194,10 @@ body {
 
 /*-----------------------------------------------Media queries*/
 
+/*The below media query allows for a different styling at larger screen widths. The left quarter of the page has the information, while the rest of the background image remains visible.
+The height is fairly arbitrary at present, and is the best medium between all the different pages of the site. As the information on each page grows, as it would for a working site,
+different media queries may become necessary for individual pages.*/
+
 @media screen and (min-width: 1200px) {
     .image-fill {
         float: right;
