@@ -48,7 +48,7 @@ body {
     background-attachment: fixed;
     position: relative;
     clear: both;
-    background-image: url(../images/backgroundimage.jpg);
+    background-image: url("../images/backgroundimage.jpg");
 }
 
 #findus-background {
@@ -120,7 +120,6 @@ body {
     padding-bottom: 0rem;
   }
 
-
 .footer {
     margin-top: auto;
     bottom: 0;
@@ -146,6 +145,9 @@ body {
     background-color: #b3ecff;
 }
 
+/*This styles the charity number section, which is the middle bit of the footer.
+ The z-index is currently commented out rather than deleted, as earlier version of the footer had a problem with it being swamped by the contact details in smaller screen sizes.
+ I've kept it here in case for whatever the problem returns and it needs to be put back in.*/
 .charity-number {
     text-align: center;
     padding-top: 70px;
@@ -153,7 +155,7 @@ body {
     margin-bottom: -16px;
     position: relative;
     background-color: #b3ecff;
-    z-index: 2;
+    /* z-index: 2; */
     float: bottom;
 }
 
