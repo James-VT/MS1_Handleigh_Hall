@@ -99,10 +99,10 @@ body {
     height: 70vh;
 }
 
-#image-window {
+/* .image-window {
     height: 500px;
     clear: both;
-}
+}*/
 
 /*-----------------------------------------------Footer*/
 
@@ -198,12 +198,12 @@ body {
     .image-fill {
         float: right;
         width: 75%;
-        height: 600px;
+        height: 750px;
     }
 
     /* .large-screen-text-position { */
-        /* display: inline; */
-    /* } */
+        /* display: inline;
+     } */
 
     .footer {
         margin: 0;
