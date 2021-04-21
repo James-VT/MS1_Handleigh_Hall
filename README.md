@@ -93,5 +93,7 @@ Testing against stories - how was this goal achieved? Evidence - screenshot
 * Background image on the Find Us page is an open-source image. [Photo by Randy Fath on Unsplash.](https://unsplash.com/photos/TUXrJZCNHbU)
 
 ## Facilities page
-* Background image on the Facilities page is an open-source image. [Photo by Suhyeon Choi on Unsplash](https://unsplash.com/photos/4Ia348kvX7A)
+* Background image on the Facilities page is an open-source image. [Photo by Suhyeon Choi on Unsplash.](https://unsplash.com/photos/4Ia348kvX7A)
 
+## Carousel
+* Carousel used is one of Bootstrap's components, found [here.](https://getbootstrap.com/docs/4.0/components/carousel/#with-controls)
