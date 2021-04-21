@@ -1,0 +1,222 @@
+/*Wildcard selector below taken as advice from the Love Running project https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/5de58e6393f84a958bc3342b8e4c987a/?child=first*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #55555f
+}
+
+/*-----------------------------------------------Header*/
+/*--Originally I tried editing the height myself, but found it easier to rely on Bootstrap's default styling to dictate the size of the header at all screen sizes.--*/
+.navbarstyle {
+    background-color: #ffffe6;
+    font-weight: 800;
+}
+
+#propertyname {
+    letter-spacing: 1px;
+    font-size: 180%;
+    padding-top: 8px;
+    margin: 0;
+}
+
+/*--I have moved the button out of the header proper, but as I want it to sit just under the header near the top of every page on the site I have kept its styling in this section.--*/
+.book-button {
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/*-----------------------------------------------Background images*/
+
+/*Some of the code for this part was taken from the Hero Image section of the Love Running project. I have edited it to fit. https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/*/
+
+#index-background {
+    background-color: #b3ffb3;
+    height: inherit;
+    width: 100%;
+    /* Below is a back-up background image; it's open-source, same as the others, and is taken from the Wikipedia article for Lodge Park https://en.wikipedia.org/wiki/Lodge_Park_and_Sherborne_Estate#/media/File:Lodge_Park,_Gloucestershire,_May_2016_side_view.jpg*/
+    /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1f/Lodge_Park%2C_Gloucestershire%2C_May_2016_side_view.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    clear: both;
+    background-image: url("../images/backgroundimage.jpg");
+}
+
+#findus-background {
+    background-image: url("../images/findusbackground.jpg");
+    background-color: #b3ffb3;
+    height: inherit;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    clear: both;
+}
+
+#facilities-background {
+    background-image: url("../images/facilitiesbackground.jpg");
+    background-color: #b3ffb3;
+    height: inherit;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    clear: both;
+}
+
+#discover-background {
+    background-image: url("../images/discoverbackground.jpg");
+    background-color: #b3ffb3;
+    height: inherit;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    clear: both;
+}
+
+#property-container {
+    height: 75vh;
+    width: 100%;
+}
+
+.image-fill {
+    height: 70vh;
+}
+
+/*The below was commented out in order to grant a different layout to large screen widths. Rather than delete this code, I have kept it in case a more uniform approach is desired by the site owners.*/
+/* .image-window {
+    height: 500px;
+    clear: both;
+}*/
+
+/*-----------------------------------------------Footer*/
+
+/*--Code from page-container, content-wrap and part of the footer taken from here: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ Keeping the footer at the bottom of the page was proving to be a nuisance. I have edited this code slightly.*/
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+#content-wrap {
+    padding-bottom: 0rem;
+  }
+
+.footer {
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    background-color: #b3ecff;
+    /* clear: right; */
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.left-footer {
+    text-align: center;
+    margin-bottom: -16px;
+    position: relative;
+    background-color: #b3ecff;
+}
+
+/*This styles the charity number section, which is the middle bit of the footer.
+ The z-index is currently commented out rather than deleted, as earlier version of the footer had a problem with it being swamped by the contact details in smaller screen sizes.
+ I've kept it here in case for whatever the problem returns and it needs to be put back in.*/
+.charity-number {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-bottom: -16px;
+    position: relative;
+    background-color: #b3ecff;
+    /* z-index: 2; */
+    float: bottom;
+}
+
+.right-footer {
+    text-align: center;
+    margin-bottom: -16px;
+    position: relative;
+    background-color: #b3ecff;
+}
+
+.contact {
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.footer-element {
+    height: inherit;
+}
+
+/*-----------------------------------------------Fontawesome Icons*/
+
+.iconstyle i {
+    color: #36454f;
+    font-size: 50px;
+    padding: 30px 20px 0px 20px;
+}
+
+/*-----------------------------------------------Index page*/
+
+.text-section {
+    background-color: rgba(255, 255, 204, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/*-----------------------------------------------Media queries*/
+
+/*The below media query allows for a different styling at larger screen widths. The left quarter of the page has the information, while the rest of the background image remains visible.
+The height is fairly arbitrary at present, and is the best medium between all the different pages of the site. As the information on each page grows, as it would for a working site,
+different media queries may become necessary for individual pages.*/
+
+@media screen and (min-width: 1200px) {
+    .image-fill {
+        float: right;
+        width: 75%;
+        height: 750px;
+    }
+
+    /* .large-screen-text-position { */
+        /* display: inline;
+     } */
+
+    .footer {
+        margin: 0;
+        float: center;
+    }
+
+    .button-container {
+        margin-right: 380px;
+        margin-top: -10px;
+    }
+}
