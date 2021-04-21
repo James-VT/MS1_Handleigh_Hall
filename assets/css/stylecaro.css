@@ -122,11 +122,11 @@ body {
   } */
 
 .footer {
+    position: relative;
     margin-top: auto;
     bottom: 0;
     /* width: 100%; */
     height: 20vh;
-    position: relative;
     background-color: #b3ecff;
     /* clear: right; */
 }
@@ -140,9 +140,9 @@ body {
 }
 
 .left-footer {
+    position: relative;
     text-align: center;
     margin-bottom: -16px;
-    position: relative;
     background-color: #b3ecff;
 }
 
@@ -150,20 +150,20 @@ body {
  The z-index is currently commented out rather than deleted, as earlier version of the footer had a problem with it being swamped by the contact details in smaller screen sizes.
  I've kept it here in case for whatever the problem returns and it needs to be put back in.*/
 .charity-number {
+    position: relative;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 20px;
     margin-bottom: -16px;
-    position: relative;
     background-color: #b3ecff;
     /* z-index: 2; */
     float: bottom;
 }
 
 .right-footer {
+    position: relative;
     text-align: center;
     margin-bottom: -16px;
-    position: relative;
     background-color: #b3ecff;
 }
 
@@ -175,6 +175,14 @@ body {
 
 .footer-element {
     height: inherit;
+}
+
+/*The below has helped to eliminate some of the unnecessary white space and unalignment on the right of the page. With this in place, the footer at least lines up with the rest of the page.*/
+.footer-padding {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /*-----------------------------------------------Fontawesome Icons*/
