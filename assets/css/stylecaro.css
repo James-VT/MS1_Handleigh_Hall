@@ -78,6 +78,7 @@ body {
 }
 
 #discover-background {
+    position: relative;
     background-image: url("../images/discoverbackground.jpg");
     background-color: #b3ffb3;
     height: inherit;
@@ -86,7 +87,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
+    clear: both;
+}
+
+#carousel-background {
     position: relative;
+    background-image: url("../images/carouselbackground.jpg");
+    background-color: #b3ffb3;
+    height: inherit;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     clear: both;
 }
 
@@ -205,6 +219,16 @@ body {
 
 .carousel-style {
     margin-top: 20px;
+    margin-right: 20px;
+}
+
+.first-picture {
+    height: 650px;
+}
+
+.picture-position {
+    height: inherit;
+    object-fit: cover;
 }
 
 

@@ -85,6 +85,8 @@ Testing against stories - how was this goal achieved? Evidence - screenshot
 * The font used throughout is Roboto, a google fonts font, and sans-serif is used as the backup for if Roboto cannot load. [Roboto.](https://fonts.google.com/specimen/Roboto#standard-styles)
 
 ## Index/home page
+* Background image is an open-source image. [Photo by Yaosheng Zheng on Unsplash](https://unsplash.com/photos/mpGz-JBOnZU)
+
 * Background image is from Wikipedia. [Link and licence.](https://commons.wikimedia.org/wiki/File:Lodge_Park,_Gloucestershire,_May_2016_side_view.jpg)
 
 ## Find Us page
