@@ -193,6 +193,10 @@ body {
     border-radius: 10px;
 }
 
+/*-----------------------------------------------Carousel*/
+
+
+
 /*-----------------------------------------------Media queries*/
 
 /*The below media query allows for a different styling at larger screen widths. The left quarter of the page has the information, while the rest of the background image remains visible.
