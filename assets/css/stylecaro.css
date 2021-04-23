@@ -25,6 +25,15 @@ body {
     margin: 0;
 }
 
+/*Styling for button below to centre the button taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL*/
+
+.button-centring {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+
 /*--I have moved the button out of the header proper, but as I want it to sit just under the header near the top of every page on the site I have kept its styling in this section.--*/
 .book-button {
     font-weight: 500;
@@ -239,16 +248,11 @@ The height is fairly arbitrary at present, and is the best medium between all th
 different media queries may become necessary for individual pages.*/
 
 @media screen and (min-width: 1200px) {
-
-    #index-image-fill {
-        height: 70vh;
-    }
     
-    #index-image-fill,
     .image-fill {
         float: right;
         width: 75%;
-        height: 750px;
+        height: 600px;
     }
 
     /* .large-screen-text-position { */
@@ -260,9 +264,20 @@ different media queries may become necessary for individual pages.*/
         float: center;
     }
 
-    .button-container {
+    /* .button-container {
         margin-right: 380px;
         margin-top: -10px;
+    } */
+}
+
+/*The below media query is only for the index page due to the carousel. The space below the carousel was entirely dead at everything from about 1450px to 1200px when the above media query kicked in.*/
+
+@media screen and (min-width: 1450px) {
+    
+    #index-image-fill {
+        float: right;
+        width: 75%;
+        height: 600px;
     }
 }
 
@@ -271,9 +286,9 @@ different media queries may become necessary for individual pages.*/
     /* .smallscreen-picture-position { */
         /* object-fit: cover; */
         /* margin-left: 20px; */
-    }
-
     .smallscreen-picture-container {
         height: 50vh;
+        }
     }
+
 /* } */
