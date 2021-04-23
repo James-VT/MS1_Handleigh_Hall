@@ -265,9 +265,10 @@ different media queries may become necessary for individual pages.*/
     }
 }
 
+/* The below is for mobile devices. The pictures in the carousel probably don't need the first rule, but keeping it there in case I need it again. The bottom one is still essential for now. */
 @media screen and (max-width: 950px) {
     .smallscreen-picture-position {
-        object-fit: contain;
+        /* object-fit: cover; */
         /* margin-left: 20px; */
     }
 
