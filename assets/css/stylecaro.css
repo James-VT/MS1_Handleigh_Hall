@@ -239,6 +239,11 @@ The height is fairly arbitrary at present, and is the best medium between all th
 different media queries may become necessary for individual pages.*/
 
 @media screen and (min-width: 1200px) {
+
+    /* #index-image-fill {
+        height: 70vh;
+    } */
+    #index-image-fill,
     .image-fill {
         float: right;
         width: 75%;
@@ -257,5 +262,16 @@ different media queries may become necessary for individual pages.*/
     .button-container {
         margin-right: 380px;
         margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .smallscreen-picture-position {
+        object-fit: contain;
+        /* margin-left: 20px; */
+    }
+
+    .smallscreen-picture-container {
+        height: 50vh;
     }
 }
