@@ -240,9 +240,10 @@ different media queries may become necessary for individual pages.*/
 
 @media screen and (min-width: 1200px) {
 
-    /* #index-image-fill {
+    #index-image-fill {
         height: 70vh;
-    } */
+    }
+    
     #index-image-fill,
     .image-fill {
         float: right;
@@ -267,7 +268,7 @@ different media queries may become necessary for individual pages.*/
 
 /* The below is for mobile devices. The pictures in the carousel probably don't need the first rule, but keeping it there in case I need it again. The bottom one is still essential for now. */
 @media screen and (max-width: 950px) {
-    .smallscreen-picture-position {
+    /* .smallscreen-picture-position { */
         /* object-fit: cover; */
         /* margin-left: 20px; */
     }
@@ -275,4 +276,4 @@ different media queries may become necessary for individual pages.*/
     .smallscreen-picture-container {
         height: 50vh;
     }
-}
+/* } */
