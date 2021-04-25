@@ -275,6 +275,12 @@ different media queries may become necessary for individual pages.*/
         height: 120vh;
     }
 
+    #facilities-image-fill {
+        float: right;
+        width: 75%;
+        height: 120vh;
+    }
+
     /* .large-screen-text-position { */
         /* display: inline;
      } */
