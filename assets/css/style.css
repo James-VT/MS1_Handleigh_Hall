@@ -25,6 +25,15 @@ body {
     margin: 0;
 }
 
+/*Styling for button below to centre the button taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL*/
+
+.button-centring {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+
 /*--I have moved the button out of the header proper, but as I want it to sit just under the header near the top of every page on the site I have kept its styling in this section.--*/
 .book-button {
     font-weight: 500;
@@ -78,6 +87,7 @@ body {
 }
 
 #discover-background {
+    position: relative;
     background-image: url("../images/discoverbackground.jpg");
     background-color: #b3ffb3;
     height: inherit;
@@ -86,7 +96,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
+    clear: both;
+}
+
+#carousel-background {
     position: relative;
+    background-image: url("../images/carouselbackground.jpg");
+    background-color: #b3ffb3;
+    height: inherit;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     clear: both;
 }
 
@@ -117,16 +140,16 @@ body {
     border: 0;
   }
   
-#content-wrap {
+/* #content-wrap {
     padding-bottom: 0rem;
-  }
+  } */
 
 .footer {
+    position: relative;
     margin-top: auto;
     bottom: 0;
-    width: 100%;
+    /* width: 100%; */
     height: 20vh;
-    position: relative;
     background-color: #b3ecff;
     /* clear: right; */
 }
@@ -140,9 +163,9 @@ body {
 }
 
 .left-footer {
+    position: relative;
     text-align: center;
     margin-bottom: -16px;
-    position: relative;
     background-color: #b3ecff;
 }
 
@@ -150,20 +173,20 @@ body {
  The z-index is currently commented out rather than deleted, as earlier version of the footer had a problem with it being swamped by the contact details in smaller screen sizes.
  I've kept it here in case for whatever the problem returns and it needs to be put back in.*/
 .charity-number {
+    position: relative;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 20px;
     margin-bottom: -16px;
-    position: relative;
     background-color: #b3ecff;
     /* z-index: 2; */
     float: bottom;
 }
 
 .right-footer {
+    position: relative;
     text-align: center;
     margin-bottom: -16px;
-    position: relative;
     background-color: #b3ecff;
 }
 
@@ -175,6 +198,14 @@ body {
 
 .footer-element {
     height: inherit;
+}
+
+/*The below has helped to eliminate some of the unnecessary white space and unalignment on the right of the page. With this in place, the footer at least lines up with the rest of the page.*/
+.footer-padding {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /*-----------------------------------------------Fontawesome Icons*/
@@ -193,6 +224,23 @@ body {
     border-radius: 10px;
 }
 
+/*-----------------------------------------------Carousel*/
+
+.carousel-style {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.picture-container {
+    height: 650px;
+}
+
+.picture-position {
+    height: inherit;
+    object-fit: cover;
+}
+
 /*-----------------------------------------------Media queries*/
 
 /*The below media query allows for a different styling at larger screen widths. The left quarter of the page has the information, while the rest of the background image remains visible.
@@ -200,10 +248,11 @@ The height is fairly arbitrary at present, and is the best medium between all th
 different media queries may become necessary for individual pages.*/
 
 @media screen and (min-width: 1200px) {
+    
     .image-fill {
         float: right;
         width: 75%;
-        height: 750px;
+        height: 600px;
     }
 
     /* .large-screen-text-position { */
@@ -215,8 +264,31 @@ different media queries may become necessary for individual pages.*/
         float: center;
     }
 
-    .button-container {
+    /* .button-container {
         margin-right: 380px;
         margin-top: -10px;
+    } */
+}
+
+/*The below media query is only for the index page due to the carousel. The space below the carousel was entirely dead at everything from about 1450px to 1200px when the above media query kicked in.*/
+
+@media screen and (min-width: 1450px) {
+    
+    #index-image-fill {
+        float: right;
+        width: 75%;
+        height: 600px;
     }
 }
+
+/* The below is for mobile devices. The pictures in the carousel probably don't need the first rule, but keeping it there in case I need it again. The bottom one is still essential for now. */
+@media screen and (max-width: 950px) {
+    /* .smallscreen-picture-position { */
+        /* object-fit: cover; */
+        /* margin-left: 20px; */
+    .smallscreen-picture-container {
+        height: 50vh;
+        }
+    }
+
+/* } */

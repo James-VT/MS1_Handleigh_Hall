@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/stylecaro.css">
+<link rel="stylesheet" href="assets/css/style.css">
 <title>Handleigh Hall Historic Home</title>
 </head>
 <body>
@@ -21,9 +21,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <div id="page-container">
-    <!--From the div immediately below this comment I have removed the id of content-wrap, as this seems to have been contributing to the annoying white space to the right of everything at mid screen widths. It was originally added to help the footer,
-    so I have commented out its accompanying styling in the CSS sheet rather than delete it if another change requires it be put back in.-->
-    <div>
+    <div id="content-wrap">
         <header>
             <div class="navbarstyle">
                 <!--The navbar classes below are from Bootstrap https://getbootstrap.com/docs/4.6/components/navbar/-->
@@ -53,44 +51,22 @@
         </header>
 
         <section id="property-container container-fluid">
-            <div id="carousel-background">
-                <section id="index-image-fill"> <!--class="image-fill"-->
+            <div id="index-background">
+                <section class="image-fill">
                     <div class="row">
-                        <!--Styling for button below found in CSS, taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL.-->
-                        <div class="button-centring">
-                            <!--Below is the container for the Book Your Visit button. I've included a separate class for the button on the index page due to the different media query and structure of that page.-->
-                            <div class="button-container index-button-container">
+                        <!--Inline styling for button below taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL. Inline styling is no bueno but I had the worst time positioning this infernal button. If I have time, I might try to move this styling to the stylesheet but don't want to risk breaking it again for now.-->
+                        <div style="display:flex;justify-content:center;align-items:center;width:100%;">
+                            <div class="button-container">
                                 <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size-->
                                 <button type="button" class="btn btn-success btn-lg book-button text-nowrap">Book Your Visit</button>
                             </div>
                         </div>
-                        <!--Code for carousel taken from Bootstrap's carousel component https://getbootstrap.com/docs/4.0/components/carousel/#with-controls-->
-                        <div id="carouselExampleControls" class="carousel slide carousel-style" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active picture-container smallscreen-picture-container">
-                                    <img class="d-block w-100 picture-position smallscreen-picture-position" src="../assets/images/backgroundimage.jpg" alt="Handleigh Hall in the sunshine">
-                                </div>
-                                <div class="carousel-item picture-container smallscreen-picture-container">
-                                    <img class="d-block w-100 picture-position smallscreen-picture-position" src="../assets/images/birminghamcarousel.jpg" alt="Painting of estate workers in the neighbouring village">
-                                </div>
-                                <div class="carousel-item picture-container smallscreen-picture-container">
-                                    <img class="d-block w-100 picture-position smallscreen-picture-position" src="../assets/images/teacarousel.jpg" alt="Teapot and tea">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
+                            
                     </div>
                 </section>
                 <section>
                     <div class="image-window container-fluid">
-                        
+
                     </div>
                 </section>
                 <section id="about">
@@ -128,7 +104,7 @@
 
         <footer>
             <div class="footer">
-                <div class="row container-fluid footer-padding">
+                <div class="row">
                     <div class="col-sm-5 left-footer footer-element">
                         <h4>Find us and follow us on:</h4>
             <!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
@@ -187,7 +163,7 @@
                             <i class="fas fa-phone-square-alt"></i> 01993 000000
                         </div>
                         <div>
-                            <i class="fas fa-envelope-square"></i> handleighhall@halltrust.org.uk
+                            <i class="fas fa-envelope-square"></i> handleighhall@handleighhalltrust.org.uk
                         </div>
                     </div>
                 </div>
