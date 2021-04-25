@@ -279,6 +279,7 @@ different media queries may become necessary for individual pages.*/
         float: right;
         width: 75%;
         height: 120vh;
+        max-height: 110vh;
     }
 
     /* .large-screen-text-position { */
@@ -317,10 +318,31 @@ different media queries may become necessary for individual pages.*/
         }
     }
 
+@media screen and (min-width: 1370px) {
+    #facilities-image-fill {
+        height: 90vh;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #facilities-image-fill {
+        height: 90vh;
+    }
+}
+
     /*The below is to accomodate the discover page at extra-wide screen sizes. Without this, the footer gets jumbled as image-fill bleeds into it, even with responsive heights set.*/
 @media screen and (min-width: 1575px) {
     #discover-image-fill {
         height: 90vh;
     }
+
+    #facilities-image-fill {
+        height: 80vh;
+    }
 }
-/* } */
+
+@media screen and (min-width: 1650px) {
+    #facilities-image-fill {
+        height: 70vh;
+    }
+}
