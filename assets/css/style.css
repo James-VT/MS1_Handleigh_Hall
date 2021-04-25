@@ -41,6 +41,10 @@ body {
     padding: 10px;
 }
 
+.button-bar {
+    width: 100%;
+}
+
 /*-----------------------------------------------Background images*/
 
 /*Some of the code for this part was taken from the Hero Image section of the Love Running project. I have edited it to fit. https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/*/
@@ -113,9 +117,12 @@ body {
     clear: both;
 }
 
+
+/*Padding:0 below gets rid of the annoying white space either side of the main section*/
 .property-container {
     /* height: 75vh; */
     width: 100%;
+    padding: 0;
 }
 
 .image-fill {
@@ -128,13 +135,18 @@ body {
     clear: both;
 }*/
 
+.white-space-remove {
+    margin: 0px;
+}
+
 /*-----------------------------------------------Footer*/
 
 /*--Code from page-container, content-wrap and part of the footer taken from here: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ Keeping the footer at the bottom of the page was proving to be a nuisance. I have edited this code slightly.*/
 
-#page-container {
+.page-container {
     position: relative;
     min-height: 100vh;
+    min-width: 100vw;
     margin: 0;
     padding: 0;
     border: 0;
@@ -200,13 +212,14 @@ body {
     height: inherit;
 }
 
-/*The below has helped to eliminate some of the unnecessary white space and unalignment on the right of the page. With this in place, the footer at least lines up with the rest of the page.*/
-.footer-padding {
+/*The below has helped to eliminate some of the unnecessary white space and unalignment on the right of the page. With this in place, the footer at least lines up with the rest of the page.
+Update: changing something in the main section meant all of this came out of alignment again, so this has been commented back out.*/
+ /* .footer-padding {
     padding-right: 0;
     padding-left: 0;
     margin-right: 0;
     margin-left: 0;
-}
+}  */
 
 /*-----------------------------------------------Fontawesome Icons*/
 
