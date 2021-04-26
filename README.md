@@ -2,6 +2,21 @@
 
 https://james-vt.github.io/MS1_Handleigh_Hall/
 
+## Table of contents
+
+* UX
+* User stories
+* Site owner stories
+* Features
+* Template
+* Colours
+* Wireframes
+* Technologies used
+* Validations
+* Testing
+* Bugs
+* Features credits
+
 ## UX
 
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
@@ -93,6 +108,8 @@ Testing against stories - how was this goal achieved? Evidence - screenshot
 
 ## Find Us page
 * The directions and text used on the Find Us page were taken from the website for [Lodge Park and the Sherborne Park Estate](https://www.nationaltrust.org.uk/lodge-park-and-sherborne-park-estate#How%20to%20get%20here) and edited to suit.
+
+* The contact form on the Find Us page was adapted from Bootstrap 4's contact page template, found [here.](https://getbootstrap.com/docs/4.0/components/forms/#form-controls)
 
 * Background image on the Find Us page is an open-source image. [Photo by Randy Fath on Unsplash.](https://unsplash.com/photos/TUXrJZCNHbU)
 
