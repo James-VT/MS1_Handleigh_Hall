@@ -118,3 +118,6 @@ Testing against stories - how was this goal achieved? Evidence - screenshot
 
 ## Carousel
 * Carousel used is one of Bootstrap's components, found [here.](https://getbootstrap.com/docs/4.0/components/carousel/#with-controls)
+
+## Booking page
+* Background image is an open-source image. [Photo by Eric Muhr on Unsplash.](https://unsplash.com/photos/6HdfrD20rTk)
