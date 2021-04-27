@@ -117,6 +117,19 @@ body {
     clear: both;
 }
 
+#booking-background {
+    position: relative;
+    background-image: url("../images/bookingbackground.jpg");
+    background-color: #b3ffb3;
+    height: inherit;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    clear: both;
+}
+
 
 /*Padding:0 below gets rid of the annoying white space either side of the main section*/
 .property-container {
