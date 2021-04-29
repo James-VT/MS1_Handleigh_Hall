@@ -4,6 +4,7 @@ https://james-vt.github.io/MS1_Handleigh_Hall/
 
 ## Table of contents
 
+* Project overview
 * UX
 * User stories
 * Site owner stories
@@ -16,6 +17,10 @@ https://james-vt.github.io/MS1_Handleigh_Hall/
 * Testing
 * Bugs
 * Features credits
+
+## Project overview
+
+This project imagines the creation of a website for a fictional visitor attraction in Oxfordshire. It imagines this property - an old English country house - has recently opened to the public and requires a website for a number of purposes. It wants to relay 
 
 ## UX
 
