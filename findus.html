@@ -75,18 +75,20 @@
                         <div class="container-fluid">
                             <div class="first-text text-section">
                                 <h3>Comments, queries, suggestions - get in touch!</h3>
-                                <form>
+                                <!--The action in the form below would mark where the data is being sent, but as it does not exist, is left as an asterisk. The method is POST as this is a feedback form, not a login or anything that would require a GET.-->
+                                <form action="#" method="POST">
                                     <div class="form-group">
                                         <label for="nameinput">Your name</label>
-                                        <input type="text" class="form-control" id="nameinput" placeholder="Dr A N Example" required> 
+                                        <!--The "names" for each of the form inputs here are chosen to be as clear as possible as to what they are.-->
+                                        <input type="text" class="form-control" id="nameinput" name="name" placeholder="Dr A N Example" required> 
                                     </div>
                                     <div class="form-group">
                                         <label for="contactformemail">Email address</label>
-                                        <input type="email" class="form-control" id="contactformemail" placeholder="name@example.com" required>
+                                        <input type="email" class="form-control" id="contactformemail" name="contact-email" placeholder="name@example.com" required>
                                     </div>
                                     <div class="form-group">
                                       <label for="commentinput">Your message</label>
-                                      <textarea class="form-control" id="commentinput" rows="3" placeholder="Your message here..." required></textarea>
+                                      <textarea class="form-control" id="commentinput" name="feedback-text" rows="3" placeholder="Your message here..." required></textarea>
                                     </div>
                                     <!--The below is a Bootstrap element for a button. It can be found here: https://getbootstrap.com/docs/4.0/components/buttons/-->
                                     <div>
