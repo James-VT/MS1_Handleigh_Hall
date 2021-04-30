@@ -66,18 +66,19 @@
                         <div class="container-fluid">
                             <div class="first-text text-section">
                                 <h3>Book your visit</h3>
-                                <form>
+                                <!--The action feature below would link to where this info is going, but no such website exists as yet so it is left as an #. It is also worth mentioning that an organisation such as the fictional Handleigh Hall Trust would likely use a third party to handle its bookings.-->
+                                <form action="#" method="POST">
                                     <div class="form-group">
                                         <label for="nameinput">Your name</label>
-                                        <input type="text" class="form-control" id="nameinput" placeholder="Dr A N Example" required> 
+                                        <input type="text" class="form-control" id="nameinput" name="name" placeholder="Dr A N Example" required> 
                                     </div>
                                     <div class="form-group">
                                         <label for="contactformemail">Email address</label>
-                                        <input type="email" class="form-control" id="contactformemail" placeholder="name@example.com" required>
+                                        <input type="email" class="form-control" id="contactformemail" name="contact-email" placeholder="name@example.com" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="ticketnumberselector">How many adults are you booking for?</label>
-                                        <select class="form-control" id="ticketnumberselector" aria-describedby="bookingHelp" required>
+                                        <select class="form-control" id="ticketnumberselector" name="tickets-adult" aria-describedby="bookingHelp" required>
                                           <option>1</option>
                                           <option>2</option>
                                           <option>3</option>
@@ -93,7 +94,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="childnumberselector">How many children are you booking for?</label>
-                                        <select class="form-control" id="childnumberselector" aria-describedby="under5sHelp" required>
+                                        <select class="form-control" id="childnumberselector" name="tickets-child" aria-describedby="under5sHelp" required>
                                           <option>1</option>
                                           <option>2</option>
                                           <option>3</option>
