@@ -24,6 +24,24 @@ This project imagines the creation of a website for a fictional visitor attracti
 
 ## UX
 
+The main goals of the Handleigh Hall website are twofold: for its users, information; for its owners, revenue. Visitors to the site will want to know how to visit and what to expect. The owners of the site - Handleigh Hall Trust - will want to increase the revenue and publicity of the site.
+
+### The goals of a user:
+
+1. Learn whether the site is worth visiting for them.
+2. Learn when they can visit the site.
+3. Learn how to get to the site.
+4. Learn how to visit the site.
+5. Learn how to arrange a visit to the site.
+
+### The goals of the site owners:
+
+5. Generate revenue through ticket sales.
+6. Relay information to visitors on how to get there.
+7. Relay information to visitors regarding what's available at the site.
+8. Generate revenue by relaying information about the food and beverage outlet on site.
+9. 
+
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
 
 Addressing the strategy plane for this project, I asked myself who would need this website, and what they might hope to achieve by using it. I have asked these questions from the point of view of the owner and a visitor to the website. The site owner wants to generate revenue and visits by selling tickets, and making visitors aware of what's available. Visitors want to know if this place is worth visiting, and how to do so.
@@ -43,6 +61,10 @@ The Surface Plane: Colours for the website were chosen based on those colours as
 
 
 ## User stories
+
+Table | Second column | Third column
+--- | --- | ---
+1 | 2 | 3 
 
 ## Site owner stories
 
@@ -110,6 +132,8 @@ Testing against stories - how was this goal achieved? Evidence - screenshot
 * First carousel image is of Lodge Park, taken from Wikipedia. [Link and licence.](https://commons.wikimedia.org/wiki/File:Lodge_Park,_Gloucestershire,_May_2016_side_view.jpg)
 
 * Second carousel image is open-source, photo taken by Birmingham Museums Trust. [Photo by Birmingham Museums Trust on Unsplash](https://unsplash.com/photos/P2pGX2-zWNs)
+
+* Third carousel image is open-source, photo taken from unsplash. [Photo by Content Pixie on Unsplash](https://unsplash.com/photos/m-gqDRzbJLQ)
 
 ## Find Us page
 * The directions and text used on the Find Us page were taken from the website for [Lodge Park and the Sherborne Park Estate](https://www.nationaltrust.org.uk/lodge-park-and-sherborne-park-estate#How%20to%20get%20here) and edited to suit.
