@@ -18,7 +18,7 @@ body {
     font-weight: 800;
 }
 
-#propertyname {
+.propertyname {
     letter-spacing: 1px;
     font-size: 180%;
     padding-top: 8px;
