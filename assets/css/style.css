@@ -13,6 +13,8 @@ body {
 
 /*-----------------------------------------------Header*/
 /*--Originally I tried editing the height myself, but found it easier to rely on Bootstrap's default styling to dictate the size of the header at all screen sizes.--*/
+/*The header is designed to stay responsive - it's a bootstrap feature, and the credit can be found in the README and in a comment on every page.*/
+
 .navbarstyle {
     background-color: #ffffe6;
     font-weight: 800;
@@ -48,6 +50,8 @@ body {
 /*-----------------------------------------------Background images*/
 
 /*Some of the code for this part was taken from the Hero Image section of the Love Running project. I have edited it to fit. https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/*/
+
+/*The below keeps the background images where they should be. Each page has its own unique ID for its background image. All these images can be found in assets/images.*/
 
 #index-background {
     background-color: #b3ffb3;
@@ -155,6 +159,8 @@ body {
 
 /*-----------------------------------------------Contact form*/
 
+/*This keeps our forms nice and neat. The margin and padding spacing is necessary to keep it from hugging the very edge of our text boxes.*/
+
 .form-group {
     margin: 10px;
     padding-bottom: 10px;
@@ -167,6 +173,8 @@ body {
 /*-----------------------------------------------Footer*/
 
 /*--Code from page-container, content-wrap and part of the footer taken from here: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ Keeping the footer at the bottom of the page was proving to be a nuisance. I have edited this code slightly.*/
+
+/*All of the below is required to make sure the footer stays where it belongs. Media queries at the bottom of the css stylesheet keep it responsive at other screen sizes.*/
 
 .page-container {
     position: relative;
@@ -263,6 +271,8 @@ Update: changing something in the main section meant all of this came out of ali
 }
 
 /*-----------------------------------------------Carousel*/
+
+/*The below makes sure the carousel behaves itself and aligns it nicely with the other elements of the page at all sizes.*/
 
 .carousel-style {
     margin-top: 20px;
@@ -366,6 +376,7 @@ different media queries may become necessary for individual pages.*/
     }
 }
 
+/*The below code makes sure that even at the widest screen widths, structure is maintained.*/
 @media screen and (min-width: 1650px) {
     #facilities-image-fill {
         height: 70vh;
