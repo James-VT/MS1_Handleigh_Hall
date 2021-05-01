@@ -1,5 +1,4 @@
-![mockups](assets/images/amiresponsive.jpg)
-Format: ![Alt Text](assets/images/amiresponsive.jpg)
+![mockups](assets/images/mockups.png)
 
 # Handleigh Hall README
 
