@@ -1,3 +1,6 @@
+![mockups](assets/images/amiresponsive.jpg)
+Format: ![Alt Text](assets/images/amiresponsive.jpg)
+
 # Handleigh Hall README
 
 https://james-vt.github.io/MS1_Handleigh_Hall/
