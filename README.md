@@ -41,7 +41,7 @@ The main goals of the Handleigh Hall website are twofold: for its users, informa
 7. Relay information to visitors regarding what's available at the site.
 8. Generate revenue by relaying information about the food and beverage outlet on site.
 9. Drive up engagement with the public via social media and direct feedback
-10. 
+10. Relay just enough history of the site itself to tickle the interest of prospective visitors and turn this interest into bookings.
 
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
 
