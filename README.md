@@ -71,7 +71,13 @@ Goal number | Second column | Third column
 
 ## Site owner stories
 
-## Features
+## Existing Features
+
+* ### Header -
+    * The header, built using Bootstrap (credit and link below and in source code) allows a user to navigate easily across the pages of the site. For the site owners, this is good as ease of navigation will keep a user on the sire for longer, making them more likely to book a visit.
+
+* ### Squashed "burger" navigation menu at smaller screen sizes -
+    * Another Bootstrap addition (credit and link below and in source code), this familiar three-line icon adheres to convention by giving users something familiar they know to click for a collapsed menu.
 
 * ### Carousel -
     * The carousel found on index.html allows the site owners to present to site users a visual teaser of the attraction, and what is available there. The first picture gives them a view of the front of the building, the second of a painting inside it, and the third of a pot of tea from the catering outlet. Having these three pictures gives the site owners three chances to hook a potential visitor, and turn their visit to the site into a booking.
@@ -87,6 +93,17 @@ Goal number | Second column | Third column
 
 * ### Text boxes -
     * The boxes of text on each page allow users to learn the information they need. They also allow to site owners to provide a mix of text and images to communicate what Handleigh Hall is and answer the most commonly-sought bits of information by a visitor.
+
+* ### Footer -
+    * Conforming to convention, the footer contains some of the most basic information - social media links, the charity number, and the contact details. These last in particular are important for the user to have another means of contacting Handleigh Hall Trust other than the contact form, and also for knowing where Handleigh Hall is. Presenting the information here also allows the site owners to answer some very commonly-asked questions - namely, the address, phone number and email address - automatically.
+
+* ### Social media links in the footer -
+    * These allow a user to quickly move to other sites where they can learn more about Handleigh Hall and interact with the organisation. For the site owners, this increased interaction is another chance to turn interaction into ticket sales.
+
+## Features left to implement
+
+* ### Booking form payment page -
+    * The booking form currently has no payment options as I have not yet learned how to do this. This would not change the form as it currently exists. Once the user has completed the first page of the booking form, they would click the "proceed to payment" button and be taken to a new form to finish the transaction.
 
 ## Template
 
