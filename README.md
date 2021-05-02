@@ -33,17 +33,15 @@ The main goals of the Handleigh Hall website are twofold: for its users, informa
 1. Learn what Handleigh Hall is.
 2. Learn when they can visit the site.
 3. Learn how to get to the site.
-4. Learn how to visit the site.
-5. Learn how to arrange a visit to the site.
+4. Learn how to arrange a visit to the site.
 
 ### The goals of the site owners:
 
 5. Generate revenue through ticket sales.
 6. Relay information to visitors on how to get there.
-7. Relay information to visitors regarding what's available at the site.
-8. Generate revenue by relaying information about the food and beverage outlet on site.
-9. Drive up engagement with the public via social media and direct feedback
-10. Relay just enough history of the site itself to tickle the interest of prospective visitors and turn this interest into bookings.
+7. Generate revenue by relaying information about the food and beverage outlet on site.
+8. Drive up engagement with the public via social media and direct feedback
+9. Relay just enough history of the site itself to tickle the interest of prospective visitors and turn this interest into bookings.
 
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
 
@@ -141,6 +139,29 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 ## Testing
 Testing against stories - how was this goal achieved? Evidence - screenshot
 
+### Testing against user goals
+
+Below I have tested the sites functions and features against the user goals.
+
+Number | Goal  | How was this achieved? | Success or failure? | Evidence
+----- | ---------------------- | ------------------- | -------- | -----
+1 | Learn what Handleigh Hall is. | Information on home page | Success | picture
+2 | Learn when they can visit the site. | Opening times section | Success | picture
+3 | Learn how to get to the site. | Find us page and contact us section of footer | success | picture
+4 | Learn how to arrange a visit to the site. | Booking page | Success | picture
+
+### Testing against site owner goals
+
+Below I have tested the site's functions and features against the site owner goals.
+
+Number | Goal  | How was this achieved? | Success or failure? | Evidence
+----- | ---------------------- | ------------------- | -------- | -----
+5 | Generate revenue through ticket sales. | Booking button prevelant on every page | Success | picture
+6 | Relay information to visitors on how to get there. | Find Us page instructions | Success | picture
+7 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | success | picture
+8 | Drive up engagement with the public via social media and direct feedback | Booking page | Success | picture
+9 | Relay just enough history of the site itself to tickle the interest of prospective visitors and turn this interest into bookings. | Everything | Success | picture
+
 ## Bugs
 
 * An issue was discovered on very large screen widths with the footer bunching up to the left if the text boxes don't have enough content in them. I suspect this is something to do with the blank space I left for the background image, but I'm uncertain why it only happens at screen widths approaching 1800 pixels. As yet, this is unfixed as the amount of content I have on each page is enough to keep everything where it should be even at these larger widths and in the hypothetical situation in which this was a genuine website for a genuine property, the amount of information in those text sections would become more over time, not less.
@@ -175,6 +196,9 @@ Testing against stories - how was this goal achieved? Evidence - screenshot
 
 * Background image on the Find Us page is an open-source image. [Photo by Randy Fath on Unsplash.](https://unsplash.com/photos/TUXrJZCNHbU)
 
+## Discover page
+* Back ground image on the Discover page is an open-source image. [Photo by Annie Spratt on Unsplash.](https://unsplash.com/photos/GWCvnsMtiBg)
+
 ## Facilities page
 * Background image on the Facilities page is an open-source image. [Photo by Suhyeon Choi on Unsplash.](https://unsplash.com/photos/4Ia348kvX7A)
 
@@ -183,3 +207,5 @@ Testing against stories - how was this goal achieved? Evidence - screenshot
 
 ## Booking page
 * Background image on the booking page is an open-source image. [Photo by Eric Muhr on Unsplash.](https://unsplash.com/photos/6HdfrD20rTk)
+
+* The booking form on the Booking page was adapted from Bootstrap 4's contact page template, found [here.](https://getbootstrap.com/docs/4.0/components/forms/#form-controls)
