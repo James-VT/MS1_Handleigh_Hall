@@ -51,24 +51,16 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" type="button" class="btn btn-dark btn-lg book-button text-nowrap">Book Your Visit</a>
+                    <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" class="btn btn-dark btn-lg book-button text-nowrap">Book Your Visit</a>
                 </nav>
             </div>  
         </header>
         
         <section class="property-container container-fluid">
             <div id="carousel-background">
-                <section id="index-image-fill"> <!--class="image-fill"-->
+                <section id="index-image-fill">
                     <!--The div below encompasses the button and the carousel itself. This was done in order to better centre the button above the images at all screen widths.-->
                     <div class="row button-bar">
-                        <!--Styling for button below found in CSS, taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL.-->
-                        <div class="button-centring">
-                            <!--Below is the container for the Book Your Visit button. I've included a separate class for the button on the index page due to the different media query and structure of that page.-->
-                            <div class="button-container index-button-container">
-                                <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size-->
-                                <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" type="button" class="btn btn-dark btn-lg book-button text-nowrap">Book Your Visit</a>
-                            </div>
-                        </div>
                         <!--Code for carousel taken from Bootstrap's carousel component https://getbootstrap.com/docs/4.0/components/carousel/#with-controls-->
                         <div id="carouselExampleControls" class="carousel slide carousel-style" data-ride="carousel">
                             <div class="carousel-inner">
@@ -90,6 +82,14 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
+                        </div>
+                        <!--Styling for button below found in CSS, taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL.-->
+                        <div class="container-fluid button-centring">
+                            <!--Below is the container for the Book Your Visit button. I've included a separate class for the button on the index page due to the different media query and structure of that page.-->
+                            <div class="button-container index-button-container">
+                                <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size-->
+                                <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" type="button" class="btn btn-dark btn-lg btn-block book-button text-nowrap">Book Your Visit</a>
+                            </div>
                         </div>
                     </div>
                 </section>

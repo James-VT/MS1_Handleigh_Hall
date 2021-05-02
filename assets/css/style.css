@@ -30,10 +30,16 @@ body {
 /*Styling for button below to centre the button taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL*/
 
 .button-centring {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width:100%;
+    /* display:flex; */
+    position: relative;
+    /* float: right; */
+    /* justify-content:center;
+    align-items:center; */
+    /* width: 90%; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    
 }
 
 /*--I have moved the button out of the header proper, but as I want it to sit just under the header near the top of every page on the site I have kept its styling in this section.--*/
@@ -44,7 +50,8 @@ body {
 }
 
 .button-bar {
-    width: 100%;
+    /* width: 100%; */
+    margin-right: 0;
 }
 
 /*-----------------------------------------------Background images*/
@@ -276,7 +283,7 @@ Update: changing something in the main section meant all of this came out of ali
 
 .carousel-style {
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 50px;
     margin-left: 50px;
 }
 
