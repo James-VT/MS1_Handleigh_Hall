@@ -39,8 +39,8 @@ body {
 /*--I have moved the button out of the header proper, but as I want it to sit just under the header near the top of every page on the site I have kept its styling in this section.--*/
 .book-button {
     font-weight: 500;
-    margin-top: 20px;
-    padding: 10px;
+    /* margin-top: 20px; */
+    /* padding: 10px; */
 }
 
 .button-bar {
