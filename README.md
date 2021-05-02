@@ -28,20 +28,23 @@ This project imagines the creation of a website for a fictional visitor attracti
 
 The main goals of the Handleigh Hall website are twofold: for its users, information; for its owners, revenue. Visitors to the site will want to know how to visit and what to expect. The owners of the site - Handleigh Hall Trust - will want to increase the revenue and publicity of the site.
 
-### The goals of a user:
+## User Stories
+
+### A user will want to:
 
 1. Learn what Handleigh Hall is.
 2. Learn when they can visit the site.
 3. Learn how to get to the site.
 4. Learn how to arrange a visit to the site.
 
-### The goals of the site owners:
+## Site Owner Stories
+
+### A site owner will want to:
 
 5. Generate revenue through ticket sales.
 6. Relay information to visitors on how to get there.
 7. Generate revenue by relaying information about the food and beverage outlet on site.
 8. Drive up engagement with the public via social media and direct feedback
-9. Relay just enough history of the site itself to tickle the interest of prospective visitors and turn this interest into bookings.
 
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
 
@@ -54,20 +57,6 @@ The Structure Plane: my wireframes can be found below. These have been construct
 The Skeleton Plane: The information is structured in such a way that the pictures do much of the job of catching a user's eye, with the information kept in unobtrusive places. Navigation is performed via the header, with page title links kept clear and concise. On smaller screen sizes, where the information needs to be scrolled to, the top of the first text section is visible along with its title, telling users exactly what it is they'll find there and visually informing them how to get to it. At larger screen sizes this is different, as both the images and information can be presented at once while taking away from neither. 
 
 The Surface Plane: Colours for the website were chosen based on those colours associated with the visual look of Handleigh Hall itself. Green for the grass around it, blue for the (optimistically) blue sky above, and the beige colour of the navigation bar to resemble the colour of the local stone from which the property was constructed.
-
-* This is the visitor website of the organisation looking after a historic building opened to the public as a visitor attraction.
-* This website exists to provide information to visitors, and to convey information from the site owners to said visitors.
-* As a visitor to the website, I want to know what's on offer, the location, and how to book tickets to visit.
-* As the owner or manager of the organisation, I want to relay to customers the info that will generate revenue.
-
-
-## User stories
-
-Goal number | Second column | Third column
---- | --- | ---
-1 | 2 | 3 
-
-## Site owner stories
 
 ## Existing Features
 
@@ -145,10 +134,10 @@ Below I have tested the sites functions and features against the user goals.
 
 Number | Goal  | How was this achieved? | Success or failure? | Evidence
 ----- | ---------------------- | ------------------- | -------- | -----
-1 | Learn what Handleigh Hall is. | Information on home page | Success | picture
-2 | Learn when they can visit the site. | Opening times section | Success | picture
-3 | Learn how to get to the site. | Find us page and contact us section of footer | success | picture
-4 | Learn how to arrange a visit to the site. | Booking page | Success | picture
+1 | Learn what Handleigh Hall is. | Information on home page | Success | [About section](assets/images/indexabout.png)
+2 | Learn when they can visit the site. | Opening times section | Success | [Opening times ](assets/images/openingtimes.png)
+3 | Learn how to get to the site. | Getting here instructions | Success | [Getting here](assets/images/gettinghere.png)
+4 | Learn how to arrange a visit to the site. | Booking page | Success | [Booking form](assets/images/bookingform.png)
 
 ### Testing against site owner goals
 
@@ -156,11 +145,11 @@ Below I have tested the site's functions and features against the site owner goa
 
 Number | Goal  | How was this achieved? | Success or failure? | Evidence
 ----- | ---------------------- | ------------------- | -------- | -----
-5 | Generate revenue through ticket sales. | Booking button prevelant on every page | Success | picture
-6 | Relay information to visitors on how to get there. | Find Us page instructions | Success | picture
-7 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | success | picture
-8 | Drive up engagement with the public via social media and direct feedback | Booking page | Success | picture
-9 | Relay just enough history of the site itself to tickle the interest of prospective visitors and turn this interest into bookings. | Everything | Success | picture
+5 | Generate revenue through ticket sales. | Booking button prevelant on every page | Success | [Book Your Visit button](assets/images/bookingbutton.png)
+6 | Relay information to visitors on how to get there. | Find Us page instructions | Success | [Getting here](assets/images/gettinghere.png)
+7 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | Success | [Eating and drinking](assets/images/catering.png)
+8 | Drive up engagement with the public via social media | Booking page | Success | [Social media links](assets/images/socialcontact.png)
+
 
 ## Bugs
 
