@@ -164,6 +164,12 @@ body {
     margin: 0px;
 }
 
+/*-----------------------------------------------Banner*/
+
+.banner {
+    height: 37vh;
+}
+
 /*-----------------------------------------------Contact form*/
 
 /*This keeps our forms nice and neat. The margin and padding spacing is necessary to keep it from hugging the very edge of our text boxes.*/
