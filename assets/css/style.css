@@ -178,6 +178,9 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    background-color: #ffffe6;
+    /* margin-left: 30px;
+    margin-right: 30px; */
 }
 
 /*-----------------------------------------------Contact form*/
@@ -404,5 +407,12 @@ different media queries may become necessary for individual pages.*/
 @media screen and (min-width: 1650px) {
     #facilities-image-fill {
         height: 70vh;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .title-box-position {
+        margin-left: 30px;
+        margin-right: 50%;
     }
 }
