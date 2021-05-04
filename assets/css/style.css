@@ -167,7 +167,17 @@ body {
 /*-----------------------------------------------Banner*/
 
 .banner {
+    position: relative;
     height: 37vh;
+    display: block;
+}
+
+.title-box-position {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /*-----------------------------------------------Contact form*/
