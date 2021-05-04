@@ -166,6 +166,8 @@ body {
 
 /*-----------------------------------------------Banner*/
 
+/* Minor elements of this banner were inspired by the website for Kelmscott Manor: https://www.sal.org.uk/kelmscott-manor/, mainly the height: 37vh styling.*/
+
 .banner {
     position: relative;
     height: 37vh;
@@ -187,7 +189,12 @@ body {
     margin: 1rem;
 }
 
-/*-----------------------------------------------Contact form*/
+/*-----------------------------------------------Content sections*/
+
+.content-first-row {
+    margin-top: 30px;
+    padding-left: 15px;
+}
 
 /*-----------------------------------------------Contact form*/
 
