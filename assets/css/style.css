@@ -199,6 +199,7 @@ body {
 #graham-family-portrait-container {
     padding-left: 30px;
     padding-right: 30px;
+    margin: auto;
 }
 
 #family-portrait {
