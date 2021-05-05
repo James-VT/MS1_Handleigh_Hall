@@ -196,6 +196,31 @@ body {
     padding-left: 15px;
 }
 
+/*-----------------------------------------------Discover gallery*/
+
+/* Gallery styling originally taken from W3C's css gallery example: https://www.w3schools.com/css/css_image_gallery.asp I have edited it from there. */
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
 /*-----------------------------------------------Contact form*/
 
 /*This keeps our forms nice and neat. The margin and padding spacing is necessary to keep it from hugging the very edge of our text boxes.*/
