@@ -196,6 +196,22 @@ body {
     padding-left: 15px;
 }
 
+#graham-family-portrait-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#family-portrait {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto; 
+}
+
+#graham-family-history {
+    padding-left: 30px;
+}
+
 /*-----------------------------------------------Discover gallery*/
 
 /* Gallery styling originally taken from W3C's css gallery example: https://www.w3schools.com/css/css_image_gallery.asp I have edited it from there. */
@@ -255,6 +271,7 @@ div.gallery {
 
 .footer {
     position: relative;
+    clear: both;
     margin-top: auto;
     bottom: 0;
     /* width: 100%; */
@@ -454,3 +471,9 @@ different media queries may become necessary for individual pages.*/
         margin-right: 50%;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .content-second-row {
+        display: inline-block;
+    }
+} 
