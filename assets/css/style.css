@@ -194,6 +194,7 @@ body {
 .content-first-row {
     margin-top: 30px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 #graham-family-portrait-container {
@@ -211,7 +212,27 @@ body {
 
 .graham-family-history {
     padding-left: 30px;
+    padding-right: 30px;
 }
+
+.content-third-row {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+#collection-photo-container {
+    padding-bottom: 10px;
+}
+
+#collection-photo {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+
 
 /*-----------------------------------------------Discover gallery*/
 
@@ -484,7 +505,8 @@ different media queries may become necessary for individual pages.*/
 /*The below code allows the picture to stack above the accompanying text on the discover page second row.*/
 @media screen and (max-width: 700px) {
     .content-first-row,
-    .content-second-row {
+    .content-second-row,
+    .content-third-row {
         display: inline-block;
     }
 
