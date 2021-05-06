@@ -120,6 +120,9 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 * [Bootstrap](https://getbootstrap.com/)
     * Bootstrap was used in this project to provide styling frameworks and for the automatic elements of responsive design it comes with. The version I have used is Bootstrap 4.
 
+* [Crop Circle](https://crop-circle.imageonline.co/#circlecropresult)
+    * Crop Circle, a feature of imageonline.co, was used to create the circular images on the Discover page.
+
 ## Validations
 * HTML + CSS validations, no errors, links to evidence pictures
 * Accessibility - wave

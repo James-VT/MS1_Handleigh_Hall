@@ -209,7 +209,7 @@ body {
     height: auto; 
 }
 
-#graham-family-history {
+.graham-family-history {
     padding-left: 30px;
 }
 
@@ -219,21 +219,29 @@ body {
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
     float: left;
     width: 180px;
+    border-radius: 50%;
   }
   
-  div.gallery:hover {
+/* div.gallery:hover {
     border: 1px solid #777;
-  }
+  } */
   
-  div.gallery img {
+div.gallery img {
     width: 100%;
     height: auto;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
   }
-  
-  div.desc {
+
+div.gallery img:hover {
+    border: 1px solid #777;
+  }
+
+div.desc {
     padding: 15px;
     text-align: center;
   }
@@ -473,8 +481,14 @@ different media queries may become necessary for individual pages.*/
     }
 }
 
+/*The below code allows the picture to stack above the accompanying text on the discover page second row.*/
 @media screen and (max-width: 700px) {
+    .content-first-row,
     .content-second-row {
         display: inline-block;
+    }
+
+    .graham-family-history {
+        margin-top: 10px;
     }
 } 
