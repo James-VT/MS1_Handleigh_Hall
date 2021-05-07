@@ -51,7 +51,24 @@ body {
 
 .button-bar {
     /* width: 100%; */
+    position: relative;
     margin-right: 0;
+}
+
+.map-container {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    float: right;
+}
+
+.map-container iframe {
+    float: right;
+    clear: none;
+    width: 400px;
+    height: 300px;
+    margin-left: 3rem;
+    padding-bottom: 3rem;
 }
 
 /*-----------------------------------------------Background images*/
@@ -516,3 +533,19 @@ different media queries may become necessary for individual pages.*/
         margin-top: 10px;
     }
 } 
+
+/* The below code switches to a small google maps embed for small screen sizes */
+@media screen and (max-width: 625px) {
+    .map-large {
+        visibility: hidden;
+    }
+}
+
+/*The below code switches to a larger map size for larger screen sizes*/
+@media screen and (max-width: 450px) {
+    .map-small {
+        height: 300px;
+        width: 330px;
+        /* padding-right: 25px; */
+    }
+}
