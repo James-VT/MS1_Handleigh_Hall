@@ -197,8 +197,8 @@ Number | Goal  | How was this achieved? | Success or failure? | Evidence
 ## Carousel
 * Carousel used is one of Bootstrap's components, found [here.](https://getbootstrap.com/docs/4.0/components/carousel/#with-controls)
 
-## Booking page
-* Background image on the booking page is an open-source image. [Photo by Eric Muhr on Unsplash.](https://unsplash.com/photos/6HdfrD20rTk)
+## Booking modal
+* The modal used as a landing page for a booking feature is borrowed in part from two places: [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/) and, for some minor styling/positioning of the close button, [W3C](https://www.w3schools.com/css/css_positioning.asp). I also found [this](https://stackoverflow.com/questions/34627271/understanding-how-data-dismiss-attribute-works-in-bootstrap) from Stackoverflow to be useful in determining how to actually program said button to close the modal.
 
 * The booking form on the Booking page was adapted from Bootstrap 4's contact page template, found [here.](https://getbootstrap.com/docs/4.0/components/forms/#form-controls)
 
