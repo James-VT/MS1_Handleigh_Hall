@@ -84,8 +84,19 @@ The Surface Plane: Colours for the website were chosen based on those colours as
 * ### Footer -
     * Conforming to convention, the footer contains some of the most basic information - social media links, the charity number, and the contact details. These last in particular are important for the user to have another means of contacting Handleigh Hall Trust other than the contact form, and also for knowing where Handleigh Hall is. Presenting the information here also allows the site owners to answer some very commonly-asked questions - namely, the address, phone number and email address - automatically.
 
-* ### Social media links in the footer -
+User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? | Evidence
+----- | ---------------------- | ------------------- | -------- | -----
+3 | Learn how to get to the site. | Getting here instructions and details in footer | User | [Getting here](assets/images/gettinghere.png)
+6 | Relay information to visitors on how to get there. | Find Us page instructions | Site owner| [Getting here](assets/images/gettinghere.png)  
+---  
+  
+* ## Social media links in the footer -
     * These allow a user to quickly move to other sites where they can learn more about Handleigh Hall and interact with the organisation. For the site owners, this increased interaction is another chance to turn interaction into ticket sales.
+
+User story number achieved by this feature | Goal  | How was this achieved? | Success or failure? | Evidence
+----- | ---------------------- | ------------------- | -------- | -----
+8 | Drive up engagement with the public via social media | Social media links in footer of every page | Success | [Social media links](assets/images/socialcontact.png)
+---
 
 ## Features left to implement
 
@@ -151,7 +162,7 @@ Number | Goal  | How was this achieved? | Success or failure? | Evidence
 5 | Generate revenue through ticket sales. | Booking button prevelant on every page | Success | [Book Your Visit button](assets/images/bookingbutton.png)
 6 | Relay information to visitors on how to get there. | Find Us page instructions | Success | [Getting here](assets/images/gettinghere.png)
 7 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | Success | [Eating and drinking](assets/images/catering.png)
-8 | Drive up engagement with the public via social media | Booking page | Success | [Social media links](assets/images/socialcontact.png)
+8 | Drive up engagement with the public via social media | Every page | Success | [Social media links](assets/images/socialcontact.png)
 
 
 ## Bugs
