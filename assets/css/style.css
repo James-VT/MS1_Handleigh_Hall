@@ -55,6 +55,8 @@ body {
     margin-right: 0;
 }
 
+/*-----------------------------------------------Google map*/
+
 .map-container {
     position: absolute;
     right: 1rem;
@@ -253,6 +255,17 @@ hr {
     border: 1px solid black;
 }
 
+.modal-content {
+    position: relative;
+    padding: 10px;
+}
+
+.w3-display-topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
 /*-----------------------------------------------Discover gallery*/
 
 /* Gallery styling originally taken from W3C's css gallery example: https://www.w3schools.com/css/css_image_gallery.asp I have edited it from there. */
@@ -296,7 +309,8 @@ div.desc {
 }
 
 .submit-button-spacing {
-    margin: 10px;
+    margin: 10px 0px 10px 10px;
+
 }
 
 /*-----------------------------------------------Footer*/
@@ -327,14 +341,6 @@ div.desc {
     height: 20vh;
     background-color: #b3ecff;
     /* clear: right; */
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.block {
-    display: block;
 }
 
 .left-footer {
@@ -383,6 +389,20 @@ Update: changing something in the main section meant all of this came out of ali
     margin-right: 0;
     margin-left: 0;
 }  */
+
+/*-----------------------------------------------Display specifications*/
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline
+}
+
+.block {
+    display: block;
+}
 
 /*-----------------------------------------------Fontawesome Icons*/
 
