@@ -93,9 +93,11 @@ User story number achieved by this feature | Goal  | How was this achieved? | Us
 * ## Social media links in the footer -
     * These allow a user to quickly move to other sites where they can learn more about Handleigh Hall and interact with the organisation. For the site owners, this increased interaction is another chance to turn interaction into ticket sales.
 
+![Image of social media links](assets/images/readmeevidence/socialcontact.png)
+
 User story number achieved by this feature | Goal  | How was this achieved? | Success or failure? | Evidence
 ----- | ---------------------- | ------------------- | -------- | -----
-8 | Drive up engagement with the public via social media | Social media links in footer of every page | Success | [Social media links](assets/images/socialcontact.png)
+8 | Drive up engagement with the public via social media | Social media links in footer of every page | Success | [Social media links](assets/images/readmeevidence/socialcontact.png)
 ---
 
 ## Features left to implement
