@@ -6,9 +6,11 @@
     border: 0;
 }
 
+/* The font below is a google font, credited in the README under Credits. The background colour was lifted from the Imperial War Museum's website, here: https://www.iwm.org.uk/visits/iwm-london/eat-drink*/
 body {
     font-family: 'Roboto', sans-serif;
-    color: #55555f
+    color: #55555f;
+    background-color: #e5e7e6;
 }
 
 /*-----------------------------------------------Header*/
