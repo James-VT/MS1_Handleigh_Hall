@@ -176,6 +176,9 @@ Number | Goal  | How was this achieved? | Success or failure? | Evidence
 ## Navigation bar
 * The original code for the site's navigation bar in the header is taken from Bootstrap 4's [Nav code.](https://getbootstrap.com/docs/4.0/components/navbar/#nav) I have edited it with some styling.
 
+## Footer stlying
+* The footer styling was taken from a footer rtemplate, found [here](https://codepen.io/mdbootstrap/full/YEPERj)
+
 ## Footer spacing
 * The column spacing in the footer was acheived using Bootstrap 4's [Grid system.](https://getbootstrap.com/docs/4.0/layout/grid/#auto-layout-columns)
 

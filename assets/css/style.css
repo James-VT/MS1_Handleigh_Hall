@@ -49,6 +49,7 @@ body {
     font-weight: 500;
     /* margin-top: 20px; */
     /* padding: 10px; */
+    background-color: #0A122A;
 }
 
 .button-bar {
@@ -374,7 +375,7 @@ div.desc {
     display: block;
     text-align: left!important;
     margin-top: 0!important;
-    background-color: #2196F3!important;
+    background-color: #0A122A!important;
     padding-top: 20px;
     color: #fff;
     /* position: absolute; */
@@ -450,7 +451,7 @@ Update: changing something in the main section meant all of this came out of ali
 /*-----------------------------------------------Fontawesome Icons*/
 
 .iconstyle i {
-    color: #36454f;
+    color: #4F7CAC;
     font-size: 50px;
     padding: 30px 20px 0px 20px;
 }
