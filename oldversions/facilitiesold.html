@@ -9,7 +9,7 @@
 <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">-->
 <script src="https://kit.fontawesome.com/17b09219bc.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Handleigh Hall Historic Home</title>
@@ -21,9 +21,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <div class="page-container">
-    <!--From the div immediately below this comment I have removed the id of content-wrap for this page only, as this seems to have been contributing to the annoying white space to the right of everything at mid screen widths. It was originally added to help the footer,
-    so I have commented out its accompanying styling in the CSS sheet rather than delete it if another change requires it be put back in.-->
-    <div>
+    <div id="content-wrap">
         <header>
             <!--Below is the navbar. It has links for the four main pages, but not the booking page so as to keep the button front and top at all screen widths, rather than compress it into the burger menu.-->
             <div class="navbarstyle">
@@ -37,65 +35,41 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/discover.html">Discover</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/facilities.html">Facilities</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/facilities.html">Facilities <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/findus.html">Find Us</a>
                             </li>
                         </ul>
                     </div>
-                    <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" class="btn btn-dark btn-lg book-button text-nowrap">Book Your Visit</a>
                 </nav>
             </div>  
         </header>
-        
+        <!--The code below, as well as containing the book now button, includes classes with styling to provide a lot of space to keep the background image visible at all screen sizes.-->
         <section class="property-container container-fluid">
-            <div id="carousel-background">
-                <section id="index-image-fill">
-                    <!--The div below encompasses the button and the carousel itself. This was done in order to better centre the button above the images at all screen widths.-->
+            <div id="facilities-background">
+                <section id="facilities-image-fill" class="image-fill">
                     <div class="row button-bar">
-                        <!--Code for carousel taken from Bootstrap's carousel component https://getbootstrap.com/docs/4.0/components/carousel/#with-controls-->
-                        <div id="carouselExampleControls" class="carousel slide carousel-style" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active picture-container smallscreen-picture-container">
-                                    <img class="d-block w-100 picture-position smallscreen-picture-position" src="assets/images/backgroundimage.jpg" alt="Handleigh Hall in the sunshine">
-                                </div>
-                                <div class="carousel-item picture-container smallscreen-picture-container">
-                                    <img class="d-block w-100 picture-position smallscreen-picture-position" src="assets/images/birminghamcarousel.jpg" alt="Painting of estate workers in the neighbouring village">
-                                </div>
-                                <div class="carousel-item picture-container smallscreen-picture-container">
-                                    <img class="d-block w-100 picture-position smallscreen-picture-position" src="assets/images/teacarousel.jpg" alt="Teapot and tea">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                        <!--Styling for button below found in CSS, taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL.-->
-                        <div class="container-fluid button-centring">
-                            <!--Below is the container for the Book Your Visit button. I've included a separate class for the button on the index page due to the different media query and structure of that page.-->
-                            <div class="button-container index-button-container">
+                        <!--Inline styling for button below taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL. Inline styling is no bueno but I had the worst time positioning this infernal button. If I have time, I might try to move this styling to the stylesheet but don't want to risk breaking it again for now.-->
+                        <div class="button-centring">
+                            <div class="button-container">
                                 <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size-->
-                                <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" type="button" class="btn btn-dark btn-lg btn-block book-button text-nowrap">Book Your Visit</a>
+                                <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" type="button" class="btn btn-success btn-lg book-button text-nowrap">Book Your Visit</a>
                             </div>
                         </div>
+                            
                     </div>
                 </section>
                 <section>
                     <div class="image-window container-fluid">
-                        
+
                     </div>
                 </section>
                 <!--The code below is the information text for visitors to the site. It is broken up into two text sections, split by order to importance.-->
@@ -103,11 +77,17 @@
                     <div class="row large-screen-text-position white-space-remove">
                         <div class="container-fluid">
                             <div class="first-text text-section">
-                                <h3>About</h3>
+                                <h3>Eating and drinking - the Tea Pavilion</h3>
                                 <p>
-                                Handleigh Hall is one of England's best-remaining examples of a seventeenth-century gentleman's country retreat. Begun by the eccentric Sir Clive Graham in 1654 and finished by his son Sir Robert Graham ten years later, 
-                                the hall played residence to the Graham family until 1993, when the last surviving member of the Graham family granted the estate to the Handleigh Hall Trust to preserve this historic house for the nation.
-                                Now open to the public for the first time, Handleigh Hall boasts hidden treasures, beautiful walks in the estate grounds, and a fabulous cafe.
+                                Our delightful on-sight tea pavilion is open from ten o'clock every day until half an hour before we close. We serve a variety of light lunches, soups and of course, hot drinks and cake. If you have allergies or dietary concerns please inform a member of staff before placing your order.
+                                </p>
+                                <h3>Picnics</h3>
+                                <p>
+                                Picnincs are very welcome on the lawn in front of the hall in all weathers. Bins can be found near the gate to the car park, and beside the Tea Pavilion.
+                                </p>
+                                <h3>Seventeenth-century specialities</h3>
+                                <p>
+                                On weekends (including bank holidays) our volunteers will be serving some era-appropriate sweet treats: seventeenth-century honey cake and drinking chocolate. Mentioned as a favourite of Sir Clive and his wife Lady Graham in Sir Clive's memoirs, these are freshly made on-site ever day.
                                 </p>
                             </div>
                         </div>
@@ -118,13 +98,10 @@
                     <div class="row white-space-remove">
                         <div class="container-fluid">
                             <div class="second-text text-section">
-                                <h3>Latest news</h3>
-                                <h6>NEWS: Handleigh Hall opens!</h6>
-                                <p>The Handleigh Hall Trust and the Friends of Handleigh Hall are delighted to accounce the official opening of Handleigh Hall to visitors from...<a href="#">Proceed to article</a></p>
-                                <h6>BLOG: Final preparations...</h6>
-                                <p>Read about the conservation and restoration work underway to open Handleigh Hall to visitors in this interview with our Head Conservator...<a href="#">Proceed to article</a></p>
-                                <h6>NEWS: Funding bid successful!</h6>
-                                <p>It was with great joy that we received the news of our success in our bid to secure funding from the Heritage Lottery grant we applied for...<a href="#">Proceed to article</a></p>
+                                <h3>Restrooms</h3>
+                                <p>
+                                Public lavatories, including an accessible lavatory, are beside reception, a short walk from the car park. Baby changing facilities are available.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -137,7 +114,7 @@
                 <div class="row">
                     <div class="col-sm-5 left-footer footer-element">
                         <h4>Find us and follow us on:</h4>
-                        <!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
+            <!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
                         <ul class="list-inline iconstyle inline-block">
                             <li class="list-inline-item">
                                 <a href="https://www.facebook.com" target="_blank">
@@ -163,9 +140,6 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <h6 class="inline-block">Registered Charity 000000</h6>
-                                <p>
-                                    Interested in volunteering with us or donating? Call, email or speak to our team of staff and volunteers on site for information about how you can contribute to this special place.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -176,7 +150,7 @@
                                     <h4>Contact Us:</h4>
                                 </div>
                             </div>
-                            <!--list-unstyled is a Bootstrap class to remove default styling from list items-->
+            <!--list-unstyled is a Bootstrap class to remove default styling from list items-->
                             <ul class="list-unstyled block contact">
                                 <li>
                                 Handleigh Hall

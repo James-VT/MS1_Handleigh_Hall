@@ -305,6 +305,9 @@ div.desc {
 
 .content-second-row {
     position: relative;
+}
+
+.facilities-gallery {
     text-align: center;
 }
 
@@ -314,8 +317,13 @@ div.desc {
     clear: both;
 }
 
-.facilities-gallery-bottom-line {
+.facilities-gallery-top-line img {
     margin-top: 2px;
+}
+
+.facilities-gallery-bottom-line img {
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .facilities-image:hover {
@@ -389,7 +397,7 @@ div.desc {
 .charity-number {
     position: relative;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 20px;
     /* margin-bottom: -16px; */
     /* background-color: #b3ecff; */
@@ -410,6 +418,10 @@ div.desc {
 
 .footer-element {
     height: inherit;
+}
+
+.email-link {
+    color: #fff;
 }
 
 /*The below has helped to eliminate some of the unnecessary white space and unalignment on the right of the page. With this in place, the footer at least lines up with the rest of the page.
