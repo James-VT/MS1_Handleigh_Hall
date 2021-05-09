@@ -301,6 +301,29 @@ div.desc {
     text-align: center;
   }
 
+/*-----------------------------------------------Facilities gallery*/
+
+.content-second-row {
+    position: relative;
+    text-align: center;
+}
+
+.facilities-gallery-top-line {
+    position: relative;
+    margin: auto;
+    clear: both;
+}
+
+.facilities-gallery-bottom-line {
+    margin-top: 2px;
+}
+
+.facilities-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
 /*-----------------------------------------------Contact form*/
 
 /*This keeps our forms nice and neat. The margin and padding spacing is necessary to keep it from hugging the very edge of our text boxes.*/
@@ -323,33 +346,43 @@ div.desc {
 
 .page-container {
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* min-width: 100vw; */
     margin: 0;
     padding: 0;
     border: 0;
   }
   
-/* #content-wrap {
+#content-wrap {
     padding-bottom: 0rem;
-  } */
+  }
 
 .footer {
-    position: relative;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: Roboto,sans-serif;
+    /* box-sizing: inherit; */
+    display: block;
+    text-align: left!important;
+    margin-top: 0!important;
+    background-color: #2196F3!important;
+    padding-top: 20px;
+    color: #fff;
+    /* position: absolute; */
     clear: both;
-    margin-top: auto;
-    bottom: 0;
     /* width: 100%; */
-    height: 20vh;
-    background-color: #b3ecff;
-    /* clear: right; */
+    /* background-color: #b3ecff;
+    clear: right; */
 }
 
 .left-footer {
     position: relative;
     text-align: center;
-    margin-bottom: -16px;
-    background-color: #b3ecff;
+    /* margin-bottom: -16px; */
+    /* background-color: #b3ecff; */
 }
 
 /*This styles the charity number section, which is the middle bit of the footer.
@@ -360,17 +393,15 @@ div.desc {
     text-align: center;
     padding-top: 70px;
     padding-bottom: 20px;
-    margin-bottom: -16px;
-    background-color: #b3ecff;
-    /* z-index: 2; */
+    /* margin-bottom: -16px; */
+    /* background-color: #b3ecff; */
     float: bottom;
 }
 
 .right-footer {
     position: relative;
     text-align: center;
-    margin-bottom: -16px;
-    background-color: #b3ecff;
+    /* background-color: #b3ecff; */
 }
 
 .contact {
@@ -423,7 +454,7 @@ Update: changing something in the main section meant all of this came out of ali
     border-radius: 10px;
 }
 
-/*-----------------------------------------------Carousel*/
+/*-----------------------------------------------Index Carousel*/
 
 /*The below makes sure the carousel behaves itself and aligns it nicely with the other elements of the page at all sizes.*/
 
@@ -441,6 +472,26 @@ Update: changing something in the main section meant all of this came out of ali
     height: inherit;
     object-fit: cover;
 }
+
+/*-----------------------------------------------Facilities Carousel*/
+
+
+
+.carousel-container {
+    position: relative;
+    margin: auto;
+    width: 60vh;
+    padding-left: 15px;
+}
+
+.carousel-size {
+    justify-content: center;
+    margin: auto;
+    clear: both;
+    max-width: 100%;
+    height: auto;
+}
+
 
 /*-----------------------------------------------Media queries*/
 
@@ -475,7 +526,6 @@ different media queries may become necessary for individual pages.*/
 
     .footer {
         margin: 0;
-        float: center;
     }
 
     /* .button-container {
@@ -571,3 +621,6 @@ different media queries may become necessary for individual pages.*/
         /* padding-right: 25px; */
     }
 }
+
+/* gallery test */
+
