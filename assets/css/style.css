@@ -318,11 +318,9 @@ div.desc {
     margin-top: 2px;
 }
 
-.facilities-image {
-    max-width: 100%;
-    height: auto;
+.facilities-image:hover {
+    transform: scale(1.2);
 }
-
 
 /*-----------------------------------------------Contact form*/
 
@@ -622,5 +620,12 @@ different media queries may become necessary for individual pages.*/
     }
 }
 
-/* gallery test */
+/*The below code makes the facilities gallery images responsive*/
+@media screen and (max-width: 600px) {
+    .facilities-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 
