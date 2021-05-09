@@ -44,7 +44,9 @@ The main goals of the Handleigh Hall website are twofold: for its users, informa
 5. Generate revenue through ticket sales.
 6. Relay information to visitors on how to get there.
 7. Generate revenue by relaying information about the food and beverage outlet on site.
-8. Drive up engagement with the public via social media and direct feedback
+8. Drive up engagement with the public via social media and direct feedback.
+9. Generate donations to the charity that runs Handleigh Hall.
+10. Draw in interested volunteers.
 
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
 
@@ -82,7 +84,7 @@ The Surface Plane: Colours for the website were chosen based on those colours as
     * The boxes of text on each page allow users to learn the information they need. They also allow to site owners to provide a mix of text and images to communicate what Handleigh Hall is and answer the most commonly-sought bits of information by a visitor.
 
 * ### Footer -
-    * Conforming to convention, the footer contains some of the most basic information - social media links, the charity number, and the contact details. These last in particular are important for the user to have another means of contacting Handleigh Hall Trust other than the contact form, and also for knowing where Handleigh Hall is. Presenting the information here also allows the site owners to answer some very commonly-asked questions - namely, the address, phone number and email address - automatically.
+    * Conforming to convention, the footer contains some of the most basic information - social media links, the charity number, how a visitor can contribute and the contact details. These last in particular are important for the user to have another means of contacting Handleigh Hall Trust other than the contact form, and also for knowing where Handleigh Hall is. Presenting the information here also allows the site owners to answer some very commonly-asked questions - namely, the address, phone number and email address - automatically.
 
 User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? | Evidence
 ----- | ---------------------- | ------------------- | -------- | -----
@@ -111,9 +113,17 @@ Aspiring to simplicity, the website has been designed with a simple template tha
 
 ### Colours
 
-For the site's colours, I have chosen gentle pastel colours of beige and blue. The beige is to match the colour of Cotswold stone from which the fictional building is constructed, and the blue is supposed to match the blue sky. I did not choose a directly analogous sky blue as this didn't match the beige so well, so instead a pastel blue was chosen. The background colour of the main image is a gentle green to be similar to the grass. I chose a slightly sharper shade of green than pastel green in order to contrast a little better with the pastel colours between which it would be sandwiched should the background image fail to load.
+Beige: #ffffe6
+Oxford Blue: #0A122A
+Steel Blue: #4F7CAC
+Dark Liver: #55555f
+Platinum: ##e5e7e6
 
-A similar beige colour to the header was chosen for the text boxes as these will scroll up over the building or sit alongside them at wider screen sizes.
+Colour matching site used: [coolers.]https://coolors.co/ffffe6-0a122a-4f7cac-950952-023618
+
+For the site's colours, I have chosen colours of beige and blue. The beige is to match the colour of Cotswold stone from which the fictional building is constructed, and Oxford Blue matches this well according to the colour matcher I used. Following on from these two colours, the next match was Steel Blue, which I have used to colour the Font Awesome icons. A similar beige colour to the header was chosen for the text boxes as these will scroll up over the background images or sit alongside them at wider screen sizes.
+
+For the font, Dark Liver was used for the right level of contrast. Black would've been too harsh against the biege. Platinum was a colour I found on the website of the Imperial War Museum, and I found it worked much better than white as a background colour next to the biege.
 
 ### Wireframes
 
@@ -135,6 +145,9 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 
 * [Crop Circle](https://crop-circle.imageonline.co/#circlecropresult)
     * Crop Circle, a feature of imageonline.co, was used to create the circular images on the Discover page.
+
+* [Cooler](https://coolors.co/ffffe6-0a122a-4f7cac-e5e7e6-023618)
+    * Cooler was used as a colour-matcher for the site. Once I'd decided to use biege, I was able to enter this colour into Cooler's colour-picker feature and choose from colours that matched well with it.
 
 ## Validations
 * HTML + CSS validations, no errors, links to evidence pictures
