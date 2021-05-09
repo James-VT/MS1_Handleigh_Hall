@@ -625,11 +625,17 @@ different media queries may become necessary for individual pages.*/
 }
 
 /*The below code switches to a larger map size for larger screen sizes*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1225px) {
     .map-small {
         height: 300px;
         width: 330px;
         /* padding-right: 25px; */
+    }
+}
+
+@media screen and (min-width: 1150) and (max-width: 1225px) {
+    .map-small {
+        height: 200px;
     }
 }
 
