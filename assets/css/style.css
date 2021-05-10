@@ -29,6 +29,8 @@ body {
     margin: 0;
 }
 
+/*-----------------------------------------------Buttons*/
+
 /*Styling for button below to centre the button taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL*/
 
 .button-centring {
@@ -56,6 +58,11 @@ body {
     /* width: 100%; */
     position: relative;
     margin-right: 0;
+}
+
+/* The below code colours the buttons on the findus.html page */
+.findus-button {
+    background-color: #0A122A;
 }
 
 /*-----------------------------------------------Google map*/

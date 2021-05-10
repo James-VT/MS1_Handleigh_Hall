@@ -1,271 +1,270 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Handleigh Hall Historic Home"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">-->
-<script src="https://kit.fontawesome.com/17b09219bc.js" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Handleigh Hall Historic Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Handleigh Hall Historic Home"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">-->
+    <script src="https://kit.fontawesome.com/17b09219bc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Handleigh Hall Historic Home</title>
 </head>
 <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<div class="page-container">
-    <div id="content-wrap">
-        <header>
-            <!--Below is the navbar. It has links for the four main pages, but not the booking page so as to keep the button front and top at all screen widths, rather than compress it into the burger menu.-->
-            <div class="navbarstyle">
-                <!--The navbar classes below are from Bootstrap https://getbootstrap.com/docs/4.6/components/navbar/-->
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html">
-                        <h1 class="propertyname">Handleigh Hall</h1>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/discover.html">Discover</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/facilities.html">Facilities</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/findus.html">Find Us <span class="sr-only">(current)</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--The button below was made using Bootstrap's pre-made button class. I had to use a dark button in order to get it past the accessibility validator. Link to bootstrap buttons: https://getbootstrap.com/docs/4.6/components/buttons/-->
-                    <button class="btn btn-dark btn-lg book-button text-nowrap" data-toggle="modal" data-target=".bd-example-modal-sm">Book Your Visit</button>
-                    <!--The modal below is a Bootstrap component, found here: https://getbootstrap.com/docs/4.0/components/modal/#optional-sizes-->
-                    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-sm">
-                          <div class="modal-content">
-                                <button onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright close" data-dismiss="modal">
-                                    &times;
-                                </button>
-                                <h3>
-                                    Book your visit
-                                </h3>
-                                <!--The action feature below would link to where this info is going, but no such website exists as yet so it is left as an #. It is also worth mentioning that an organisation such as the fictional Handleigh Hall Trust would likely use a third party to handle its bookings.-->
-                                <form action="#" method="POST">
-                                    <!--Name input for bookings below.-->
-                                    <div class="form-group">
-                                        <label for="bookingformname">Your name</label>
-                                        <input type="text" class="form-control" id="bookingformname" name="name" placeholder="Dr A N Example" required> 
-                                    </div>
-                                    <!--Email field below for ticket ordering. This is so Handleigh Hall Trust themselves, and not just the third party that might run their booking system, has a means of contacting booked visitors.-->
-                                    <div class="form-group">
-                                        <label for="bookingformemail">Email address</label>
-                                        <input type="email" class="form-control" id="bookingformemail" name="contact-email" placeholder="name@example.com" required>
-                                    </div>
-                                    <!--The below code is for a user to select the number of adults in their group. This is separate from children due to the difference in price between adult and child tickets. If the selection falls under the requirements of a family ticket, this will be reflected on the payment page when the user clicks submit.-->
-                                    <div class="form-group">
-                                        <label for="ticketnumberselector">How many adults are you booking for?</label>
-                                        <select class="form-control" id="ticketnumberselector" name="tickets-adult" aria-describedby="bookingHelp">
-                                          <option>1</option>
-                                          <option>2</option>
-                                          <option>3</option>
-                                          <option>4</option>
-                                          <option>5</option>
-                                          <option>6</option>
-                                          <option>7</option>
-                                          <option>8</option>
-                                          <option>9</option>
-                                          <option>10</option>
-                                        </select>
-                                        <small id="bookingHelp" class="form-text text-muted">Including concessions. For any help or assistance with accessibility issues, please call us on 01993 000000.</small>
-                                    </div>
-                                    <!--The below code is so a user can select how many children they are bringing. This is separate from adults due to the different cost between adult and child tickets.-->
-                                    <div class="form-group">
-                                        <label for="childnumberselector">How many children are you booking for?</label>
-                                        <select class="form-control" id="childnumberselector" name="tickets-child" aria-describedby="under5sHelp">
-                                          <option>1</option>
-                                          <option>2</option>
-                                          <option>3</option>
-                                          <option>4</option>
-                                          <option>5</option>
-                                          <option>6</option>
-                                          <option>7</option>
-                                          <option>8</option>
-                                          <option>9</option>
-                                          <option>10</option>
-                                        </select>
-                                        <small id="under5sHelp" class="form-text text-muted">Under 5s go free, and do not need to be included in the count.</small>
-                                    </div>
-                                    <!--The below is a Bootstrap element for a button. It can be found here: https://getbootstrap.com/docs/4.0/components/buttons/-->
-                                    <div class="inline">
-                                      <button type="submit" class="btn btn-primary submit-button-spacing inline">Proceed to payment</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>  
-        </header>
-        <!--The code below, as well as containing the book now button, includes classes with styling to provide a lot of space to keep the background image visible at all screen sizes.-->
-        <section class="property-container container-fluid">
-            <div id="findus-background">
-                <section class="image-fill">
-                   <div class="row button-bar">
-                        <!--Inline styling for button below taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL. Inline styling is no bueno but I had the worst time positioning this infernal button. If I have time, I might try to move this styling to the stylesheet but don't want to risk breaking it again for now.-->
-                        <div class="button-centring">
-                            <div class="button-container">
-                                <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size-->
-                                <!-- <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" type="button" class="btn btn-success btn-lg book-button text-nowrap">Book Your Visit</a>-->
-                            </div>
-                        </div>
-                        <!--The below is taken from Google Maps' own embedding tool. https://www.google.com/search?q=google+maps&oq=google+maps&aqs=chrome..69i57j0i433l2j0i131i433l2j69i60l3.2408j0j7&sourceid=chrome&ie=UTF-8-->
-                        <div class="map-container embed-responsive embed-responsive-16by9">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28015.857751309017!2d-1.6645890617575696!3d51.63648180788969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487149bc8fb8d4e1%3A0x708a5a25122c0818!2sThe%20Buscot%20and%20Coleshill%20Estates!5e0!3m2!1sen!2suk!4v1620381076504!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" class="embed-responsive-item map-small"></iframe>
-                        </div>
-                            
-                    </div>
-                </section>
-                <section>
-                    <div class="image-window container-fluid">
-                       
-                    </div>
-                </section>
-                <!--The code below is the information text for visitors to the site. It is broken up into two text sections, split by order to importance.-->
-<!--The below form was taken from Bootstrap 4's ready-made form template, found here: https://getbootstrap.com/docs/4.0/components/forms/#form-controls-->
-                <section class="about">
-                    <div class="row large-screen-text-position white-space-remove">
-                        <div class="container-fluid">
-                            <div class="form-box text-section">
-                                <h3>Comments, queries, suggestions - get in touch!</h3>
-                                <!--The action in the form below would mark where the data is being sent, but as it does not exist, is left as an asterisk. The method is POST as this is a feedback form, not a login or anything that would require a GET.-->
-                                <form action="#" method="POST">
-                                    <div class="form-group">
-                                        <label for="nameinputfeedback">Your name</label>
-                                        <!--The "names" for each of the form inputs here are chosen to be as clear as possible as to what they are.-->
-                                        <input type="text" class="form-control" id="nameinputfeedback" name="name" placeholder="Dr A N Example" required> 
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="emailinputfeedback">Email address</label>
-                                        <input type="email" class="form-control" id="emailinputfeedback" name="contact-email" placeholder="name@example.com" required>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="commentinput">Your message</label>
-                                      <textarea class="form-control" id="commentinput" name="feedback-text" rows="3" placeholder="Your message here..." required></textarea>
-                                    </div>
-                                    <!--The below is a Bootstrap element for a button. It can be found here: https://getbootstrap.com/docs/4.0/components/buttons/-->
-                                    <div>
-                                      <button type="submit" class="btn btn-primary submit-button-spacing">Submit</button>  
-                                    </div>
-                                  </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                
-                <section>
-                    <div class="row white-space-remove">
-                        <div class="container-fluid">
-                            <div class="second-text text-section">
-                                <h3>Getting here</h3>
-                                <h6>By road</h6>
-                                <p>Handleigh Hall Estate (use postcode OX32 3JF) Approach from the A40, follow the road sign to Coley. The Coachman car park is approximately half a mile along the road, signed to the right. For Coley village turn right at the cross roads approximately 1 mile along the road.
-                                    Parking: For Handleigh Estate: Coachman car park 163:SP158143, Duck Pond 163:SP175154 (off A40 towards Coley). Both car parks are pay and display.
-                                    SatNav: If using SatNav, use postcode OX32 3JF for the Coachman car park. For West Barn car park, use postcode OX32 9NA.</p>
-                                <h6>By public transport</h6>
-                                <p>For information about travelling to this site by public transport please visit the Cotswold AONB 'Explore the Cotswolds' website <a href="https://discovercotswolds.co.uk/getting-to-the-cotswolds/">by clicking here.</a></p>
-                                <h6>Opening times</h6>
-                                <p>Handleigh Hall is open from 10:00 until 17:00 every day except for New Year's Day, Easter Sunday, Christmas Day and New Year's Eve.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </section>
-
-        <footer>
-            <div class="footer container-fluid footer-padding">
-                <div class="row">
-                    <div class="col-sm-5 left-footer footer-element">
-                        <h4>Find us and follow us on:</h4>
-                        <!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
-                        <ul class="list-inline iconstyle inline-block">
-                            <li class="list-inline-item">
-                                <a href="https://www.facebook.com" target="_blank">
-                                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.twitter.com" target="_blank">
-                                    <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.instagram.com" target="_blank">
-                                    <i class="fab fa-instagram-square" aria-hidden="true"></i>
-                                    <span class="sr-only">Instagram</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 footer-element charity-number">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <h6 class="inline-block">Registered Charity 000000</h6>
-                                <p>
-                                    Interested in volunteering with us or donating? Call, email or speak to our team of staff and volunteers on site for information about how you can contribute to this special place.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-5 right-footer footer-element">
-                        <div class="row contact">
-                            <div class="col-sm-12">
-                                <div class="row block">
-                                    <h4>Contact Us:</h4>
-                                </div>
-                            </div>
-                            <!--list-unstyled is a Bootstrap class to remove default styling from list items-->
-                            <ul class="list-unstyled block contact">
-                                <li>
-                                Handleigh Hall
+    <div class="page-container">
+        <div id="content-wrap">
+            <header>
+                <!--Below is the navbar. It has links for the four main pages, but not the booking page so as to keep the button front and top at all screen widths, rather than compress it into the burger menu.-->
+                <div class="navbarstyle">
+                    <!--The navbar classes below are from Bootstrap https://getbootstrap.com/docs/4.6/components/navbar/-->
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                            <h1 class="propertyname">Handleigh Hall</h1>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/">Home</a>
                                 </li>
-                                <li>
-                                Coley
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/discover.html">Discover</a>
                                 </li>
-                                <li>
-                                Oxfordshire
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/facilities.html">Facilities</a>
                                 </li>
-                                <li>
-                                OX32 3JF
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/findus.html">Find Us <span class="sr-only">(current)</span></a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="contact-details">
-                            <i class="fas fa-phone-square-alt"></i> 01993 000000
+                        <!--The button below was made using Bootstrap's pre-made button class. I had to use a dark button in order to get it past the accessibility validator. Link to bootstrap buttons: https://getbootstrap.com/docs/4.6/components/buttons/-->
+                        <button class="btn btn-dark btn-lg book-button text-nowrap" data-toggle="modal" data-target=".bd-example-modal-sm">Book Your Visit</button>
+                        <!--The modal below is a Bootstrap component, found here: https://getbootstrap.com/docs/4.0/components/modal/#optional-sizes-->
+                        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                    <button onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                    <h3>
+                                        Book your visit
+                                    </h3>
+                                    <!--The action feature below would link to where this info is going, but no such website exists as yet so it is left as an #. It is also worth mentioning that an organisation such as the fictional Handleigh Hall Trust would likely use a third party to handle its bookings.-->
+                                    <form action="#" method="POST">
+                                        <!--Name input for bookings below.-->
+                                        <div class="form-group">
+                                            <label for="bookingformname">Your name</label>
+                                            <input type="text" class="form-control" id="bookingformname" name="name" placeholder="Dr A N Example" required> 
+                                        </div>
+                                        <!--Email field below for ticket ordering. This is so Handleigh Hall Trust themselves, and not just the third party that might run their booking system, has a means of contacting booked visitors.-->
+                                        <div class="form-group">
+                                            <label for="bookingformemail">Email address</label>
+                                            <input type="email" class="form-control" id="bookingformemail" name="contact-email" placeholder="name@example.com" required>
+                                        </div>
+                                        <!--The below code is for a user to select the number of adults in their group. This is separate from children due to the difference in price between adult and child tickets. If the selection falls under the requirements of a family ticket, this will be reflected on the payment page when the user clicks submit.-->
+                                        <div class="form-group">
+                                            <label for="ticketnumberselector">How many adults are you booking for?</label>
+                                            <select class="form-control" id="ticketnumberselector" name="tickets-adult" aria-describedby="bookingHelp">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                            </select>
+                                            <small id="bookingHelp" class="form-text text-muted">Including concessions. For any help or assistance with accessibility issues, please call us on 01993 000000.</small>
+                                        </div>
+                                        <!--The below code is so a user can select how many children they are bringing. This is separate from adults due to the different cost between adult and child tickets.-->
+                                        <div class="form-group">
+                                            <label for="childnumberselector">How many children are you booking for?</label>
+                                            <select class="form-control" id="childnumberselector" name="tickets-child" aria-describedby="under5sHelp">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                            </select>
+                                            <small id="under5sHelp" class="form-text text-muted">Under 5s go free, and do not need to be included in the count.</small>
+                                        </div>
+                                        <!--The below is a Bootstrap element for a button. It can be found here: https://getbootstrap.com/docs/4.0/components/buttons/-->
+                                        <div class="inline">
+                                        <button type="submit" class="btn btn-primary submit-button-spacing findus-button inline">Proceed to payment</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <i class="fas fa-envelope-square"></i> handleighhall@halltrust.org.uk
+                    </nav>
+                </div>  
+            </header>
+            <!--The code below, as well as containing the book now button, includes classes with styling to provide a lot of space to keep the background image visible at all screen sizes.-->
+            <section class="property-container container-fluid">
+                <div id="findus-background">
+                    <section class="image-fill">
+                    <div class="row button-bar">
+                            <!--Inline styling for button below taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL. Inline styling is no bueno but I had the worst time positioning this infernal button. If I have time, I might try to move this styling to the stylesheet but don't want to risk breaking it again for now.-->
+                            <div class="button-centring">
+                                <div class="button-container">
+                                    <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size-->
+                                    <!-- <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" type="button" class="btn btn-success btn-lg book-button text-nowrap">Book Your Visit</a>-->
+                                </div>
+                            </div>
+                            <!--The below is taken from Google Maps' own embedding tool. https://www.google.com/search?q=google+maps&oq=google+maps&aqs=chrome..69i57j0i433l2j0i131i433l2j69i60l3.2408j0j7&sourceid=chrome&ie=UTF-8-->
+                            <div class="map-container embed-responsive embed-responsive-16by9">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28015.857751309017!2d-1.6645890617575696!3d51.63648180788969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487149bc8fb8d4e1%3A0x708a5a25122c0818!2sThe%20Buscot%20and%20Coleshill%20Estates!5e0!3m2!1sen!2suk!4v1620381076504!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" class="embed-responsive-item map-small"></iframe>
+                            </div>
+                                
+                        </div>
+                    </section>
+                    <section>
+                        <div class="image-window container-fluid">
+                        
+                        </div>
+                    </section>
+                    <!--The below form was taken from Bootstrap 4's ready-made form template, found here: https://getbootstrap.com/docs/4.0/components/forms/#form-controls-->
+                    <section class="about">
+                        <div class="row large-screen-text-position white-space-remove">
+                            <div class="container-fluid">
+                                <div class="form-box text-section">
+                                    <h3>Comments, queries, suggestions - get in touch!</h3>
+                                    <!--The action in the form below would mark where the data is being sent, but as it does not exist, is left as an asterisk. The method is POST as this is a feedback form, not a login or anything that would require a GET.-->
+                                    <form action="#" method="POST">
+                                        <div class="form-group">
+                                            <label for="nameinputfeedback">Your name</label>
+                                            <!--The "names" for each of the form inputs here are chosen to be as clear as possible as to what they are.-->
+                                            <input type="text" class="form-control" id="nameinputfeedback" name="name" placeholder="Dr A N Example" required> 
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="emailinputfeedback">Email address</label>
+                                            <input type="email" class="form-control" id="emailinputfeedback" name="contact-email" placeholder="name@example.com" required>
+                                        </div>
+                                        <div class="form-group">
+                                        <label for="commentinput">Your message</label>
+                                        <textarea class="form-control" id="commentinput" name="feedback-text" rows="3" placeholder="Your message here..." required></textarea>
+                                        </div>
+                                        <!--The below is a Bootstrap element for a button. It can be found here: https://getbootstrap.com/docs/4.0/components/buttons/-->
+                                        <div>
+                                        <button type="submit" class="btn btn-primary submit-button-spacing findus-button">Submit</button>  
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <div class="row white-space-remove">
+                            <div class="container-fluid">
+                                <div class="second-text text-section">
+                                    <h3>Getting here</h3>
+                                    <h6>By road</h6>
+                                    <p>Handleigh Hall Estate (use postcode OX32 3JF) Approach from the A40, follow the road sign to Coley. The Coachman car park is approximately half a mile along the road, signed to the right. For Coley village turn right at the cross roads approximately 1 mile along the road.
+                                        Parking: For Handleigh Estate: Coachman car park 163:SP158143, Duck Pond 163:SP175154 (off A40 towards Coley). Both car parks are pay and display.
+                                        SatNav: If using SatNav, use postcode OX32 3JF for the Coachman car park. For West Barn car park, use postcode OX32 9NA.</p>
+                                    <h6>By public transport</h6>
+                                    <p>For information about travelling to this site by public transport please visit the Cotswold AONB 'Explore the Cotswolds' website <a href="https://discovercotswolds.co.uk/getting-to-the-cotswolds/">by clicking here.</a></p>
+                                    <h6>Opening times</h6>
+                                    <p>Handleigh Hall is open from 10:00 until 17:00 every day except for New Year's Day, Easter Sunday, Christmas Day and New Year's Eve.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <footer>
+                <div class="footer container-fluid footer-padding">
+                    <div class="row">
+                        <div class="col-sm-5 left-footer footer-element">
+                            <h4>Find us and follow us on:</h4>
+                            <!--The list-inline class is a Bootstrap 4 class, and requires the use of list-inline-item for each list item: https://getbootstrap.com/docs/4.0/content/typography/#inline-->
+                            <ul class="list-inline iconstyle inline-block">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                        <span class="sr-only">Facebook</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.twitter.com" target="_blank">
+                                        <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                        <span class="sr-only">Twitter</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com" target="_blank">
+                                        <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                                        <span class="sr-only">Instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2 footer-element charity-number">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h6 class="inline-block">Registered Charity 000000</h6>
+                                    <p>
+                                        Interested in volunteering with us or donating? Call, email or speak to our team of staff and volunteers on site for information about how you can contribute to this special place.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 right-footer footer-element">
+                            <div class="row contact">
+                                <div class="col-sm-12">
+                                    <div class="row block">
+                                        <h4>Contact Us:</h4>
+                                    </div>
+                                </div>
+                                <!--list-unstyled is a Bootstrap class to remove default styling from list items-->
+                                <ul class="list-unstyled block contact">
+                                    <li>
+                                    Handleigh Hall
+                                    </li>
+                                    <li>
+                                    Coley
+                                    </li>
+                                    <li>
+                                    Oxfordshire
+                                    </li>
+                                    <li>
+                                    OX32 3JF
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contact-details">
+                                <i class="fas fa-phone-square-alt"></i> 01993 000000
+                            </div>
+                            <div>
+                                <i class="fas fa-envelope-square"></i> handleighhall@halltrust.org.uk
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </div>
-</div>
 </body>
 
 </html>
