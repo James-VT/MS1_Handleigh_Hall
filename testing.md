@@ -3,32 +3,32 @@
 * WAVE stands for Web Accessibility Evaluation Tool. It makes sure your website is useable by people who may have impaired vision or other difficulties.
 
 WAVE test for index.html
-![Image of homepage WAVE validation](assets/images/testingevidence/indexwavevalidation.png)
+![Image of homepage WAVE validation](docs/evidence/testingevidence/indexwavevalidation.png)
 
 WAVE test for discover.html
-![Image of discover WAVE validation](assets/images/testingevidence/discoverwavevalidation.png)
+![Image of discover WAVE validation](docs/evidence/testingevidence/discoverwavevalidation.png)
 
 WAVE test for facilities.html
-![Image of facilities WAVE validation](assets/images/testingevidence/facilitieswavevalidation.png)
+![Image of facilities WAVE validation](docs/evidence/testingevidence/facilitieswavevalidation.png)
 
 WAVE test for findus.html
-![Image of find us WAVE validation](assets/images/testingevidence/finduswavevalidation.png)
+![Image of find us WAVE validation](docs/evidence/testingevidence/finduswavevalidation.png)
 
 # Lighthouse testing
 
-![Image of find us Lighthouse validation](assets/images/testingevidence/lighthousevalidations/finduslighthouse.png)
+![Image of find us Lighthouse validation](docs/evidence/testingevidence/lighthousevalidations/finduslighthouse.png)
 
 The Lighthouse test result for findus.html was revealing in that it helps show just how much of an impact Google maps can have on a site. Ideally we'd sit at 90+ on every score, but having stripped out some content already from what was planned, this was the best we could manage with embedded Google maps.
 
 For the findus.html page I have included the screenshot below of Lighthouse's best practise section to illustrate once again just how much Google maps can hammer a page's score. You can see the "same site cookie" issue that is raised nearly a dozen times. The scores are still acceptable, but frustrating as they could've been higher.
 
-![Image of find us Lighthouse validation best practices score and section](assets/images/testingevidence/lighthousevalidations/finduslighthousebestpractice.png)
+![Image of find us Lighthouse validation best practices score and section](docs/evidence/testingevidence/lighthousevalidations/finduslighthousebestpractice.png)
 
 
 
 # Bugs
 
-![Image of the map overlapping the section header](assets/images/testingevidence/bugs/mapoverlap.png)
+![Image of the map overlapping the section header](docs/evidence/bugs/mapoverlap.png)
 
 This was a very annoying bug that meant at certain screen widths, you couldn't fill in or see the top part of the contact form as the emedded Google map was overflowing onto it.
 
@@ -48,7 +48,7 @@ A media query.
         }
     }
     
-![Image of WAVE flagging up the skipped heading level](assets/images/testingevidence/bugs/skippedheadinglevel.png)
+![Image of WAVE flagging up the skipped heading level](docs/evidence/bugs/skippedheadinglevel.png)
 
 Not necesarily a bug as such, but a problem that needed to be solved nonetheless. It turns out that playing fast and loose with heading elements was causing a problem for screen readers. As such, heading elements on the findus.html page were made sequential - thus, an h1 element can only be followed by an h2, and an h2 by an h3, et cetera.
 
