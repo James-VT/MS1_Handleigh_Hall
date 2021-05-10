@@ -31,7 +31,7 @@ body {
 
 /*-----------------------------------------------Buttons*/
 
-/*Styling for button below to centre the button taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL*/
+/*Styling below was originally used to centre the button taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL. I have kept it despite having moved the button, because it helps anchor the rest of the page in place on the index and find us pages*/
 
 .button-centring {
     /* display:flex; */
@@ -43,7 +43,13 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 20px;
-    
+}
+
+/* Code below was part of the efort to hold the original button in place; as it's no longer needed for that purpose, I have changed the name to holder-bar as it is still useful at holding the index and find us pages in place.*/
+.holder-bar {
+    /* width: 100%; */
+    position: relative;
+    margin-right: 0;
 }
 
 /*--I have moved the button out of the header proper, but as I want it to sit just under the header near the top of every page on the site I have kept its styling in this section.--*/
@@ -54,13 +60,7 @@ body {
     background-color: #0A122A;
 }
 
-.button-bar {
-    /* width: 100%; */
-    position: relative;
-    margin-right: 0;
-}
-
-/* The below code colours the buttons on the findus.html page */
+/* The below code colours the buttons on the findus.html page's modal and contact form. As the modal form is borrowed for elsewhere, I have kept its name. */
 .findus-button {
     background-color: #0A122A;
 }

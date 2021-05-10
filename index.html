@@ -30,7 +30,9 @@
                 <!--The navbar classes below are from Bootstrap https://getbootstrap.com/docs/4.6/components/navbar/-->
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="index.html">
-                        <h1 class="propertyname">Handleigh Hall</h1>
+                        <h1 class="propertyname">
+                            Handleigh Hall
+                        </h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -38,20 +40,149 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/">
+                                    Home 
+                                    <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/discover.html">Discover</a>
+                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/discover.html">
+                                    Discover
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/facilities.html">Facilities</a>
+                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/facilities.html">
+                                    Facilities
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/findus.html">Find Us</a>
+                                <a class="nav-link" href="https://james-vt.github.io/MS1_Handleigh_Hall/findus.html">
+                                    Find Us
+                                </a>
                             </li>
                         </ul>
                     </div>
-                    <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" class="btn btn-dark btn-lg book-button text-nowrap">Book Your Visit</a>
+                    <!--The button below was made using Bootstrap's pre-made button class. I had to use a dark button in order to get it past the accessibility validator. Link to bootstrap buttons: https://getbootstrap.com/docs/4.6/components/buttons/-->
+                    <button class="btn btn-dark btn-lg book-button text-nowrap" data-toggle="modal" data-target=".bd-example-modal-sm" id="bookingform">
+                        Book Your Visit
+                    </button>
+                    <!--The modal below is a Bootstrap component, found here: https://getbootstrap.com/docs/4.0/components/modal/#optional-sizes-->
+                    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="bookingform" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                                <button onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright close" data-dismiss="modal">
+                                    &times;
+                                </button>
+                                <h2>
+                                    Book your visit
+                                </h2>
+                                <!--The action feature below would link to where this info is going, but no such website exists as yet so it is left as a #. It is also worth mentioning that an organisation such as the fictional Handleigh Hall Trust would likely use a third party to handle its bookings.-->
+                                <form action="#" method="POST">
+                                    <!--Name input for bookings below.-->
+                                    <div class="form-group">
+                                        <label for="bookingformname">
+                                            Your name
+                                        </label>
+                                        <input type="text" class="form-control" id="bookingformname" name="name" placeholder="Dr A N Example" required> 
+                                    </div>
+                                    <!--Email field below for ticket ordering. This is so Handleigh Hall Trust themselves, and not just the third party that might run their booking system, has a means of contacting booked visitors.-->
+                                    <div class="form-group">
+                                        <label for="bookingformemail">
+                                            Email address
+                                        </label>
+                                        <input type="email" class="form-control" id="bookingformemail" name="contact-email" placeholder="name@example.com" required>
+                                    </div>
+                                    <!--The below code is for a user to select the number of adults in their group. This is separate from children due to the difference in price between adult and child tickets. If the selection falls under the requirements of a family ticket, this will be reflected on the payment page when the user clicks submit.-->
+                                    <div class="form-group">
+                                        <label for="ticketnumberselector">
+                                            How many adults are you booking for?
+                                        </label>
+                                        <select class="form-control" id="ticketnumberselector" name="tickets-adult" aria-describedby="bookingHelp">
+                                        <option>
+                                            1
+                                        </option>
+                                        <option>
+                                            2
+                                        </option>
+                                        <option>
+                                            3
+                                        </option>
+                                        <option>
+                                            4
+                                        </option>
+                                        <option>
+                                            5
+                                        </option>
+                                        <option>
+                                            6
+                                        </option>
+                                        <option>
+                                            7
+                                        </option>
+                                        <option>
+                                            8
+                                        </option>
+                                        <option>
+                                            9
+                                        </option>
+                                        <option>
+                                            10
+                                        </option>
+                                        </select>
+                                        <small id="bookingHelp" class="form-text text-muted">
+                                            Including concessions. For any help or assistance with accessibility issues, please call us on 01993 000000.
+                                        </small>
+                                    </div>
+                                    <!--The below code is so a user can select how many children they are bringing. This is separate from adults due to the different cost between adult and child tickets.-->
+                                    <div class="form-group">
+                                        <label for="childnumberselector">
+                                            How many children are you booking for?
+                                        </label>
+                                        <select class="form-control" id="childnumberselector" name="tickets-child" aria-describedby="under5sHelp">
+                                        <option>
+                                            1
+                                        </option>
+                                        <option>
+                                            2
+                                        </option>
+                                        <option>
+                                            3
+                                        </option>
+                                        <option>
+                                            4
+                                        </option>
+                                        <option>
+                                            5
+                                        </option>
+                                        <option>
+                                            6
+                                        </option>
+                                        <option>
+                                            7
+                                        </option>
+                                        <option>
+                                            8
+                                        </option>
+                                        <option>
+                                            9
+                                        </option>
+                                        <option>
+                                            10
+                                        </option>
+                                        </select>
+                                        <small id="under5sHelp" class="form-text text-muted">
+                                            Under 5s go free, and do not need to be included in the count.
+                                        </small>
+                                    </div>
+                                    <!--The below is a Bootstrap element for a button. It can be found here: https://getbootstrap.com/docs/4.0/components/buttons/-->
+                                    <div class="inline">
+                                    <button type="submit" class="btn btn-primary submit-button-spacing findus-button inline">
+                                        Proceed to payment
+                                    </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </nav>
             </div>  
         </header>
@@ -60,7 +191,7 @@
             <div id="carousel-background">
                 <section id="index-image-fill">
                     <!--The div below encompasses the button and the carousel itself. This was done in order to better centre the button above the images at all screen widths.-->
-                    <div class="row button-bar">
+                    <div class="row holder-bar">
                         <!--Code for carousel taken from Bootstrap's carousel component https://getbootstrap.com/docs/4.0/components/carousel/#with-controls-->
                         <div id="carouselExampleControls" class="carousel slide carousel-style" data-ride="carousel">
                             <div class="carousel-inner">

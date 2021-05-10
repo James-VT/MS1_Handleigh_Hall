@@ -1,12 +1,30 @@
 # WAVE testing
 
-* Wave tests for accessibility.
+* WAVE stands for Web Accessibility Evaluation Tool. It makes sure your website is useable by people who may have impaired vision or other difficulties.
 
+WAVE test for index.html
 ![Image of homepage WAVE validation](assets/images/testingevidence/homepagewavevalidation.png)
 
+WAVE test for discover.html
 ![Image of discover WAVE validation](assets/images/testingevidence/discoverwavevalidation.png)
 
+WAVE test for facilities.html
 ![Image of facilities WAVE validation](assets/images/testingevidence/facilitieswavevalidation.png)
+
+WAVE test for findus.html
+![Image of find us WAVE validation](assets/images/testingevidence/finduswavevalidation.png)
+
+# Lighthouse testing
+
+![Image of find us Lighthouse validation](assets/images/testingevidence/lighthousevalidations/finduslighthouse.png)
+
+The Lighthouse test result for findus.html was revealing in that it helps show just how much of an impact Google maps can have on a site. Ideally we'd sit at 90+ on every score, but having stripped out some content already from what was planned, this was the best we could manage with embedded Google maps.
+
+For the findus.html page I have included the screenshot below of Lighthouse's best practise section to illustrate once again just how much Google maps can hammer a page's score. You can see the "same site cookie" issue that is raised nearly a dozen times. The scores are still acceptable, but frustrating as they could've been higher.
+
+![Image of find us Lighthouse validation best practices score and section](assets/images/testingevidence/lighthousevalidations/finduslighthousebestpractice.png)
+
+
 
 # Bugs
 
