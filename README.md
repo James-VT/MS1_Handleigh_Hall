@@ -149,6 +149,9 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 * [Cooler](https://coolors.co/ffffe6-0a122a-4f7cac-e5e7e6-023618)
     * Cooler was used as a colour-matcher for the site. Once I'd decided to use biege, I was able to enter this colour into Cooler's colour-picker feature and choose from colours that matched well with it.
 
+* [Google Maps](https://www.google.com/search?q=google+maps&oq=google+maps&aqs=chrome..69i57j0i433l2j0i131i433l2j69i60l3.2408j0j7&sourceid=chrome&ie=UTF-8)
+    * This is used for the map on the findus.html page.
+
 ## Validations
 * HTML + CSS validations, no errors, links to evidence pictures
 * Accessibility - wave
