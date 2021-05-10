@@ -3,7 +3,7 @@
 * WAVE stands for Web Accessibility Evaluation Tool. It makes sure your website is useable by people who may have impaired vision or other difficulties.
 
 WAVE test for index.html
-![Image of homepage WAVE validation](assets/images/testingevidence/homepagewavevalidation.png)
+![Image of homepage WAVE validation](assets/images/testingevidence/indexwavevalidation.png)
 
 WAVE test for discover.html
 ![Image of discover WAVE validation](assets/images/testingevidence/discoverwavevalidation.png)

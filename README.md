@@ -153,6 +153,9 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 * [Google Maps](https://www.google.com/search?q=google+maps&oq=google+maps&aqs=chrome..69i57j0i433l2j0i131i433l2j69i60l3.2408j0j7&sourceid=chrome&ie=UTF-8)
     * This is used for the map on the findus.html page.
 
+* [Autoprefixer CSS online](https://autoprefixer.github.io/)
+    * Autoprefixer was used to run my CSS through and get any various vendor prefixes (so, webkit prefixes) that I needed to make my pages consistent across browsers.
+
 ## Validations
 * HTML + CSS validations, no errors, links to evidence pictures
 * Accessibility - wave
@@ -195,6 +198,9 @@ Number | Goal  | How was this achieved? | Success or failure? | Evidence
 
 ## Footer stlying
 * The footer styling was taken from a footer rtemplate, found [here](https://codepen.io/mdbootstrap/full/YEPERj)
+
+## Webkit/vendor/browser prefixes
+* The vendor prefixes in my CSS come from [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
 ## Footer spacing
 * The column spacing in the footer was acheived using Bootstrap 4's [Grid system.](https://getbootstrap.com/docs/4.0/layout/grid/#auto-layout-columns)

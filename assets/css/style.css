@@ -141,7 +141,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
     clear: both;
 }
 
@@ -158,7 +157,7 @@ body {
     clear: both;
 }
 
-#booking-background {
+/* #booking-background {
     position: relative;
     background-image: url("../images/bookingbackground.jpg");
     background-color: #b3ffb3;
@@ -169,7 +168,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     clear: both;
-}
+} */
 
 
 /*Padding:0 below gets rid of the annoying white space either side of the main section*/
@@ -335,8 +334,12 @@ div.desc {
     margin-bottom: 2px;
 }
 
+/*The below styling prefixes are from https://autoprefixer.github.io/, full credits in README*/
+
 .facilities-image:hover {
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
 
 /*-----------------------------------------------Contact form*/
@@ -376,6 +379,8 @@ div.desc {
 #content-wrap {
     padding-bottom: 0rem;
   }
+
+/* Much of the styling for the footer below is taken from https://www.mockplus.com/blog/post/bootstrap-4-footer-template. I have edited to fit. */
 
 .footer {
     -webkit-text-size-adjust: 100%;
@@ -494,9 +499,12 @@ Update: changing something in the main section meant all of this came out of ali
     height: 650px;
 }
 
+/* Prefixes/browser queries in the below code taken from https://autoprefixer.github.io/. Full credit in the README */
+
 .picture-position {
     height: inherit;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 /*-----------------------------------------------Facilities Carousel*/
@@ -510,8 +518,12 @@ Update: changing something in the main section meant all of this came out of ali
     padding-left: 15px;
 }
 
+/* Prefixes/browser queries in the below code taken from https://autoprefixer.github.io/. Full credit in the README */
+
 .carousel-size {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: auto;
     clear: both;
     max-width: 100%;
