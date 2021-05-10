@@ -65,6 +65,7 @@ body {
     right: 1rem;
     top: 1rem;
     float: right;
+    display: block;
 }
 
 .map-container iframe {
@@ -335,6 +336,11 @@ div.desc {
 
 /*This keeps our forms nice and neat. The margin and padding spacing is necessary to keep it from hugging the very edge of our text boxes.*/
 
+.form-box {
+    display: block;
+    clear: both;
+}
+
 .form-group {
     margin: 10px;
     padding-bottom: 10px;
@@ -463,6 +469,8 @@ Update: changing something in the main section meant all of this came out of ali
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
+    display: inline-block;
+    /* Does the above inbline-block need to be removed? Depending on the outcome with this map, it might. */
 }
 
 /*-----------------------------------------------Index Carousel*/
@@ -633,9 +641,10 @@ different media queries may become necessary for individual pages.*/
     }
 }
 
-@media screen and (min-width: 1150) and (max-width: 1225px) {
-    .map-small {
-        height: 200px;
+@media screen and (max-width: 1225px) and (min-width: 950px) {
+    .map-container {
+        overflow: hidden;
+        height: 400px;
     }
 }
 
