@@ -15,6 +15,7 @@ https://james-vt.github.io/MS1_Handleigh_Hall/
 * Colours
 * Wireframes
 * Technologies used
+* Deployment
 * Validations
 * Testing
 * Bugs
