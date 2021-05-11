@@ -2,20 +2,32 @@
 
 * WAVE stands for Web Accessibility Evaluation Tool. It makes sure your website is useable by people who may have impaired vision or other difficulties.
 
-WAVE test for index.html
-![Image of homepage WAVE validation](docs/evidence/testingevidence/indexwavevalidation.png)
+### WAVE test for index.html
+![Image of homepage WAVE validation](docs/evidence/testingevidence/wavevalidations/indexwavevalidation.png)
 
-WAVE test for discover.html
-![Image of discover WAVE validation](docs/evidence/testingevidence/discoverwavevalidation.png)
+### WAVE test for discover.html
+![Image of discover WAVE validation](docs/evidence/testingevidence/wavevalidations/discoverwavevalidation.png)
 
-WAVE test for facilities.html
-![Image of facilities WAVE validation](docs/evidence/testingevidence/facilitieswavevalidation.png)
+### WAVE test for facilities.html
+![Image of facilities WAVE validation](docs/evidence/testingevidence/wavevalidations/facilitieswavevalidation.png)
 
-WAVE test for findus.html
-![Image of find us WAVE validation](docs/evidence/testingevidence/finduswavevalidation.png)
+### WAVE test for findus.html
+![Image of find us WAVE validation](docs/evidence/testingevidence/wavevalidations/finduswavevalidation.png)
 
 # Lighthouse testing
 
+* Lighthouse is a validator built into Google Chrome, used for testing the performance, accessibility, best practice and more of a web page. Specifically I have used it to make sure all my pages are above the 80% mark in performance. 
+
+### Lighthouse test for index.html
+![Image of index Lighthouse validation](docs/evidence/testingevidence/lighthousevalidations/indexlighthouse.png)
+
+### Lighthouse test for discover.html
+![Image of discover Lighthouse validation](docs/evidence/testingevidence/lighthousevalidations/discoverlighthouse.png)
+
+### Lighthouse test for facilities.html
+![Image of facilities Lighthouse validation](docs/evidence/testingevidence/lighthousevalidations/facilitieslighthouse.png)
+
+### Lighthouse test for findus.html
 ![Image of find us Lighthouse validation](docs/evidence/testingevidence/lighthousevalidations/finduslighthouse.png)
 
 The Lighthouse test result for findus.html was revealing in that it helps show just how much of an impact Google maps can have on a site. Ideally we'd sit at 90+ on every score, but having stripped out some content already from what was planned, this was the best we could manage with embedded Google maps.
@@ -24,6 +36,20 @@ For the findus.html page I have included the screenshot below of Lighthouse's be
 
 ![Image of find us Lighthouse validation best practices score and section](docs/evidence/testingevidence/lighthousevalidations/finduslighthousebestpractice.png)
 
+# W3 testing
+* The W3 validator checks HTML for errors or bad practices. I have run each page through it to check to see if the code is good. Results below.
+
+### W3 test for index.html
+![Image of index W3 validation](docs/evidence/testingevidence/w3validations/indexw3validator.png)
+
+### W3 test for discover.html
+![Image of discover W3 validation](docs/evidence/testingevidence/w3validations/discoverw3validator.png)
+
+### W3 test for facilities.html
+![Image of facilities W3 validation](docs/evidence/testingevidence/w3validations/facilitiesw3validator.png)
+
+### W3 test for findus.html
+![Image of find us W3 validation](docs/evidence/testingevidence/w3validations/findusw3validator.png)
 
 
 # Bugs
