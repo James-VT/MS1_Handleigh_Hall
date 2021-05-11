@@ -1,6 +1,7 @@
 # WAVE testing
-
+https://wave.webaim.org/
 * WAVE stands for Web Accessibility Evaluation Tool. It makes sure your website is useable by people who may have impaired vision or other difficulties.
+* To use it, go to the website above and paste the deployed URL of your webpage into the "web page address input. What you'll get is what you see below.
 
 ### WAVE test for index.html
 ![Image of homepage WAVE validation](docs/evidence/testingevidence/wavevalidations/indexwavevalidation.png)
@@ -15,8 +16,9 @@
 ![Image of find us WAVE validation](docs/evidence/testingevidence/wavevalidations/finduswavevalidation.png)
 
 # Lighthouse testing
-
-* Lighthouse is a validator built into Google Chrome, used for testing the performance, accessibility, best practice and more of a web page. Specifically I have used it to make sure all my pages are above the 80% mark in performance. 
+https://developers.google.com/web/tools/lighthouse
+* Lighthouse is a validator built into Google Chrome, used for testing the performance, accessibility, best practice and more of a web page. Specifically I have used it to make sure all my pages are above the 80% mark in performance.
+* To use Lighthouse, you can download Google Chrome web browser and use it from there or use one of the alternative options in the link above. Personally, I used Chrome. Right click on any web page, choose the bottom "inspect" option and click it. Then, in the dev tools that open up, the top bar will have a symbol of two little arrows. Select this, and you'll see Lighthouse at the bottom. Open it up from there, and click generate report. Voila.
 
 ### Lighthouse test for index.html
 ![Image of index Lighthouse validation](docs/evidence/testingevidence/lighthousevalidations/indexlighthouse.png)
@@ -37,7 +39,9 @@ For the findus.html page I have included the screenshot below of Lighthouse's be
 ![Image of find us Lighthouse validation best practices score and section](docs/evidence/testingevidence/lighthousevalidations/finduslighthousebestpractice.png)
 
 # W3 testing
+https://validator.w3.org/nu/
 * The W3 validator checks HTML for errors or bad practices. I have run each page through it to check to see if the code is good. Results below.
+* To use the Nu HTML checker, just go to the above site, punch in the URL of the page you want to check, and Bob's your uncle.
 
 ### W3 test for index.html
 ![Image of index W3 validation](docs/evidence/testingevidence/w3validations/indexw3validator.png)
@@ -51,6 +55,9 @@ For the findus.html page I have included the screenshot below of Lighthouse's be
 ### W3 test for findus.html
 ![Image of find us W3 validation](docs/evidence/testingevidence/w3validations/findusw3validator.png)
 
+### W3 test for style.css
+* W3's great because it can give you feedback for your CSS as well. Just click that CSS toggle next to the "Check by" input and paste it in.
+![Image of style.css W3 validation](docs/evidence/testingevidence/w3validations/cssw3validator.png)
 
 # Bugs
 
