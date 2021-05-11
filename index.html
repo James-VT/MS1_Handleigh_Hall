@@ -71,7 +71,7 @@
                         <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="bookingform" aria-hidden="true">
                             <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
-                                    <!--The below code is a bit of a mish-mash taken from https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_close. I've combined different bits of it, but the code/inspiration is found there.-->
+                                    <!--The below code is a bit of a mish-mash taken from https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_close in order to give the modal a close button. I've combined different bits of it, but the code/inspiration is found there.-->
                                     <button onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright close" data-dismiss="modal">
                                         &times;
                                     </button>
@@ -226,7 +226,7 @@
                                 <!--Below is the container for the Book Your Visit button. I've included a separate class for the button on the index page due to the different media query and structure of that page.-->
                                 <div class="button-container index-button-container">
                                     <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size-->
-                                    <button href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" class="btn btn-dark btn-lg btn-block book-button text-nowrap">
+                                    <button class="btn btn-dark btn-lg btn-block book-button text-nowrap" data-toggle="modal" data-target=".bd-example-modal-sm">
                                         Book Your Visit
                                     </button>
                                 </div>
