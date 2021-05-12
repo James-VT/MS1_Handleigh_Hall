@@ -183,10 +183,10 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
     * Autoprefixer was used to run my CSS through and get any various vendor prefixes (so, webkit prefixes) that I needed to make my pages consistent across browsers.
 
 ## Deployment
- Here I'll explain how to deploy the website to GitHub and how to run it locally. The former is best for letting other people have a look at it; the latter is for having a peek during development.
+ Here I'll explain how to deploy/how I deployed the website to GitHub and how to run it locally. 
 
 ### Deploying a static project to GitHub pages:
- 1. You'll need a GitHub account, if you don't already have one. Head to their site https://github.com and you'll see the sign-up links straightaway on the home page.
+ 1. You'll need a GitHub account, if you don't already have one. Head to their site https://github.com and you'll see the sign-up links straightaway on the home page. Google Chrome is the recommended browser for GitHub.
  2. Once you're signed-up, this'll be your landing page.
  ![github member signed-up landing page](docs/evidence/readmeevidence/deployment/githubhomepage.png)
  3. Click on the user icon in the top right corner of the screen - in the example above, mine is the little pink and white checkered circle. Click "settings" in this list.
@@ -196,11 +196,23 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
  6. Then, from the bar along the top (not the nav bar - lower, under the repo name) click Settings.
  7. On the Settings page, click "Pages" from the left-hand menu.
  ![github settings image from inside a repo](docs/evidence/readmeevidence/deployment/settings.png)
- 8. In the picture I've attached, you can see I've opened a drop down menu which, before you've deployed, will have a default value of none. Click this, then set it to Main. Mine, having been already deployed, says Master and yours will too when deployed, but ignore that discrepancy for now.
+ 8. In the picture I've attached, you can see I've opened a drop down menu which, before you've deployed, will have a default value of none. Click this, then set it to Main or Master depending on the version you're using. Mine, having been already deployed, says Master and yours will too when deployed, but ignore that discrepancy for now.
  9. Click Save.
  10. The page will refresh, and you'll see it change to say "Your site is ready to be deployed at "https://username.github.io/repository-name/"
  11. Be aware this deployed site will take a few minutes to deploy, usually about ten. Be patient and don't click while it's building as that can slow it down.
  12. Click the link to make sure it works after a suitable wait. Voila, you've deployed the site!
+
+
+ ### Running a local version of the project
+1. Again, you'll need a GitHub account. Go to https://github.com to make one.
+2. You'll want to install the Gitpod Browser Extensions for Chrome if you don't already have it. https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki?hl=en
+3. Once you've installed that, restart Chrome.
+4. Punch your details into GitPod to sign into it if you haven't already.
+5. Head to the repository for this project, which was deployed in the previous section.
+6. On the top right corner of the repository, you'll see the green "Gitpod" button. Click this.
+7. This creates a new workspace in Gitpod from the code in this repository, on which you can work locally.
+
+### Running a version of the project on a local IDE (VSCode, Pycharm, Cloud9 etc.)
 
 
 

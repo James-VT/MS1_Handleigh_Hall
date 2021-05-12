@@ -62,7 +62,7 @@ https://validator.w3.org/nu/
 # Bugs
 
 ![Image of the map overlapping the section header](docs/evidence/bugs/mapoverlap.png)
-
+### Map overhang
 This was a very annoying bug that meant at certain screen widths, you couldn't fill in or see the top part of the contact form as the emedded Google map was overflowing onto it.
 
 * What did I try?
@@ -81,8 +81,10 @@ A media query.
         }
     }
     
-![Image of WAVE flagging up the skipped heading level](docs/evidence/bugs/skippedheadinglevel.png)
+---
 
+![Image of WAVE flagging up the skipped heading level](docs/evidence/bugs/skippedheadinglevel.png)
+### Non-sequential heading elements
 Not necesarily a bug as such, but a problem that needed to be solved nonetheless. It turns out that playing fast and loose with heading elements was causing a problem for screen readers. As such, heading elements on the findus.html page were made sequential - thus, an h1 element can only be followed by an h2, and an h2 by an h3, et cetera.
 
 * What fixed the bug?
@@ -96,3 +98,19 @@ Sequential heading elements.
     <h5>
     <h2>
     <h1> is not okay.
+---
+![Image of facilities.html nav bar](docs/evidence/bugs/facilitiesburgerbug.png)
+### Unresponsive nav bar menu
+
+In testing, it emerged that the burger menu in nav bar on facilities.html at small screen sizes wasn't opening. It was fine on other pages.
+
+* What did I try?
+
+To investigate, I tried comparing the code with the pages on which it did work and found that, in order to improve the performance of the page, I'd commented out a script that was loaded automatically with CodeInstitute's template. Having un-commented it, it is now working again.
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+* What fixed the bug?
+
+^You can see that that last script is commented out. Simple remove the <!--> from either end and it's good to go again.
