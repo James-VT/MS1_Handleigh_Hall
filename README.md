@@ -108,23 +108,47 @@ User story number achieved by this feature | Goal  | How was this achieved? | Su
 * ### Booking form payment page -
     * The booking form currently has no payment options as I have not yet learned how to do this. This would not change the form as it currently exists. Once the user has completed the first page of the booking form, they would click the "proceed to payment" button and be taken to a new form to finish the transaction.
 
-## Template
+## Design choices
 
-Aspiring to simplicity, the website has been designed with a simple template that can be used across all pages. The background images have been chosen carefully (credit for these can be found below) to provide a visual indication of what's on offer at the property, and space has been left so that these remain visible on all screen sizes.
+Why did I make the choices I made? 
 
 ### Colours
 
-Beige: #ffffe6
-Oxford Blue: #0A122A
-Steel Blue: #4F7CAC
-Dark Liver: #55555f
-Platinum: ##e5e7e6
+* Beige: #ffffe6
+* Oxford Blue: #0A122A
+* Steel Blue: #4F7CAC
+* Platinum: ##e5e7e6
+* Dark Liver: #55555f
 
-Colour matching site used: [coolers.]https://coolors.co/ffffe6-0a122a-4f7cac-950952-023618
+Colour matching site used: [coolers.](https://coolors.co/ffffe6-0a122a-4f7cac-950952-023618)
 
-For the site's colours, I have chosen colours of beige and blue. The beige is to match the colour of Cotswold stone from which the fictional building is constructed, and Oxford Blue matches this well according to the colour matcher I used. Following on from these two colours, the next match was Steel Blue, which I have used to colour the Font Awesome icons. A similar beige colour to the header was chosen for the text boxes as these will scroll up over the background images or sit alongside them at wider screen sizes.
+![Colour palette](docs/evidence/readmeevidence/colourpalette.png)
 
-For the font, Dark Liver was used for the right level of contrast. Black would've been too harsh against the biege. Platinum was a colour I found on the website of the Imperial War Museum, and I found it worked much better than white as a background colour next to the biege.
+For the site's colours, I have chosen colours of beige, blue and grey. The beige is to match the colour of Cotswold stone from which the fictional building is constructed, a picture of which is first on the home page carousel. Oxford Blue pairs well with this according to the colour matcher I used, Coolers (link above). Following on from these two colours, the next match was Steel Blue, which I have used to colour the Font Awesome icons. A similar beige colour to the header was chosen for the text boxes as these will scroll up over the background images or sit alongside them at wider screen sizes.
+
+For the font, Dark Liver was used for the right level of contrast. Black would've been too harsh against the biege. Platinum was a colour I found on the website of the Imperial War Museum, and I found it worked much better than white as a background colour next to the biege of the banner.
+
+### Imagery
+
+The pictures for the site are intended to give visitors a teaser of the property. We have an outside image of the "house," a painting and a picture of a teapot on the home page's carousel. These three images can be taken to tease three of the main parts of the offer. The house itself, its contents and history, and food and drink. 
+
+Pictures are used strategically on the other pages as well. The Discover page has a small gallery of images appropriate to the era, the personalities and the landscape. Furthermore, the sections further down the page are each accompanied by an appropriate image.
+
+![The Earl of Strafford](assets/images/circle-strafford.png)
+
+On the facilities page we have a small upside-down pyramid of five images to showcase the catering offer at Handleigh Hall's tea pavillion. When it comes to food and drink, images can so often speak louder than words. My inspiration for this minimalist approach came from the Imperial War Museum's web page about its cafe at its London museum, link below.
+
+https://www.iwm.org.uk/visits/iwm-london/eat-drink
+
+![Gallery on the facilities page](docs/evidence/readmeevidence/facilitiesgallery.png)
+
+The find us page is also kept simple re: images, so as not to distract from the important information and embedded Google map on that page. Its only image is the background image of a man driving a pony and trap, in a hat that is (or at least, very much resembles) an era-appropriate one.
+
+![findus.html background image](assets/images/findusbackground.jpg)
+
+### Font
+
+The font used throughout this project is Roboto, a google font linked in the credits and the CSS sheet. I considered a sort of calligraphy-esque font to look like a handwritten letter of the time, but this would create unnecessary 
 
 ### Wireframes
 
