@@ -81,26 +81,39 @@ The Surface Plane: Colours for the website were chosen based on those colours as
 * ### Booking form -
     * The first page of a booking form has been built in to the bookingform.html page. This allows users to arrange to visit the site. It also allows the site owners to sell tickets online.
 
-* ### Text boxes -
-    * The boxes of text on each page allow users to learn the information they need. They also allow to site owners to provide a mix of text and images to communicate what Handleigh Hall is and answer the most commonly-sought bits of information by a visitor.
+* ## Text boxes -
+    * The boxes of text on each page allow users to learn the information they need. They also allow to site owners to provide a mix of text and images to communicate what Handleigh Hall is and answer the most commonly-sought bits of information by a visitor. The picture below is merely that of an example text-box. As it can relay any information put into it, it can tick off a greater number of user/site owner goals than just this one but I use it as an example here.
 
-* ### Footer -
+    ![Image of text box](docs/evidence/readmeevidence/textbox.png)
+
+User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? | Success or failure? 
+----- | ---------------------- | ------------------- | -------- | ----- | 
+1 | Learn what Handleigh Hall is. | Information on home page | User | Success 
+2 | Learn when they can visit the site. | Opening times section | User | Success |
+
+---
+
+* ## Footer -
     * Conforming to convention, the footer contains some of the most basic information - social media links, the charity number, how a visitor can contribute and the contact details. These last in particular are important for the user to have another means of contacting Handleigh Hall Trust other than the contact form, and also for knowing where Handleigh Hall is. Presenting the information here also allows the site owners to answer some very commonly-asked questions - namely, the address, phone number and email address - automatically.
 
-User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? | Evidence
------ | ---------------------- | ------------------- | -------- | -----
-3 | Learn how to get to the site. | Getting here instructions and details in footer | User | [Getting here](assets/images/gettinghere.png)
-6 | Relay information to visitors on how to get there. | Find Us page instructions | Site owner| [Getting here](assets/images/gettinghere.png)  
+    ![Image of footer](docs/evidence/readmeevidence/footer.png)
+
+--- 
+
+User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+----- | ---------------------- | ------------------- | -------- |
+3 | Learn how to get to the site. | Getting here instructions and details in footer | User 
+6 | Relay information to visitors on how to get there. | Find Us page instructions | Site owner 
 ---  
   
 * ## Social media links in the footer -
     * These allow a user to quickly move to other sites where they can learn more about Handleigh Hall and interact with the organisation. For the site owners, this increased interaction is another chance to turn interaction into ticket sales.
 
-![Image of social media links](assets/images/readmeevidence/socialcontact.png)
+![Image of social media links](docs/evidence/readmeevidence/socialcontact.png)
 
-User story number achieved by this feature | Goal  | How was this achieved? | Success or failure? | Evidence
------ | ---------------------- | ------------------- | -------- | -----
-8 | Drive up engagement with the public via social media | Social media links in footer of every page | Success | [Social media links](assets/images/readmeevidence/socialcontact.png)
+User story number achieved by this feature | Goal  | How was this achieved? | Success or failure? 
+----- | ---------------------- | ------------------- | -------- 
+8 | Drive up engagement with the public via social media | Social media links in footer of every page | Success 
 ---
 
 ## Features left to implement
