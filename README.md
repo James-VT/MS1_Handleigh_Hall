@@ -1,4 +1,4 @@
-![mockups](assets/images/mockups.png)
+![mockups](docs/evidence/readmeevidence/mockups/mockups.png)
 
 # Handleigh Hall README
 
@@ -148,7 +148,9 @@ The find us page is also kept simple re: images, so as not to distract from the 
 
 ### Font
 
-The font used throughout this project is Roboto, a google font linked in the credits and the CSS sheet. I considered a sort of calligraphy-esque font to look like a handwritten letter of the time, but this would create unnecessary 
+[Roboto.](https://fonts.google.com/specimen/Roboto#standard-styles)
+
+The font used throughout this project is Roboto, a google font linked in the credits and the CSS sheet. I considered a sort of calligraphy-esque font to look like a handwritten letter of the time, but this would create unnecessary difficultly for reading comprehension in many people, not just those with visual impairments. As such, I decided to stick with the popular Roboto font which is used on a lot of websites nowadays. Reinventing the wheel just for the sake of being flash can be fun, but isn't sensible in areas relating to accessibility. Sans-serif is there as a back-up.
 
 ### Wireframes
 
@@ -179,6 +181,28 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 
 * [Autoprefixer CSS online](https://autoprefixer.github.io/)
     * Autoprefixer was used to run my CSS through and get any various vendor prefixes (so, webkit prefixes) that I needed to make my pages consistent across browsers.
+
+## Deployment
+ Here I'll explain how to deploy the website to GitHub and how to run it locally. The former is best for letting other people have a look at it; the latter is for having a peek during development.
+
+### Deploying a static project to GitHub pages:
+ 1. You'll need a GitHub account, if you don't already have one. Head to their site https://github.com and you'll see the sign-up links straightaway on the home page.
+ 2. Once you're signed-up, this'll be your landing page.
+ ![github member signed-up landing page](docs/evidence/readmeevidence/deployment/githubhomepage.png)
+ 3. Click on the user icon in the top right corner of the screen - in the example above, mine is the little pink and white checkered circle. Click "settings" in this list.
+ 4. On the next screen, you'll see a menu on the left. Click "repositories" in this menu.
+ ![Image of settings screen on GitHub](docs/evidence/readmeevidence/deployment/repositories.png)
+ 5. You'll come to the screen above. Click the repository you want - in this case, Handleigh Hall.
+ 6. Then, from the bar along the top (not the nav bar - lower, under the repo name) click Settings.
+ 7. On the Settings page, click "Pages" from the left-hand menu.
+ ![github settings image from inside a repo](docs/evidence/readmeevidence/deployment/settings.png)
+ 8. In the picture I've attached, you can see I've opened a drop down menu which, before you've deployed, will have a default value of none. Click this, then set it to Main. Mine, having been already deployed, says Master and yours will too when deployed, but ignore that discrepancy for now.
+ 9. Click Save.
+ 10. The page will refresh, and you'll see it change to say "Your site is ready to be deployed at "https://username.github.io/repository-name/"
+ 11. Be aware this deployed site will take a few minutes to deploy, usually about ten. Be patient and don't click while it's building as that can slow it down.
+ 12. Click the link to make sure it works after a suitable wait. Voila, you've deployed the site!
+
+
 
 ## Validations
 * HTML + CSS validations, no errors, links to evidence pictures
