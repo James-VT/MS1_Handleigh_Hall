@@ -45,16 +45,18 @@ The main goals of the Handleigh Hall website are twofold: for its users, informa
 7. Learn about how they can contribute toi the site financially.
 8. Learn about how to inquire about volunteering opportunities at the site.
 
+
+
 ## Site Owner Stories
 
 ### A site owner will want to:
 
-6. Generate revenue through ticket sales.
-7. Relay information to visitors on how to get there.
-8. Generate revenue by relaying information about the food and beverage outlet on site.
-9. Drive up engagement with the public via social media and direct feedback.
-10. Generate donations to the charity that runs Handleigh Hall.
-11. Draw in interested volunteers.
+9. Generate revenue through ticket sales.
+10. Relay information to visitors on how to get there.
+11. Generate revenue by relaying information about the food and beverage outlet on site.
+12. Drive up engagement with the public via social media and direct feedback.
+13. Generate donations to the charity that runs Handleigh Hall.
+14. Draw in interested volunteers.
 
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
 
@@ -201,6 +203,27 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 
 * [Autoprefixer CSS online](https://autoprefixer.github.io/)
     * Autoprefixer was used to run my CSS through and get any various vendor prefixes (so, webkit prefixes) that I needed to make my pages consistent across browsers.
+
+* [Google Chrome](https://www.google.co.uk/chrome/?brand=FKPE&gclid=EAIaIQobChMIyMfvy8bH8AIVqRkGAB2XywuMEAAYASAAEgIpkvD_BwE&gclsrc=aw.ds)
+    * This project was completed using Google Chrome as a browser for development and all testing, excluding the testing done on other browsers to be sure of compatibility across multiple browsers.
+
+* [Opera](https://www.opera.com/)
+    * The site was tested in Opera for responsiveness and general compatibility with this browser.
+
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge)
+    * The site was tested in Microsoft Edge for resonsiveness and general compatibility with this browser.
+
+* [WAVE](https://wave.webaim.org/)
+    * WAVE was used to test the accessibility of the site for individuals with disabilities.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/?url=https://backpocket.co)
+    * Am I Responsive? is used to check whether a site is responsive across screen sizes.
+
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+    * Lighthouse is used to check the performance, accessibility and best practice ratings of a web page.
+
+* [W3's Nu HTML Checker](https://validator.w3.org/nu/)
+    * W3's Checker can test for errors and flag sctructure warnings for HTML and CSS. I have it to test for both.
 
 ## Deployment
  Here I'll explain how to deploy/how I deployed the website to GitHub and how to run it locally. 

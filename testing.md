@@ -59,6 +59,38 @@ https://validator.w3.org/nu/
 * W3's great because it can give you feedback for your CSS as well. Just click that CSS toggle next to the "Check by" input and paste it in.
 ![Image of style.css W3 validation](docs/evidence/testingevidence/w3validations/cssw3validator.png)
 
+# Browser testing
+
+## Google Chrome
+The entire Handleigh Hall project was created in Chrome, and Chrome is what I have used for the testing throughout. All the pictures you see, apart from the ones in this section clearly marked as being from another browser, are taken in Chrome so it has been extensively tested for compatibility with Chrome.
+
+---
+
+## Opera
+![Home page in Opera](docs/evidence/browserevidence/opera.png)
+
+The homepage maintains its layout at all widths - above, you can see it at full screen width for a desktop.
+
+![Facilities page mid-width in Opera](docs/evidence/browserevidence/operamidsize.png)
+
+To test responsiveness, I checked each page at different screen widths. This allowed me to test the links as well, all of which are working as expected in Opera. Above, you can see the facilities page in mid width.
+
+![Discover page in mobile width](docs/evidence/browserevidence/operasmall.png)
+
+Here's the discover page in small width in Opera, with the modal open, which is opening on every page.
+
+---
+
+## Microsoft Edge
+![Homepage in small width](docs/evidence/browserevidence/edgesmall.png)
+Above, I tested the home page in a small device width in Edge to be sure of its responsiveness. I have confirmed that this is consistent across all pages in Edge.
+
+![Discover page in mid width](docs/evidence/browserevidence/edgemidsize.png)
+The image above is of one of the pages I tested for responsives at the mid-size screen width in Edge. These worked fine. In this example, you can see how the navigation menu opens at this width.
+
+![Find Us page at full width](docs/evidence/browserevidence/edge.png)
+And here you can see an example of one of the pages at full width in Edge - in this case, the Find Us page with the embedded Google Map at its full extent.
+
 # Bugs
 
 ![Image of the map overlapping the section header](docs/evidence/bugs/mapoverlap.png)
