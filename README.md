@@ -31,23 +31,30 @@ The main goals of the Handleigh Hall website are twofold: for its users, informa
 
 ## User Stories
 
-### A user will want to:
+### A first time user will want to:
 
 1. Learn what Handleigh Hall is.
-2. Learn when they can visit the site.
-3. Learn how to get to the site.
-4. Learn how to arrange a visit to the site.
+2. Navigate easily through the site to find information.
+3. Learn when they can visit the site.
+4. Learn how to get to the site.
+5. Learn how to arrange a visit to the site.
+
+### A returning user will want to:
+
+6. Give feedback after a visit to the property.
+7. Learn about how they can contribute toi the site financially.
+8. Learn about how to inquire about volunteering opportunities at the site.
 
 ## Site Owner Stories
 
 ### A site owner will want to:
 
-5. Generate revenue through ticket sales.
-6. Relay information to visitors on how to get there.
-7. Generate revenue by relaying information about the food and beverage outlet on site.
-8. Drive up engagement with the public via social media and direct feedback.
-9. Generate donations to the charity that runs Handleigh Hall.
-10. Draw in interested volunteers.
+6. Generate revenue through ticket sales.
+7. Relay information to visitors on how to get there.
+8. Generate revenue by relaying information about the food and beverage outlet on site.
+9. Drive up engagement with the public via social media and direct feedback.
+10. Generate donations to the charity that runs Handleigh Hall.
+11. Draw in interested volunteers.
 
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
 
@@ -213,7 +220,7 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
  9. Click Save.
  10. The page will refresh, and you'll see it change to say "Your site is ready to be deployed at "https://username.github.io/repository-name/"
  11. Be aware this deployed site will take a few minutes to deploy, usually about ten. Be patient and don't click while it's building as that can slow it down.
- 12. Click the link to make sure it works after a suitable wait. Voila, you've deployed the site!
+ 12. Click the link to make sure it works after a suitable wait. Et voila, you've deployed the site!
 
 
  ### Running a local version of the project
