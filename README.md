@@ -42,21 +42,21 @@ The main goals of the Handleigh Hall website are twofold: for its users, informa
 ### A returning user will want to:
 
 6. Give feedback after a visit to the property.
-7. Learn about how they can contribute toi the site financially.
+7. Learn about how they can contribute to the site financially.
 8. Learn about how to inquire about volunteering opportunities at the site.
-
-
+9. Read new blog and news entries to learn what has changed at the property.
 
 ## Site Owner Stories
 
 ### A site owner will want to:
 
-9. Generate revenue through ticket sales.
-10. Relay information to visitors on how to get there.
-11. Generate revenue by relaying information about the food and beverage outlet on site.
-12. Drive up engagement with the public via social media and direct feedback.
-13. Generate donations to the charity that runs Handleigh Hall.
-14. Draw in interested volunteers.
+10. Generate revenue through ticket sales.
+11. Relay information to visitors on how to get there.
+12. Generate revenue by relaying information about the food and beverage outlet on site.
+13. Drive up engagement with the public via social media and direct feedback.
+14. Generate donations to the charity that runs Handleigh Hall.
+15. Draw in interested volunteers.
+16. Receive feedback/queries/complaints from returning users/visitors to the property
 
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
 
@@ -80,45 +80,80 @@ The Surface Plane: Colours for the website were chosen based on those colours as
 
 * ### Carousel -
     * The carousel found on index.html allows the site owners to present to site users a visual teaser of the attraction, and what is available there. The first picture gives them a view of the front of the building, the second of a painting inside it, and the third of a pot of tea from the catering outlet. Having these three pictures gives the site owners three chances to hook a potential visitor, and turn their visit to the site into a booking.
+    ![Image of carousel](docs/evidence/readmeevidence/featureevidence/carousel.png)
+
+    User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+    ----- | ------------ | ------------------- | -------- |
 
 * ### Contact form -
     * The contact form on findus.html allows users to submit comments and queries to the site owners by filling out and submitting the three fields. This gives users a simple point of contact for acquiring further information. It also gives the site owners the chance to interact further with site visitors, giving more opportunities to turn interactions into booking/ticket sales.
+    ![Image of the contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
 
-* ### Booking button -
-    * The booking button found on every page except bookingform.html itself allows users to navigate to the booking form at any time once they have decided they've seen enough to interest them. This helps to secure bookings and generate revenue for the site owners. 
+    User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+    ----- | ------------ | ------------------- | -------- |
+    6 | Give feedback after a visit to the property | The contact form is the method by which a user can give feedback | Returning user
+    16 | Receive feedback/queries/complaints from returning users/visitors to the property | The contact form allows the site owners to receive feedback and other communication from users | Site owner
+---
 
-* ### Booking form -
-    * The first page of a booking form has been built in to the bookingform.html page. This allows users to arrange to visit the site. It also allows the site owners to sell tickets online.
+* ## Booking button -
+    * The booking button found on every page allows users to navigate to the booking form at any time once they have decided they've seen enough to interest them. This helps to secure bookings and generate revenue for the site owners.
+
+    ![Image of the booking button](docs/evidence/readmeevidence/featureevidence/bookingbutton.png)
+
+User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+----- | ------------ | ------------------- | -------- |
+5 | Learn how to arrange a visit to the site. | The button to book a visit is apparent on every page, and unambiguously worded. | First time user
+10 | Generate revenue through ticket sales | Users can book tickets from any part of the site | Site owner
+
+---
+
+* ## Booking form -
+    * The first page of a booking form has been built into a modal accessible from every page. This allows users to arrange to visit the site. It also allows the site owners to sell tickets online.
+
+    ![Image of booking modal](docs/evidence/readmeevidence/featureevidence/bookingmodal.png)
+
+User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+----- | ------------ | ------------------- | -------- |
+5 | Learn how to arrange a visit to the site. | Booking form modal allows users to book their visit | First time user
+10 | Generate revenue through ticket sales. | Booking form modal allows users to begin process of buying and paying for tickets | Site owner
+
+---
 
 * ## Text boxes -
     * The boxes of text on each page allow users to learn the information they need. They also allow to site owners to provide a mix of text and images to communicate what Handleigh Hall is and answer the most commonly-sought bits of information by a visitor. The picture below is merely that of an example text-box. As it can relay any information put into it, it can tick off a greater number of user/site owner goals than just this one but I use it as an example here.
 
-    ![Image of text box](docs/evidence/readmeevidence/textbox.png)
+    ![Image of About Us text box](docs/evidence/readmeevidence/featureevidence/textbox.png)
+    ![Image of Opening Times text box section](docs/evidence/readmeevidence/featureevidence/openingtimestextbox.png)
+    ![Image of Getting Here text box section](docs/evidence/readmeevidence/featureevidence/gettingheretextbox.png)
 
-User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? | Success or failure? 
------ | ---------------------- | ------------------- | -------- | ----- | 
-1 | Learn what Handleigh Hall is. | Information on home page | User | Success 
-2 | Learn when they can visit the site. | Opening times section | User | Success |
+User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal?
+----- | ---------------------- | ------------------- | -------- |  
+1 | Learn what Handleigh Hall is. | Information on home page About Us section | First time user |  
+3 | Learn when they can visit the site. | Opening times section has opening times | First time user | 
+11 | Relay information to visitors on how to get there | Getting here section has directions | Site owner
 
 ---
 
 * ## Footer -
     * Conforming to convention, the footer contains some of the most basic information - social media links, the charity number, how a visitor can contribute and the contact details. These last in particular are important for the user to have another means of contacting Handleigh Hall Trust other than the contact form, and also for knowing where Handleigh Hall is. Presenting the information here also allows the site owners to answer some very commonly-asked questions - namely, the address, phone number and email address - automatically.
 
-    ![Image of footer](docs/evidence/readmeevidence/footer.png)
+    ![Image of footer](docs/evidence/readmeevidence/featureevidence/footer.png)
 
 --- 
 
 User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
 ----- | ---------------------- | ------------------- | -------- |
-3 | Learn how to get to the site. | Getting here instructions and details in footer | User 
-6 | Relay information to visitors on how to get there. | Find Us page instructions | Site owner 
+4 | Learn how to get to the site. | Address and postcode details in footer | First time/returning user
+7 | Learn about how they can contribute to the site financially. | Instructions to contact the site directly in order to donate are in the footer | Returning user
+8 | Learn about how to inquire about volunteering opportunities at the site | Instructions to inquire directly about volunteering opportunities located in footer | Returning user
+
+
 ---  
   
 * ## Social media links in the footer -
     * These allow a user to quickly move to other sites where they can learn more about Handleigh Hall and interact with the organisation. For the site owners, this increased interaction is another chance to turn interaction into ticket sales.
 
-![Image of social media links](docs/evidence/readmeevidence/socialcontact.png)
+![Image of social media links](docs/evidence/readmeevidence/featureevidence/socialcontact.png)
 
 User story number achieved by this feature | Goal  | How was this achieved? | Success or failure? 
 ----- | ---------------------- | ------------------- | -------- 
