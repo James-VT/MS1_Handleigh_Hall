@@ -97,14 +97,24 @@ Testing against stories - how was this goal achieved? Evidence - screenshot
 
 ### Testing against user goals
 
-Below I have tested the sites functions and features against the user goals.
+Below I have tested the site's functions and features against the first time user goals.
 
-Number | Goal  | How was this achieved? | Success or failure? | Evidence
+User story number | A first time user will want to:  | How was this achieved? | Success or failure? | Evidence
 ----- | ---------------------- | ------------------- | -------- | -----
-1 | Learn what Handleigh Hall is. | Information on home page | Success | [About section](assets/images/indexabout.png)
-2 | Learn when they can visit the site. | Opening times section | Success | [Opening times ](assets/images/openingtimes.png)
-3 | Learn how to get to the site. | Getting here instructions | Success | [Getting here](assets/images/gettinghere.png)
-4 | Learn how to arrange a visit to the site. | Booking page | Success | [Booking form](assets/images/bookingform.png)
+1 | Learn what Handleigh Hall is. | Information on home page - specifically, the About Us section | Success | [About Us section](docs/evidence/testingevidence/userstoryevidence/indexabout.png)
+2 | Navigate easily through the site to find information. | Header | Success | [Header](docs/evidence/readmeevidence/featureevidence/header.png)
+3 | Learn when they can visit the site. | Opening times section | Success | [Opening times](docs/evidence/testingevidence/userstoryevidence/openingtimes.png)
+4 | Learn how to get to the site. | Getting here instructions | Success | [Getting here](docs/evidence/testingevidence/userstoryevidence/gettinghere.png)
+5 | Learn how to arrange a visit to the site. | Booking page | Success | [Booking form](docs/evidence/testingevidence/userstoryevidence/bookingform.png)
+
+Below I have tested the site's functions and features against the returning user goals.
+
+Number | A returning user will want to: | How was this achieved? | Success or failure? | Evidence
+----- | ---------------------- | ------------------- | -------- | -----
+6 | Give feedback after a visit to the property | Feedback form | Success | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
+7 | Learn about how they can contribute to the site financially | footer | success | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+8 | Learn about how to inquire about volunteering opportunities at the site | footer | success | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+9 | Read new blog and news entries to learn what has changed at the property | latest news section | success | [Latest news](docs/evidence/readmeevidence/featureevidence/blogtextbox.png)
 
 ### Testing against site owner goals
 
@@ -112,10 +122,14 @@ Below I have tested the site's functions and features against the site owner goa
 
 Number | Goal  | How was this achieved? | Success or failure? | Evidence
 ----- | ---------------------- | ------------------- | -------- | -----
-5 | Generate revenue through ticket sales. | Booking button prevelant on every page | Success | [Book Your Visit button](assets/images/bookingbutton.png)
-6 | Relay information to visitors on how to get there. | Find Us page instructions | Success | [Getting here](assets/images/gettinghere.png)
-7 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | Success | [Eating and drinking](assets/images/catering.png)
-8 | Drive up engagement with the public via social media | Every page | Success | [Social media links](assets/images/socialcontact.png)
+10 | Generate revenue through ticket sales. | Booking button prevelant on every page | Success | [Book Your Visit button](assets/images/bookingbutton.png)
+11 | Relay information to visitors on how to get there. | Find Us page instructions | Success | [Getting here](assets/images/gettinghere.png)
+12 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | Success | [Eating and drinking](assets/images/catering.png)
+13 | Drive up engagement with the public via social media | Every page | Success | [Social media links](assets/images/socialcontact.png)
+14 | Generate donations to the charity that runs Handleigh Hall | footer | success | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+15 | Draw in interested volunteers. | footer | success | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+16 | Receive feedback/queries/complaints from returning users/visitors to the property | contact form | success | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
+
 
 # Bugs
 
