@@ -72,20 +72,45 @@ The Surface Plane: Colours for the website were chosen based on those colours as
 
 ## Existing Features
 
-* ### Header -
+Below I have listed the features with which the website will launch. I have provided screenshots of these, and have elaborated on which user stories they satisfy.
+
+* ## Header -
     * The header, built using Bootstrap (credit and link below and in source code) allows a user to navigate easily across the pages of the site. For the site owners, this is good as ease of navigation will keep a user on the sire for longer, making them more likely to book a visit.
 
-* ### Squashed "burger" navigation menu at smaller screen sizes -
-    * Another Bootstrap addition (credit and link below and in source code), this familiar three-line icon adheres to convention by giving users something familiar they know to click for a collapsed menu.
+    ![Image of the header](docs/evidence/readmeevidence/featureevidence/header.png)
 
-* ### Carousel -
+    User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+    ----- | ------------ | ------------------- | -------- |
+    2 | Navigate easily through the site to find information | The title of each page, and the booking button, are there at the top. These are recognisable to a user as navigation links, and make their content clear. | First time user
+    5 | Learn how to arrange a visit to the site | The wording of "book your visit" in the booking button, clearly visible in the header bar at all screen sizes, is unambiguous. Its colouring makes it stand out from the background, highlighting its importance and the fact it will functio differently to a normal page link. | First time user
+    10 | Generate revenue through ticket sales | The "book your visit" button is clearly visible to users, and is always present in the header bar at all screen sizes - it does not meld with the burger menu on small devices. Therefore, the ask for a booking/sale is always being made when a user lands on a page. | Site owner
+    11 | Relay information to visitors on how to get there | The Find Us page link, due to its title, could be reasonably expected to hold information on how to reach the property. | Site owner
+    12 | Generate revenue by relaying information about the food and beverage outlet on site | The Facilities page link, due to its title, could be reasonably expected to hold information regarding the catering offer at the property. | Site owner
+
+---
+
+* ## Squashed "burger" navigation menu at smaller screen sizes -
+    * Another Bootstrap addition (credit and link below and in source code), this familiar three-line icon adheres to convention by giving users something familiar they know to click for a collapsed menu.
+    
+    ![Image of the burger menu](docs/evidence/readmeevidence/featureevidence/burger.png)
+
+    User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+    ----- | ------------ | ------------------- | -------- |
+    2 | Navigate easily through the site to find information | Famailiar burger menu is used across the internet for devices of all sizes, but mostly mobile devices. This is the most recognisable icon that could be used to tell people "click here for a navigation menu." | First time user
+
+---
+
+* ## Carousel -
     * The carousel found on index.html allows the site owners to present to site users a visual teaser of the attraction, and what is available there. The first picture gives them a view of the front of the building, the second of a painting inside it, and the third of a pot of tea from the catering outlet. Having these three pictures gives the site owners three chances to hook a potential visitor, and turn their visit to the site into a booking.
     ![Image of carousel](docs/evidence/readmeevidence/featureevidence/carousel.png)
 
     User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
     ----- | ------------ | ------------------- | -------- |
+    10 | Generate revenue through ticket sales | Enticing images in the carousel are designed to attract visitors to make bookings | Site owner
 
-* ### Contact form -
+---
+
+* ## Contact form -
     * The contact form on findus.html allows users to submit comments and queries to the site owners by filling out and submitting the three fields. This gives users a simple point of contact for acquiring further information. It also gives the site owners the chance to interact further with site visitors, giving more opportunities to turn interactions into booking/ticket sales.
     ![Image of the contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
 
@@ -93,7 +118,8 @@ The Surface Plane: Colours for the website were chosen based on those colours as
     ----- | ------------ | ------------------- | -------- |
     6 | Give feedback after a visit to the property | The contact form is the method by which a user can give feedback | Returning user
     16 | Receive feedback/queries/complaints from returning users/visitors to the property | The contact form allows the site owners to receive feedback and other communication from users | Site owner
----
+    
+    ---
 
 * ## Booking button -
     * The booking button found on every page allows users to navigate to the booking form at any time once they have decided they've seen enough to interest them. This helps to secure bookings and generate revenue for the site owners.
@@ -125,11 +151,13 @@ User story number achieved by this feature | Goal  | How was this achieved? | Us
     ![Image of About Us text box](docs/evidence/readmeevidence/featureevidence/textbox.png)
     ![Image of Opening Times text box section](docs/evidence/readmeevidence/featureevidence/openingtimestextbox.png)
     ![Image of Getting Here text box section](docs/evidence/readmeevidence/featureevidence/gettingheretextbox.png)
+    ![Image of Latest News text box section](docs/evidence/readmeevidence/featureevidence/blogtextbox.png)
 
 User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal?
 ----- | ---------------------- | ------------------- | -------- |  
 1 | Learn what Handleigh Hall is. | Information on home page About Us section | First time user |  
 3 | Learn when they can visit the site. | Opening times section has opening times | First time user | 
+9 | Read new blog and news entries to learn what has changed at the property | Latest News section has links to blog articles | Return user
 11 | Relay information to visitors on how to get there | Getting here section has directions | Site owner
 
 ---
@@ -163,13 +191,15 @@ User story number achieved by this feature | Goal  | How was this achieved? | Su
 ## Features left to implement
 
 * ### Booking form payment page -
-    * The booking form currently has no payment options as I have not yet learned how to do this. This would not change the form as it currently exists. Once the user has completed the first page of the booking form, they would click the "proceed to payment" button and be taken to a new form to finish the transaction.
+    * The booking form currently has no payment options as I have not yet learned how to do this. This would not change the form as it currently exists. Once the user has completed the first page of the booking form, they would click the "proceed to booking suite" button and be taken to a new form to finish the transaction.
 
-## Design choices
+---
+
+# Design choices
 
 Why did I make the choices I made? 
 
-### Colours
+## Colours
 
 * Beige: #ffffe6
 * Oxford Blue: #0A122A
@@ -185,7 +215,7 @@ For the site's colours, I have chosen colours of beige, blue and grey. The beige
 
 For the font, Dark Liver was used for the right level of contrast. Black would've been too harsh against the biege. Platinum was a colour I found on the website of the Imperial War Museum, and I found it worked much better than white as a background colour next to the biege of the banner.
 
-### Imagery
+## Imagery
 
 The pictures for the site are intended to give visitors a teaser of the property. We have an outside image of the "house," a painting and a picture of a teapot on the home page's carousel. These three images can be taken to tease three of the main parts of the offer. The house itself, its contents and history, and food and drink. 
 
@@ -203,13 +233,13 @@ The find us page is also kept simple re: images, so as not to distract from the 
 
 ![findus.html background image](assets/images/findusbackground.jpg)
 
-### Font
+## Font
 
 [Roboto.](https://fonts.google.com/specimen/Roboto#standard-styles)
 
 The font used throughout this project is Roboto, a google font linked in the credits and the CSS sheet. I considered a sort of calligraphy-esque font to look like a handwritten letter of the time, but this would create unnecessary difficultly for reading comprehension in many people, not just those with visual impairments. As such, I decided to stick with the popular Roboto font which is used on a lot of websites nowadays. Reinventing the wheel just for the sake of being flash can be fun, but isn't sensible in areas relating to accessibility. Sans-serif is there as a back-up.
 
-### Wireframes
+## Wireframes
 
 The layout of the pages for this project were planned using Balsamiq's wireframes. The wireframes for mobile devices can be found [here.](docs/wireframes/wireframems1mobile.pdf) The wireframes for tablets can be found [here.](docs/wireframes/wireframems1tablet.pdf) The wireframes for desktops can be found [here.](docs/wireframes/wireframems1desktop.pdf)
 
