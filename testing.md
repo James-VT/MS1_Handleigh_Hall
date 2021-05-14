@@ -91,6 +91,32 @@ The image above is of one of the pages I tested for responsives at the mid-size 
 ![Find Us page at full width](docs/evidence/browserevidence/edge.png)
 And here you can see an example of one of the pages at full width in Edge - in this case, the Find Us page with the embedded Google Map at its full extent.
 
+Testing against stories - how was this goal achieved? Evidence - screenshot
+
+# Testing the site against the goals of a user and of a site owner - NOT YET UPDATED WITH NEW FILEPATHS
+
+### Testing against user goals
+
+Below I have tested the sites functions and features against the user goals.
+
+Number | Goal  | How was this achieved? | Success or failure? | Evidence
+----- | ---------------------- | ------------------- | -------- | -----
+1 | Learn what Handleigh Hall is. | Information on home page | Success | [About section](assets/images/indexabout.png)
+2 | Learn when they can visit the site. | Opening times section | Success | [Opening times ](assets/images/openingtimes.png)
+3 | Learn how to get to the site. | Getting here instructions | Success | [Getting here](assets/images/gettinghere.png)
+4 | Learn how to arrange a visit to the site. | Booking page | Success | [Booking form](assets/images/bookingform.png)
+
+### Testing against site owner goals
+
+Below I have tested the site's functions and features against the site owner goals.
+
+Number | Goal  | How was this achieved? | Success or failure? | Evidence
+----- | ---------------------- | ------------------- | -------- | -----
+5 | Generate revenue through ticket sales. | Booking button prevelant on every page | Success | [Book Your Visit button](assets/images/bookingbutton.png)
+6 | Relay information to visitors on how to get there. | Find Us page instructions | Success | [Getting here](assets/images/gettinghere.png)
+7 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | Success | [Eating and drinking](assets/images/catering.png)
+8 | Drive up engagement with the public via social media | Every page | Success | [Social media links](assets/images/socialcontact.png)
+
 # Bugs
 
 ![Image of the map overlapping the section header](docs/evidence/bugs/mapoverlap.png)
