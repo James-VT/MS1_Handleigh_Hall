@@ -59,7 +59,7 @@ https://validator.w3.org/nu/
 * W3's great because it can give you feedback for your CSS as well. Just click that CSS toggle next to the "Check by" input and paste it in.
 ![Image of style.css W3 validation](docs/evidence/testingevidence/w3validations/cssw3validator.png)
 
-# Browser testing
+# Browser compatibility testing
 
 ## Google Chrome
 The entire Handleigh Hall project was created in Chrome, and Chrome is what I have used for the testing throughout. All the pictures you see, apart from the ones in this section clearly marked as being from another browser, are taken in Chrome so it has been extensively tested for compatibility with Chrome.
@@ -91,44 +91,48 @@ The image above is of one of the pages I tested for responsives at the mid-size 
 ![Find Us page at full width](docs/evidence/browserevidence/edge.png)
 And here you can see an example of one of the pages at full width in Edge - in this case, the Find Us page with the embedded Google Map at its full extent.
 
-Testing against stories - how was this goal achieved? Evidence - screenshot
+---
 
 # Testing the site against the goals of a user and of a site owner - NOT YET UPDATED WITH NEW FILEPATHS
 
-### Testing against user goals
+## Testing against first time user goals
 
-Below I have tested the site's functions and features against the first time user goals.
+### Below I have tested the site's functions and features against the first time user goals:
 
-User story number | A first time user will want to:  | How was this achieved? | Success or failure? | Evidence
------ | ---------------------- | ------------------- | -------- | -----
-1 | Learn what Handleigh Hall is. | Information on home page - specifically, the About Us section | Success | [About Us section](docs/evidence/testingevidence/userstoryevidence/indexabout.png)
-2 | Navigate easily through the site to find information. | Header | Success | [Header](docs/evidence/readmeevidence/featureevidence/header.png)
-3 | Learn when they can visit the site. | Opening times section | Success | [Opening times](docs/evidence/testingevidence/userstoryevidence/openingtimes.png)
-4 | Learn how to get to the site. | Getting here instructions | Success | [Getting here](docs/evidence/testingevidence/userstoryevidence/gettinghere.png)
-5 | Learn how to arrange a visit to the site. | Booking page | Success | [Booking form](docs/evidence/testingevidence/userstoryevidence/bookingform.png)
+User story number | A first time user will want to:  | How was this achieved? | Evidence
+----- | ---------------------- | ------------------- | --------
+1 | Learn what Handleigh Hall is. | Information on home page - specifically, the About Us section. All other parts of the website serve to give more information on what Handleigh Hall is, but the About Us section is the most direct. | [About Us section](docs/evidence/testingevidence/userstoryevidence/indexabout.png)
+2 | Navigate easily through the site to find information. | The header contains navigation links for all pages and the booking modal form. At small screen sizes, the navigation form is compressed into a "burger" menu icon, recognisable to mobile device users and others as a navigation tool. | [Header](docs/evidence/readmeevidence/featureevidence/header.png) and [burger menu](docs/evidence/readmeevidence/featureevidence/burger.png)
+3 | Learn when they can visit the site. | The opening times section on the Find Us page relays the times a visitor can visit the site. | [Opening times](docs/evidence/testingevidence/userstoryevidence/openingtimes.png)
+4 | Learn how to get to the site. | The getting Here instructions  | [Getting here](docs/evidence/testingevidence/userstoryevidence/gettinghere.png)
+5 | Learn how to arrange a visit to the site. | Booking page | [Booking form](docs/evidence/testingevidence/userstoryevidence/bookingform.png) and [Header](docs/evidence/readmeevidence/featureevidence/header.png)
 
-Below I have tested the site's functions and features against the returning user goals.
+---
 
-Number | A returning user will want to: | How was this achieved? | Success or failure? | Evidence
------ | ---------------------- | ------------------- | -------- | -----
-6 | Give feedback after a visit to the property | Feedback form | Success | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
-7 | Learn about how they can contribute to the site financially | footer | success | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
-8 | Learn about how to inquire about volunteering opportunities at the site | footer | success | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
-9 | Read new blog and news entries to learn what has changed at the property | latest news section | success | [Latest news](docs/evidence/readmeevidence/featureevidence/blogtextbox.png)
+## Testing against returning user goals
 
-### Testing against site owner goals
+### Below I have tested the site's functions and features against the returning user goals:
 
-Below I have tested the site's functions and features against the site owner goals.
+Number | A returning user will want to: | How was this achieved? | Evidence
+----- | ---------------------- | ------------------- | -------- 
+6 | Give feedback after a visit to the property | Feedback form | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
+7 | Learn about how they can contribute to the site financially | footer | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+8 | Learn about how to inquire about volunteering opportunities at the site | footer | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+9 | Read new blog and news entries to learn what has changed at the property | latest news section | [Latest news](docs/evidence/readmeevidence/featureevidence/blogtextbox.png)
 
-Number | Goal  | How was this achieved? | Success or failure? | Evidence
------ | ---------------------- | ------------------- | -------- | -----
-10 | Generate revenue through ticket sales. | Booking button prevelant on every page | Success | [Book Your Visit button](assets/images/bookingbutton.png)
-11 | Relay information to visitors on how to get there. | Find Us page instructions | Success | [Getting here](assets/images/gettinghere.png)
-12 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | Success | [Eating and drinking](assets/images/catering.png)
-13 | Drive up engagement with the public via social media | Every page | Success | [Social media links](assets/images/socialcontact.png)
-14 | Generate donations to the charity that runs Handleigh Hall | footer | success | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
-15 | Draw in interested volunteers. | footer | success | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
-16 | Receive feedback/queries/complaints from returning users/visitors to the property | contact form | success | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
+## Testing against site owner goals
+
+### Below I have tested the site's functions and features against the site owner goals:
+
+Number | Goal  | How was this achieved? | Evidence
+----- | ---------------------- | ------------------- | -------- 
+10 | Generate revenue through ticket sales. | Booking button prevelant on every page | [Book Your Visit button](assets/images/bookingbutton.png) and [carousel](docs/evidence/readmeevidence/featureevidence/carousel.png)
+11 | Relay information to visitors on how to get there. | Find Us page instructions | [Getting here](assets/images/gettinghere.png)
+12 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | [Eating and drinking](assets/images/catering.png)
+13 | Drive up engagement with the public via social media | Every page | [Social media links](assets/images/socialcontact.png)
+14 | Generate donations to the charity that runs Handleigh Hall | footer | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+15 | Draw in interested volunteers. | footer | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+16 | Receive feedback/queries/complaints from returning users/visitors to the property | contact form  | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
 
 
 # Bugs

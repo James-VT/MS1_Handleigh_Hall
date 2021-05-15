@@ -58,19 +58,33 @@ The main goals of the Handleigh Hall website are twofold: for its users, informa
 15. Draw in interested volunteers.
 16. Receive feedback/queries/complaints from returning users/visitors to the property
 
+---
+
+# The Five Planes of User Experience Development
+
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
+
+## The Strategy plane
 
 Addressing the strategy plane for this project, I asked myself who would need this website, and what they might hope to achieve by using it. I have asked these questions from the point of view of the owner and a visitor to the website. The site owner wants to generate revenue and visits by selling tickets, and making visitors aware of what's available. Visitors want to know if this place is worth visiting, and how to do so.
 
-The Scope Plane: This plane helped to prevent the project growing beyond its immediate scope. The main strategy is to generate ticket sales by promoting the property. As such, the pages in the navigation bar are chosen to address the main questions of a visitor to these places: what is it, what food and drink is available, are there public lavatories, etc.
+## The Scope Plane
 
-The Structure Plane: my wireframes can be found below. These have been constructed with the idea that mobile design should come first, and that the main aim from the point of the view of the site owner is to generate income via bookings to visit the historic house. This is why the BOOK button is visible for as much of the time as possible, and each page presents its information in a way that encourages the selling of tickets.
+This plane helped to prevent the project growing beyond its immediate scope. The main strategy is to generate ticket sales by promoting the property. As such, the pages in the navigation bar are chosen to address the main questions of a visitor to these places: what is it, what food and drink is available, are there public lavatories, etc.
 
-The Skeleton Plane: The information is structured in such a way that the pictures do much of the job of catching a user's eye, with the information kept in unobtrusive places. Navigation is performed via the header, with page title links kept clear and concise. On smaller screen sizes, where the information needs to be scrolled to, the top of the first text section is visible along with its title, telling users exactly what it is they'll find there and visually informing them how to get to it. At larger screen sizes this is different, as both the images and information can be presented at once while taking away from neither. 
+## The Structure Plane 
 
-The Surface Plane: Colours for the website were chosen based on those colours associated with the visual look of Handleigh Hall itself. Green for the grass around it, blue for the (optimistically) blue sky above, and the beige colour of the navigation bar to resemble the colour of the local stone from which the property was constructed.
+My wireframes can be found below. These have been constructed with the idea that mobile design should come first, and that the main aim from the point of the view of the site owner is to generate income via bookings to visit the historic house. This is why the BOOK button is visible for as much of the time as possible, and each page presents its information in a way that encourages the selling of tickets.
 
-## Existing Features
+## The Skeleton Plane
+The information is structured in such a way that the pictures do much of the job of catching a user's eye, with the information kept in unobtrusive places. Navigation is performed via the header, with page title links kept clear and concise. On smaller screen sizes, where the information needs to be scrolled to, the top of the first text section is visible along with its title, telling users exactly what it is they'll find there and visually informing them how to get to it. At larger screen sizes this is different, as both the images and information can be presented at once while taking away from neither. 
+
+## The Surface Plane
+Colours for the website were chosen based on those colours associated with the visual look of Handleigh Hall itself. Green for the grass around it, blue for the (optimistically) blue sky above, and the beige colour of the navigation bar to resemble the colour of the local stone from which the property was constructed.
+
+---
+
+# Existing Features
 
 Below I have listed the features with which the website will launch. I have provided screenshots of these, and have elaborated on which user stories they satisfy.
 
@@ -84,7 +98,7 @@ Below I have listed the features with which the website will launch. I have prov
     2 | Navigate easily through the site to find information | The title of each page, and the booking button, are there at the top. These are recognisable to a user as navigation links, and make their content clear. | First time user
     5 | Learn how to arrange a visit to the site | The wording of "book your visit" in the booking button, clearly visible in the header bar at all screen sizes, is unambiguous. Its colouring makes it stand out from the background, highlighting its importance and the fact it will functio differently to a normal page link. | First time user
     10 | Generate revenue through ticket sales | The "book your visit" button is clearly visible to users, and is always present in the header bar at all screen sizes - it does not meld with the burger menu on small devices. Therefore, the ask for a booking/sale is always being made when a user lands on a page. | Site owner
-    11 | Relay information to visitors on how to get there | The Find Us page link, due to its title, could be reasonably expected to hold information on how to reach the property. | Site owner
+    11 | Relay information to visitors on how to get there | The Find Us page link, due to its title, could be reasonably expected by a user to hold information on how to reach the property. | Site owner
     12 | Generate revenue by relaying information about the food and beverage outlet on site | The Facilities page link, due to its title, could be reasonably expected to hold information regarding the catering offer at the property. | Site owner
 
 ---
