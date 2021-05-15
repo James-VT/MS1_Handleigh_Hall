@@ -1,29 +1,35 @@
 ![mockups](docs/evidence/readmeevidence/mockups/mockups.png)
 
-# Handleigh Hall README
+# Handleigh Hall
 
-https://james-vt.github.io/MS1_Handleigh_Hall/
+## [View live site](https://james-vt.github.io/MS1_Handleigh_Hall/)
 
 ## Table of contents
 
 * Project overview
 * UX
 * User stories
-* Site owner stories
+    * First time user stories
+    * Returning user stories
+    * Site owner stories
+* The Five Planes of User Experience Development
 * Features
-* Template
-* Colours
-* Wireframes
+* Design choices
+    * Colours
+    * Imagery
+    * Font
+    * Wireframes
 * Technologies used
 * Deployment
 * Validations
 * Testing
 * Bugs
-* Features credits
+* Credits
+* Image credits
 
 ## Project overview
 
-This project imagines the creation of a website for a fictional visitor attraction in Oxfordshire. It imagines this property - an old English country house - has recently opened to the public and the charitable trust thast runs the site wants a website for a number of purposes. They want to generate revenue by securing ticket bookings, they want to relay information to visitors about what's on offer, how to get there, and when visitors can come, and they want to generate interaction with the public. This latter will happen both directly, via a contact form, and by directing people to social media.
+This project imagines the creation of a website for a fictional visitor attraction in Oxfordshire. It imagines this property - an old English country house - has recently opened to the public and the charitable trust that runs the site wants a website for a number of purposes. They want to generate revenue by securing ticket bookings, they want to relay information to visitors about what's on offer, how to get there, and when visitors can come, and they want to generate interaction with the public. This latter will happen both directly, via a contact form, and by directing people to social media.
 
 ## UX
 
@@ -45,8 +51,6 @@ The main goals of the Handleigh Hall website are twofold: for its users, informa
 7. Learn about how they can contribute to the site financially.
 8. Learn about how to inquire about volunteering opportunities at the site.
 9. Read new blog and news entries to learn what has changed at the property.
-
-## Site Owner Stories
 
 ### A site owner will want to:
 
@@ -84,7 +88,7 @@ Colours for the website were chosen based on those colours associated with the v
 
 ---
 
-# Existing Features
+# Features
 
 Below I have listed the features with which the website will launch. I have provided screenshots of these, and have elaborated on which user stories they satisfy.
 
@@ -93,7 +97,7 @@ Below I have listed the features with which the website will launch. I have prov
 
     ![Image of the header](docs/evidence/readmeevidence/featureevidence/header.png)
 
-    User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+    User story number achieved by this feature | User story goal | How was this achieved? | User or site owner goal? |
     ----- | ------------ | ------------------- | -------- |
     2 | Navigate easily through the site to find information | The title of each page, and the booking button, are there at the top. These are recognisable to a user as navigation links, and make their content clear. | First time user
     5 | Learn how to arrange a visit to the site | The wording of "book your visit" in the booking button, clearly visible in the header bar at all screen sizes, is unambiguous. Its colouring makes it stand out from the background, highlighting its importance and the fact it will functio differently to a normal page link. | First time user
@@ -108,7 +112,7 @@ Below I have listed the features with which the website will launch. I have prov
     
     ![Image of the burger menu](docs/evidence/readmeevidence/featureevidence/burger.png)
 
-    User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+    User story number achieved by this feature | User story goal | How was this achieved? | User or site owner goal? |
     ----- | ------------ | ------------------- | -------- |
     2 | Navigate easily through the site to find information | Famailiar burger menu is used across the internet for devices of all sizes, but mostly mobile devices. This is the most recognisable icon that could be used to tell people "click here for a navigation menu." | First time user
 
@@ -118,7 +122,7 @@ Below I have listed the features with which the website will launch. I have prov
     * The carousel found on index.html allows the site owners to present to site users a visual teaser of the attraction, and what is available there. The first picture gives them a view of the front of the building, the second of a painting inside it, and the third of a pot of tea from the catering outlet. Having these three pictures gives the site owners three chances to hook a potential visitor, and turn their visit to the site into a booking.
     ![Image of carousel](docs/evidence/readmeevidence/featureevidence/carousel.png)
 
-    User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+    User story number achieved by this feature | User story goal | How was this achieved? | User or site owner goal? |
     ----- | ------------ | ------------------- | -------- |
     10 | Generate revenue through ticket sales | Enticing images in the carousel are designed to attract visitors to make bookings | Site owner
 
@@ -128,7 +132,7 @@ Below I have listed the features with which the website will launch. I have prov
     * The contact form on findus.html allows users to submit comments and queries to the site owners by filling out and submitting the three fields. This gives users a simple point of contact for acquiring further information. It also gives the site owners the chance to interact further with site visitors, giving more opportunities to turn interactions into booking/ticket sales.
     ![Image of the contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
 
-    User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+    User story number achieved by this feature | User story goal | How was this achieved? | User or site owner goal? |
     ----- | ------------ | ------------------- | -------- |
     6 | Give feedback after a visit to the property | The contact form is the method by which a user can give feedback | Returning user
     16 | Receive feedback/queries/complaints from returning users/visitors to the property | The contact form allows the site owners to receive feedback and other communication from users | Site owner
@@ -140,7 +144,7 @@ Below I have listed the features with which the website will launch. I have prov
 
     ![Image of the booking button](docs/evidence/readmeevidence/featureevidence/bookingbutton.png)
 
-User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+User story number achieved by this feature | User story goal | How was this achieved? | User or site owner goal? |
 ----- | ------------ | ------------------- | -------- |
 5 | Learn how to arrange a visit to the site. | The button to book a visit is apparent on every page, and unambiguously worded. | First time user
 10 | Generate revenue through ticket sales | Users can book tickets from any part of the site | Site owner
@@ -152,7 +156,7 @@ User story number achieved by this feature | Goal  | How was this achieved? | Us
 
     ![Image of booking modal](docs/evidence/readmeevidence/featureevidence/bookingmodal.png)
 
-User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+User story number achieved by this feature | User story goal | How was this achieved? | User or site owner goal? |
 ----- | ------------ | ------------------- | -------- |
 5 | Learn how to arrange a visit to the site. | Booking form modal allows users to book their visit | First time user
 10 | Generate revenue through ticket sales. | Booking form modal allows users to begin process of buying and paying for tickets | Site owner
@@ -167,7 +171,7 @@ User story number achieved by this feature | Goal  | How was this achieved? | Us
     ![Image of Getting Here text box section](docs/evidence/readmeevidence/featureevidence/gettingheretextbox.png)
     ![Image of Latest News text box section](docs/evidence/readmeevidence/featureevidence/blogtextbox.png)
 
-User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal?
+User story number achieved by this feature | User story goal | How was this achieved? | User or site owner goal?
 ----- | ---------------------- | ------------------- | -------- |  
 1 | Learn what Handleigh Hall is. | Information on home page About Us section | First time user |  
 3 | Learn when they can visit the site. | Opening times section has opening times | First time user | 
@@ -183,7 +187,7 @@ User story number achieved by this feature | Goal  | How was this achieved? | Us
 
 --- 
 
-User story number achieved by this feature | Goal  | How was this achieved? | User or site owner goal? |
+User story number achieved by this feature | User story goal | How was this achieved? | User or site owner goal? |
 ----- | ---------------------- | ------------------- | -------- |
 4 | Learn how to get to the site. | Address and postcode details in footer | First time/returning user
 7 | Learn about how they can contribute to the site financially. | Instructions to contact the site directly in order to donate are in the footer | Returning user
@@ -197,7 +201,7 @@ User story number achieved by this feature | Goal  | How was this achieved? | Us
 
 ![Image of social media links](docs/evidence/readmeevidence/featureevidence/socialcontact.png)
 
-User story number achieved by this feature | Goal  | How was this achieved? | Success or failure? 
+User story number achieved by this feature | User story goal | How was this achieved? | Success or failure? 
 ----- | ---------------------- | ------------------- | -------- 
 8 | Drive up engagement with the public via social media | Social media links in footer of every page | Success 
 ---
@@ -256,6 +260,8 @@ The font used throughout this project is Roboto, a google font linked in the cre
 ## Wireframes
 
 The layout of the pages for this project were planned using Balsamiq's wireframes. The wireframes for mobile devices can be found [here.](docs/wireframes/wireframems1mobile.pdf) The wireframes for tablets can be found [here.](docs/wireframes/wireframems1tablet.pdf) The wireframes for desktops can be found [here.](docs/wireframes/wireframems1desktop.pdf)
+
+---
 
 ## Technologies Used
 
@@ -341,23 +347,14 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 
 ### Running a version of the project on a local IDE (VSCode, Pycharm, Cloud9 etc.)
 
+Still need to nail down deployment
 
+---
 
-## Validations
-* HTML + CSS validations, no errors, links to evidence pictures
-* Accessibility - wave
-* Performance - lighthouse
-
-## Testing
+# Testing
 [I have written my testing documentation in a separate document, found here.](/workspace/MS1_Handleigh_Hall/testing.md)
 
-
-
-
-
-## Bugs
-
-* An issue was discovered on very large screen widths with the footer bunching up to the left if the text boxes don't have enough content in them. I suspect this is something to do with the blank space I left for the background image, but I'm uncertain why it only happens at screen widths approaching 1800 pixels. As yet, this is unfixed as the amount of content I have on each page is enough to keep everything where it should be even at these larger widths and in the hypothetical situation in which this was a genuine website for a genuine property, the amount of information in those text sections would become more over time, not less.
+---
 
 # Credits
 

@@ -137,6 +137,8 @@ Number | A returning user will want to: | How was this achieved? | Evidence
 8 | Learn about how to inquire about volunteering opportunities at the site | Details about inquiries for volunteering opportunities are found in the footer. | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
 9 | Read new blog and news entries to learn what has changed at the property | The latest news section is on the home page, and contains links (which of course go nowhere) to different articles at the end of teasers. | [Latest news](docs/evidence/readmeevidence/featureevidence/blogtextbox.png)
 
+---
+
 ## Testing against site owner goals
 
 ### Below I have tested the site's functions and features against the site owner goals:
@@ -151,6 +153,7 @@ Number | Goal  | How was this achieved? | Evidence
 15 | Draw in interested volunteers. | Details about inquiries for volunteering opportunities are found in the footer. | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
 16 | Receive feedback/queries/complaints from returning users/visitors to the property | The feedback form allows people to do exactly this. In addition, the footer contains contact details by telephone and email. | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
 
+---
 
 # Bugs
 
