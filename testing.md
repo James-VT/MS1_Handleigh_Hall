@@ -1,3 +1,11 @@
+# Testing
+
+In this document, I will be recording all the tests I have run again my website.
+
+# Validations
+
+In the first section I have included screenshots of my results validating the website against various checking services. Due to the size of the screenshots, for navigating ease I have given each section h1-sized titles.
+
 # WAVE testing
 https://wave.webaim.org/
 * WAVE stands for Web Accessibility Evaluation Tool. It makes sure your website is useable by people who may have impaired vision or other difficulties.
@@ -59,6 +67,13 @@ https://validator.w3.org/nu/
 * W3's great because it can give you feedback for your CSS as well. Just click that CSS toggle next to the "Check by" input and paste it in.
 ![Image of style.css W3 validation](docs/evidence/testingevidence/w3validations/cssw3validator.png)
 
+### Jigsaw test for style.css
+[Jigsaw](https://jigsaw.w3.org/css-validator/)
+* Jigsaw is a service run by W3C for checking CSS specifically. I had already checked it as you can see above, but considered it worth running my style sheet through another checking to be certain.
+![Image of Jigsaw CSS validation](docs/evidence/testingevidence/w3validations/jigsawvalidation.png)
+
+---
+
 # Browser compatibility testing
 
 ## Google Chrome
@@ -93,7 +108,9 @@ And here you can see an example of one of the pages at full width in Edge - in t
 
 ---
 
-# Testing the site against the goals of a user and of a site owner - NOT YET UPDATED WITH NEW FILEPATHS
+# Testing the site against the goals of a user and of a site owner
+
+I have tested each user story against the various features of the site to ensure that each of them are met in some way.
 
 ## Testing against first time user goals
 
@@ -104,8 +121,8 @@ User story number | A first time user will want to:  | How was this achieved? | 
 1 | Learn what Handleigh Hall is. | Information on home page - specifically, the About Us section. All other parts of the website serve to give more information on what Handleigh Hall is, but the About Us section is the most direct. | [About Us section](docs/evidence/testingevidence/userstoryevidence/indexabout.png)
 2 | Navigate easily through the site to find information. | The header contains navigation links for all pages and the booking modal form. At small screen sizes, the navigation form is compressed into a "burger" menu icon, recognisable to mobile device users and others as a navigation tool. | [Header](docs/evidence/readmeevidence/featureevidence/header.png) and [burger menu](docs/evidence/readmeevidence/featureevidence/burger.png)
 3 | Learn when they can visit the site. | The opening times section on the Find Us page relays the times a visitor can visit the site. | [Opening times](docs/evidence/testingevidence/userstoryevidence/openingtimes.png)
-4 | Learn how to get to the site. | The getting Here instructions  | [Getting here](docs/evidence/testingevidence/userstoryevidence/gettinghere.png)
-5 | Learn how to arrange a visit to the site. | Booking page | [Booking form](docs/evidence/testingevidence/userstoryevidence/bookingform.png) and [Header](docs/evidence/readmeevidence/featureevidence/header.png)
+4 | Learn how to get to the site. | The Getting Here instructions contains instructions about how to reach the property by private vehicle and public transport. Coming from the home page, the "Find Us" link in the header menu makes it clear that if a user is seeking direction, that's where to look. Furthermore, the address and postcode are often found in a website's footer.  | [Getting here](docs/evidence/testingevidence/userstoryevidence/gettinghere.png) and [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png) and [Header](docs/evidence/readmeevidence/featureevidence/header.png)
+5 | Learn how to arrange a visit to the site. | The booking link is visible at the top of every page, and on the home page under the carousel. The presence of the option to book a ticket in advance of a visit communicates to users that information about how to arrange a visit will be found there. This link from the header takes people to a booking form that opens as a modal. | [Booking form](docs/evidence/readmeevidence/featureevidence/bookingmodal.png) and [Header](docs/evidence/readmeevidence/featureevidence/header.png)
 
 ---
 
@@ -115,10 +132,10 @@ User story number | A first time user will want to:  | How was this achieved? | 
 
 Number | A returning user will want to: | How was this achieved? | Evidence
 ----- | ---------------------- | ------------------- | -------- 
-6 | Give feedback after a visit to the property | Feedback form | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
-7 | Learn about how they can contribute to the site financially | footer | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
-8 | Learn about how to inquire about volunteering opportunities at the site | footer | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
-9 | Read new blog and news entries to learn what has changed at the property | latest news section | [Latest news](docs/evidence/readmeevidence/featureevidence/blogtextbox.png)
+6 | Give feedback after a visit to the property | The feedback form allows people to do exactly this. In addition, the footer contains contact details by telephone and email. | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png) and [Footer](docs/evidence/readmeevidence/featureevidence/footer.png)
+7 | Learn about how they can contribute to the site financially | Details about how to donate are found in the footer, beneath the charity number. | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+8 | Learn about how to inquire about volunteering opportunities at the site | Details about inquiries for volunteering opportunities are found in the footer. | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+9 | Read new blog and news entries to learn what has changed at the property | The latest news section is on the home page, and contains links (which of course go nowhere) to different articles at the end of teasers. | [Latest news](docs/evidence/readmeevidence/featureevidence/blogtextbox.png)
 
 ## Testing against site owner goals
 
@@ -126,13 +143,13 @@ Number | A returning user will want to: | How was this achieved? | Evidence
 
 Number | Goal  | How was this achieved? | Evidence
 ----- | ---------------------- | ------------------- | -------- 
-10 | Generate revenue through ticket sales. | Booking button prevelant on every page | [Book Your Visit button](assets/images/bookingbutton.png) and [carousel](docs/evidence/readmeevidence/featureevidence/carousel.png)
-11 | Relay information to visitors on how to get there. | Find Us page instructions | [Getting here](assets/images/gettinghere.png)
-12 | Generate revenue by relaying information about the food and beverage outlet on site. | Facilities page | [Eating and drinking](assets/images/catering.png)
-13 | Drive up engagement with the public via social media | Every page | [Social media links](assets/images/socialcontact.png)
-14 | Generate donations to the charity that runs Handleigh Hall | footer | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
-15 | Draw in interested volunteers. | footer | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
-16 | Receive feedback/queries/complaints from returning users/visitors to the property | contact form  | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
+10 | Generate revenue through ticket sales. | The booking button is prevelant on every page, steering users as a call to action to book a visit and purchase tickets. | [Book Your Visit button](docs/evidence/readmeevidence/featureevidence/bookingbutton.png) and [carousel](docs/evidence/readmeevidence/featureevidence/carousel.png)
+11 | Relay information to visitors on how to get there. | The Getting Here instructions contains instructions about how to reach the property by private vehicle and public transport, allowing the site owners to communicate this information to visitors. Coming from the home page, the "Find Us" link in the header menu makes it clear that if a user is seeking direction, that's where to look. Furthermore, the address and postcode are often found in a website's footer. | [Getting here](docs/evidence/readmeevidence/featureevidence/gettingheretextbox.png) and [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+12 | Generate revenue by relaying information about the food and beverage outlet on site. | The facilities page allows the site owners to relay information to visitors about the catering offer on-site, and contains information aboiut the period-appropriate specialities on offer. It also contains a small gallery of attractive images of food and drink. | [Facilities page content](docs/evidence/readmeevidence/featureevidence/catering.png)
+13 | Drive up engagement with the public via social media | Every page has social media links in the footer, following a convention of many websites. | [Social media links](docs/evidence/readmeevidence/featureevidence/socialcontact.png)
+14 | Generate donations to the charity that runs Handleigh Hall | Details about how to donate are found in the footer, beneath the charity number. | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+15 | Draw in interested volunteers. | Details about inquiries for volunteering opportunities are found in the footer. | [Footer text](docs/evidence/readmeevidence/featureevidence/footer.png)
+16 | Receive feedback/queries/complaints from returning users/visitors to the property | The feedback form allows people to do exactly this. In addition, the footer contains contact details by telephone and email. | [Feedback/contact form](docs/evidence/readmeevidence/featureevidence/contactform.png)
 
 
 # Bugs
@@ -189,4 +206,4 @@ To investigate, I tried comparing the code with the pages on which it did work a
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
 * What fixed the bug?
 
-^You can see that that last script is commented out. Simple remove the <!--> from either end and it's good to go again.
+^You can see that that last script is commented out. Simply remove the <!--> from either end and it's good to go again.

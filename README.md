@@ -304,7 +304,12 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 * [W3's Nu HTML Checker](https://validator.w3.org/nu/)
     * W3's Checker can test for errors and flag sctructure warnings for HTML and CSS. I have it to test for both.
 
-## Deployment
+* [Jigsaw](https://jigsaw.w3.org/css-validator/)
+    * Jigsaw is a service run by W3C for checking CSS specifically.
+
+---
+
+# Deployment
  Here I'll explain how to deploy/how I deployed the website to GitHub and how to run it locally. 
 
 ### Deploying a static project to GitHub pages:
