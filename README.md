@@ -193,7 +193,6 @@ User story number achieved by this feature | User story goal | How was this achi
 7 | Learn about how they can contribute to the site financially. | Instructions to contact the site directly in order to donate are in the footer | Returning user
 8 | Learn about how to inquire about volunteering opportunities at the site | Instructions to inquire directly about volunteering opportunities located in footer | Returning user
 
-
 ---  
   
 * ## Social media links in the footer -
@@ -204,6 +203,7 @@ User story number achieved by this feature | User story goal | How was this achi
 User story number achieved by this feature | User story goal | How was this achieved? | Success or failure? 
 ----- | ---------------------- | ------------------- | -------- 
 8 | Drive up engagement with the public via social media | Social media links in footer of every page | Success 
+
 ---
 
 ## Features left to implement
