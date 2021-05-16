@@ -6,32 +6,32 @@
 
 ## Table of contents
 
-* Project overview
-* UX
-* User stories
-    * First time user stories
-    * Returning user stories
-    * Site owner stories
-* The Five Planes of User Experience Development
-* Features
-* Design choices
-    * Colours
-    * Imagery
-    * Font
-    * Wireframes
-* Technologies used
-* Deployment
-* Validations
-* Testing
-* Bugs
-* Credits
-* Image credits
+1. [Project overview](https://github.com/James-VT/MS1_Handleigh_Hall#project-overview)
+2. [UX](https://github.com/James-VT/MS1_Handleigh_Hall#ux)
+3. [User stories](https://github.com/James-VT/MS1_Handleigh_Hall#user-stories)
+    * [First time user stories](https://github.com/James-VT/MS1_Handleigh_Hall#a-first-time-user-will-want-to)
+    * [Returning user stories](https://github.com/James-VT/MS1_Handleigh_Hall#a-returning-user-will-want-to)
+    * [Site owner stories](https://github.com/James-VT/MS1_Handleigh_Hall#a-site-owner-will-want-to)
+4. [The Five Planes of User Experience Development](https://github.com/James-VT/MS1_Handleigh_Hall#the-five-planes-of-user-experience-development)
+5. [Features](https://github.com/James-VT/MS1_Handleigh_Hall#features)
+6. [Design choices](https://github.com/James-VT/MS1_Handleigh_Hall#design-choices)
+    * [Colours](https://github.com/James-VT/MS1_Handleigh_Hall#colours)
+    * [Imagery](https://github.com/James-VT/MS1_Handleigh_Hall#imagery)
+    * [Font](https://github.com/James-VT/MS1_Handleigh_Hall#font)
+    * [Wireframes](https://github.com/James-VT/MS1_Handleigh_Hall#wireframes)
+7. [Technologies used](https://github.com/James-VT/MS1_Handleigh_Hall#technologies-used)
+8. [Deployment](https://github.com/James-VT/MS1_Handleigh_Hall#deployment)
+9. [Testing](https://github.com/James-VT/MS1_Handleigh_Hall#testing)
+10. [Credits](https://github.com/James-VT/MS1_Handleigh_Hall#credits)
+11. [Image credits](https://github.com/James-VT/MS1_Handleigh_Hall#image-credits)
 
-## Project overview
+# Project overview
 
 This project imagines the creation of a website for a fictional visitor attraction in Oxfordshire. It imagines this property - an old English country house - has recently opened to the public and the charitable trust that runs the site wants a website for a number of purposes. They want to generate revenue by securing ticket bookings, they want to relay information to visitors about what's on offer, how to get there, and when visitors can come, and they want to generate interaction with the public. This latter will happen both directly, via a contact form, and by directing people to social media.
 
-## UX
+---
+
+# UX
 
 The main goals of the Handleigh Hall website are twofold: for its users, information; for its owners, revenue. Visitors to the site will want to know how to visit and what to expect. The owners of the site - Handleigh Hall Trust - will want to increase the revenue and publicity of the site.
 
@@ -64,26 +64,26 @@ The main goals of the Handleigh Hall website are twofold: for its users, informa
 
 ---
 
-# The Five Planes of User Experience Development
+## The Five Planes of User Experience Development
 
 As part of the planning for this project, I have run through the stages of User Experience Design, as proposed by [Jesse James Garrett.](https://en.wikipedia.org/wiki/Jesse_James_Garrett)
 
-## The Strategy plane
+### The Strategy plane
 
 Addressing the strategy plane for this project, I asked myself who would need this website, and what they might hope to achieve by using it. I have asked these questions from the point of view of the owner and a visitor to the website. The site owner wants to generate revenue and visits by selling tickets, and making visitors aware of what's available. Visitors want to know if this place is worth visiting, and how to do so.
 
-## The Scope Plane
+### The Scope Plane
 
 This plane helped to prevent the project growing beyond its immediate scope. The main strategy is to generate ticket sales by promoting the property. As such, the pages in the navigation bar are chosen to address the main questions of a visitor to these places: what is it, what food and drink is available, are there public lavatories, etc.
 
-## The Structure Plane 
+### The Structure Plane 
 
 My wireframes can be found below. These have been constructed with the idea that mobile design should come first, and that the main aim from the point of the view of the site owner is to generate income via bookings to visit the historic house. This is why the BOOK button is visible for as much of the time as possible, and each page presents its information in a way that encourages the selling of tickets.
 
-## The Skeleton Plane
+### The Skeleton Plane
 The information is structured in such a way that the pictures do much of the job of catching a user's eye, with the information kept in unobtrusive places. Navigation is performed via the header, with page title links kept clear and concise. On smaller screen sizes, where the information needs to be scrolled to, the top of the first text section is visible along with its title, telling users exactly what it is they'll find there and visually informing them how to get to it. At larger screen sizes this is different, as both the images and information can be presented at once while taking away from neither. 
 
-## The Surface Plane
+### The Surface Plane
 Colours for the website were chosen based on those colours associated with the visual look of Handleigh Hall itself. Green for the grass around it, blue for the (optimistically) blue sky above, and the beige colour of the navigation bar to resemble the colour of the local stone from which the property was constructed.
 
 ---
@@ -361,7 +361,7 @@ Still need to nail down deployment
 ## Navigation bar
 * The original code for the site's navigation bar in the header is taken from Bootstrap 4's [Nav code.](https://getbootstrap.com/docs/4.0/components/navbar/#nav) I have edited it with some styling.
 
-## Footer stlying
+## Footer styling
 * The footer styling was taken from a footer rtemplate, found [here](https://codepen.io/mdbootstrap/full/YEPERj)
 
 ## Webkit/vendor/browser prefixes
@@ -376,27 +376,10 @@ Still need to nail down deployment
 ## Font
 * The font used throughout is Roboto, a google fonts font, and sans-serif is used as the backup for if Roboto cannot load. [Roboto.](https://fonts.google.com/specimen/Roboto#standard-styles)
 
-## Index/home page
-* Background image is an open-source image. [Photo by Yaosheng Zheng on Unsplash](https://unsplash.com/photos/mpGz-JBOnZU)
-
-* First carousel image is of Lodge Park, taken from Wikipedia. [Link and licence.](https://commons.wikimedia.org/wiki/File:Lodge_Park,_Gloucestershire,_May_2016_side_view.jpg)
-
-* Second carousel image is open-source, photo taken by Birmingham Museums Trust. [Photo by Birmingham Museums Trust on Unsplash](https://unsplash.com/photos/P2pGX2-zWNs)
-
-* Third carousel image is open-source, photo taken from unsplash. [Photo by Content Pixie on Unsplash](https://unsplash.com/photos/m-gqDRzbJLQ)
-
 ## Find Us page
 * The directions and text used on the Find Us page were taken from the website for [Lodge Park and the Sherborne Park Estate](https://www.nationaltrust.org.uk/lodge-park-and-sherborne-park-estate#How%20to%20get%20here) and edited to suit.
 
 * The contact form on the Find Us page was adapted from Bootstrap 4's contact page template, found [here.](https://getbootstrap.com/docs/4.0/components/forms/#form-controls)
-
-* Background image on the Find Us page is an open-source image. [Photo by Randy Fath on Unsplash.](https://unsplash.com/photos/TUXrJZCNHbU)
-
-## Discover page
-* Back ground image on the Discover page is an open-source image. [Photo by Annie Spratt on Unsplash.](https://unsplash.com/photos/GWCvnsMtiBg)
-
-## Facilities page
-* Background image on the Facilities page is an open-source image. [Photo by Suhyeon Choi on Unsplash.](https://unsplash.com/photos/4Ia348kvX7A)
 
 ## Carousel
 * Carousel used is one of Bootstrap's components, found [here.](https://getbootstrap.com/docs/4.0/components/carousel/#with-controls)
@@ -405,6 +388,12 @@ Still need to nail down deployment
 * The modal used as a landing page for a booking feature is borrowed in part from two places: [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/) and, for some minor styling/positioning of the close button, [W3C](https://www.w3schools.com/css/css_positioning.asp). I also found [this](https://stackoverflow.com/questions/34627271/understanding-how-data-dismiss-attribute-works-in-bootstrap) from Stackoverflow to be useful in determining how to actually program said button to close the modal.
 
 * The booking form on the Booking page was adapted from Bootstrap 4's contact page template, found [here.](https://getbootstrap.com/docs/4.0/components/forms/#form-controls)
+
+## Buttons
+* The site's buttons are taken from Bootstrap, [here](https://getbootstrap.com/docs/4.6/components/buttons/).
+
+## Icons
+* Social media icons are taken from [Font Awesome](https://fontawesome.com/).
 
 # Image credits
 
@@ -419,16 +408,16 @@ Still need to nail down deployment
 
 * afamilygroup.jpg is the painting A Family Group by Anthony Van Dyck, in tbhe public domain. Original held by the Detroit Institute of Arts. Attribution: Anthony van Dyck, Public domain, via Wikimedia Commons. Found [here](https://commons.wikimedia.org/wiki/File:Anton_Van_Dyck_A_Family_Group.JPG).
 
+* Banner image on the Discover page is an open-source image. [Photo by Annie Spratt on Unsplash.](https://unsplash.com/photos/GWCvnsMtiBg)
+
 ## Index carousel
 
-* The landing image of "Handleigh Hall" is actually taken from Lodge Park, and is taken from the Wikipedia article for Lodge Park. It is open-source https://en.wikipedia.org/wiki/Lodge_Park_and_Sherborne_Estate#/media/File:Lodge_Park,_Gloucestershire,_May_2016_side_view.jpg, attribution: Celuici, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons.
+* The landing image of "Handleigh Hall" is actually taken from Lodge Park, and is taken from the Wikipedia article for that property. It is open-source https://en.wikipedia.org/wiki/Lodge_Park_and_Sherborne_Estate#/media/File:Lodge_Park,_Gloucestershire,_May_2016_side_view.jpg, attribution: Celuici, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons.
 
 * The second image is from a portrait by Jan Breughel the Younger. Photo by https://unsplash.com/@birminghammuseumstrust?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText Birmingham Museums Trust on https://unsplash.com/@birminghammuseumstrust?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText.
 
 * The final image is from Photo by Content Pixie on Unsplash, URL https://unsplash.com/photos/m-gqDRzbJLQ
 
-
-  
 
 ## Facilities gallery
  * honeycakes.jpg is taken from Wikimedia Commons, found [here](https://commons.wikimedia.org/wiki/File:Dulcia_Piperata_(Peppered_Honey_Cake),_Apicius,_De_Re_Coquinaria_7,11,4_(23218879433).jpg) by Carole Raddato from FRANKFURT, Germany, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons.
@@ -440,3 +429,8 @@ Still need to nail down deployment
  * chocolate.jpg is taken from Wikimedia Commons, found [here](https://commons.wikimedia.org/wiki/File:Chocolate_espeso.jpg) by LWY from Pasadena, USA, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons.
 
  * icecreamcup.jpg is taken from Wikimedia Commons, here [here](https://commons.wikimedia.org/wiki/File:Ice_cream_cup.jpg) by Killarnee, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons.
+
+ * Banner image on the Facilities page is an open-source image. [Photo by Suhyeon Choi on Unsplash.](https://unsplash.com/photos/4Ia348kvX7A)
+
+## Find Us background image
+ * Background image on the Find Us page is an open-source image. [Photo by Randy Fath on Unsplash.](https://unsplash.com/photos/TUXrJZCNHbU)
