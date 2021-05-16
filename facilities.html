@@ -19,11 +19,10 @@
 </head>
 
 <body>
-
+    <!--The below scripts are for ensuring compatibility with Bootstrap's various interactive features, such as the drop-down nav menu at smaller screen sizes.-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 
     <header>
         <!--Below is the navbar. It has links for the four main pages, and a button to open the booking modal-->
@@ -65,10 +64,12 @@
                         </li>
                     </ul>
                 </div>
+                <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size. I have edited these further.-->
                 <!--The button below was made using Bootstrap's pre-made button class. I had to use a dark button in order to get it past the accessibility validator. Link to bootstrap buttons: https://getbootstrap.com/docs/4.6/components/buttons/-->
                 <button class="btn btn-dark btn-lg book-button text-nowrap" data-toggle="modal" data-target=".bd-example-modal-sm" id="bookingform">
                     Book Your Visit
                 </button>
+                <!--Booking modal below-->
                 <!--The modal below is a Bootstrap component, found here: https://getbootstrap.com/docs/4.0/components/modal/#optional-sizes-->
                 <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="bookingform" aria-hidden="true">
                     <div class="modal-dialog modal-sm">

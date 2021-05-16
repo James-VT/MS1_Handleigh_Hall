@@ -681,8 +681,13 @@ different media queries may become necessary for individual pages.*/
     .index-bar-button {
         visibility: hidden;
     }
+    /* The below code makes sure the banners aren't too squashed on certain small devices on discover and facilities pages */
+    .banner {
+        height: 50vh;
+    }
 }
 
+/*The below code centres the page headings in the dfrop-down nav menu*/
 @media screen and (max-width: 985px) {
     .text-center {
         text-align: center;
