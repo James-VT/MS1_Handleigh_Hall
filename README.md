@@ -313,6 +313,9 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
 * [Jigsaw](https://jigsaw.w3.org/css-validator/)
     * Jigsaw is a service run by W3C for checking CSS specifically.
 
+* [Git](https://git-scm.com/)
+    * Git was used for version control. I wrote this entire project in the GitPod extenstion for Google Chrome, and the repository is held on GitHub.
+
 ---
 
 # Deployment
@@ -335,19 +338,22 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
  11. Be aware this deployed site will take a few minutes to deploy, usually about ten. Be patient and don't click while it's building as that can slow it down.
  12. Click the link to make sure it works after a suitable wait. Et voila, you've deployed the site!
 
+### Forking the repository for your own use
+This creates a copy of the repository for editing or viewing without affecting my (original) version. If you want to do it, do this:
+1. You'll need a GitHub account. Go to https://github.com to make one.
+2. Locate the repository (this one). At the top right of the page, beneath my pink and white avatar, you'll see the Fork button. Click it.
+3. This should add a version for you to use in your own repository. Have fun with it!
 
- ### Running a local version of the project
-1. Again, you'll need a GitHub account. Go to https://github.com to make one.
-2. You'll want to install the Gitpod Browser Extensions for Chrome if you don't already have it. https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki?hl=en
-3. Once you've installed that, restart Chrome.
-4. Punch your details into GitPod to sign into it if you haven't already.
-5. Head to the repository for this project, which was deployed in the previous section.
-6. On the top right corner of the repository, you'll see the green "Gitpod" button. Click this.
-7. This creates a new workspace in Gitpod from the code in this repository, on which you can work locally.
-
-### Running a version of the project on a local IDE (VSCode, Pycharm, Cloud9 etc.)
-
-Still need to nail down deployment
+### Cloning the repository
+Another way of getting your own local version to work on is to clone the repository. Below are the steps.
+1. You'll need a GitHub account. Go to https://github.com to make one.
+2. Locate the repository (this one).
+3. Click Code, the button just to the left of the green GitPod button.
+4. Click HTTPS to make sure you're in it, then copy the link you see there.
+6. Head into GitPod or your IDE of choice, and open up the terminal.
+5. Switch your working directory to the location you want to the cloned directory created.
+6. Then you want to type "git clone https://github.com/James-VT/MS1_Handleigh_Hall", the same URL as before.
+7. Hit Enter. You're good to go!
 
 ---
 
@@ -417,7 +423,6 @@ Still need to nail down deployment
 * The second image is from a portrait by Jan Breughel the Younger. Photo by https://unsplash.com/@birminghammuseumstrust?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText Birmingham Museums Trust on https://unsplash.com/@birminghammuseumstrust?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText.
 
 * The final image is from Photo by Content Pixie on Unsplash, URL https://unsplash.com/photos/m-gqDRzbJLQ
-
 
 ## Facilities gallery
  * honeycakes.jpg is taken from Wikimedia Commons, found [here](https://commons.wikimedia.org/wiki/File:Dulcia_Piperata_(Peppered_Honey_Cake),_Apicius,_De_Re_Coquinaria_7,11,4_(23218879433).jpg) by Carole Raddato from FRANKFURT, Germany, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons.
