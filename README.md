@@ -269,10 +269,10 @@ The layout of the pages for this project were planned using Balsamiq's wireframe
     * Balsamiq was used to develop the wireframes for this project.
 
 * [HTML5](https://html5.org) 
-    * The HTML pages for this site were written using HTML5. TODO: CHECK IF THIS SITE IS CORRECT
+    * The HTML pages for this site were written using HTML5.
 
 * [CSS3](http://www.css3.info/)
-    * The CSS styling for this site was written using CSS3. TODO: CHECK IF THIS SITE IS CORRECT
+    * The CSS styling for this site was written using CSS3.
 
 * [Bootstrap](https://getbootstrap.com/)
     * Bootstrap was used in this project to provide styling frameworks and for the automatic elements of responsive design it comes with. The version I have used is Bootstrap 4.
