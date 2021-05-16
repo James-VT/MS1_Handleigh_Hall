@@ -68,7 +68,7 @@ body {
 /*-----------------------------------------------Google map*/
 
 .map-container {
-    position: absolute;
+    position: relative;
     right: 1rem;
     top: 1rem;
     float: right;
@@ -76,11 +76,12 @@ body {
 }
 
 .map-container iframe {
-    float: right;
-    clear: none;
-    width: 400px;
+    position: absolute;
+    /* float: right; */
+    clear: both;
+    width: 300px;
     height: 300px;
-    margin-left: 3rem;
+    padding-left: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -358,7 +359,6 @@ div.desc {
 
 .submit-button-spacing {
     margin: 10px 0px 10px 10px;
-
 }
 
 /*-----------------------------------------------Footer*/
@@ -664,7 +664,7 @@ different media queries may become necessary for individual pages.*/
 @media screen and (max-width: 1225px) and (min-width: 950px) {
     .map-container {
         overflow: hidden;
-        height: 400px;
+        height: 350px;
     }
 }
 
