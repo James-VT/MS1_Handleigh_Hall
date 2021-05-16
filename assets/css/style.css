@@ -676,4 +676,16 @@ different media queries may become necessary for individual pages.*/
     }
 }
 
+/*The below code hides the book button in the header at small screen widths as the button below the carousel is clearly visible at the same time at these smaller sizes.*/
+@media screen and (max-width: 525px) {
+    .index-bar-button {
+        visibility: hidden;
+    }
+}
 
+@media screen and (max-width: 985px) {
+    .text-center {
+        text-align: center;
+        align-items: center;
+    }
+}
