@@ -358,7 +358,7 @@ Another way of getting your own local version to work on is to clone the reposit
 ---
 
 # Testing
-[I have written my testing documentation in a separate document, found here.](/workspace/MS1_Handleigh_Hall/testing.md)
+## [I have written my testing documentation in a separate document, found here.](https://github.com/James-VT/MS1_Handleigh_Hall/blob/master/testing.md)
 
 ---
 
