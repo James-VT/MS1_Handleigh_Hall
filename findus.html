@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Handleigh Hall Historic Home"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">-->
     <script src="https://kit.fontawesome.com/17b09219bc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -63,7 +62,6 @@
                             </ul>
                         </div>
                         <!--Button classes below taken from Bootstrap 4 (https://getbootstrap.com/docs/4.0/components/buttons/) for button colour, style and size. I have edited these further.-->
-                        <!--The button below was made using Bootstrap's pre-made button class. I had to use a dark button in order to get it past the accessibility validator. Link to bootstrap buttons: https://getbootstrap.com/docs/4.6/components/buttons/-->
                         <button class="btn btn-dark btn-lg book-button text-nowrap" data-toggle="modal" data-target=".bd-example-modal-sm" id="bookingform">
                             Book Your Visit
                         </button>
@@ -72,7 +70,7 @@
                         <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="bookingform" aria-hidden="true">
                             <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
-                                    <!--The below code is a bit of a mish-mash taken from https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_close. I've combined different bits of it, but the code/inspiration is found there.-->
+                                    <!--The below code is what closes the modal. It's a bit of a mish-mash taken from https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_close. I've combined different bits of it, but the code/inspiration is found there.-->
                                     <button onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright close" data-dismiss="modal">
                                         &times;
                                     </button>
@@ -202,10 +200,9 @@
                 <div id="findus-background">
                     <div class="image-fill">
                         <div class="row holder-bar">
-                            <!--Inline styling for button below taken from "http://howtocenterincss.com/#contentType=div&container.width=100pct&horizontal=center&vertical=middle&browser.IE=11" Configuration in URL. Inline styling is no bueno but I had the worst time positioning this infernal button. If I have time, I might try to move this styling to the stylesheet but don't want to risk breaking it again for now.-->
                             <div class="button-centring">
+                                <!--The empty div's gonna seem weird but it holds the page where I want it so it stays.-->
                                 <div class="button-container">
-                                    <!-- <a href="https://james-vt.github.io/MS1_Handleigh_Hall/bookingform.html" type="button" class="btn btn-success btn-lg book-button text-nowrap">Book Your Visit</a>-->
                                 </div>
                             </div>
                             <!--Google map below-->
