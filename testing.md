@@ -210,3 +210,11 @@ To investigate, I tried comparing the code with the pages on which it did work a
 * What fixed the bug?
 
 ^You can see that that last script is commented out. Simply remove the <!--> from either end and it's good to go again.
+
+---
+
+# Unexpected quirks
+
+## Colour-changing buttons
+
+Having used Bootstrap's ready-made buttons across the site, I hadn't expected these to fall foul of the WAVE validator for accessibility. The green and blue buttons both fail the contrast checks with white font colour, which is maddening as they're used across the web on some of the world's most popular sites. In the interests of accessibility, I initially chose to sacrifice presentation in order to make the site more friendly to the visually impaired by using Bootstrap's darker button colours in several places. These didn't look half as inviting or clickable as their light blue or green originals, but passed the validators. Later, I settled on a new secondary colour to compliment the site's beige - Oxford Blue. After I'd styled the footer in this colour, I experimented with doing the same for the buttons. It was a dark enough shade to pass the validators, and meant that they buttons fitted the site's colour scheme nicely. However, I did not remove the Bootstrap styling. This meant that the buttons inadvertently had a hover effect - when hovered over, they regained their original Bootstrap colouring. This meant that when redoing the modal, I could implement an original Bootstrap blue button - which looks far more inviting, despite the failure of the validator - which is probably why it's used across the web - without sacrificing usability for the visually impaired. A complete accident, but a happy one!
