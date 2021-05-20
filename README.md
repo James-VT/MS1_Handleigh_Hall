@@ -259,7 +259,13 @@ The font used throughout this project is Roboto, a google font linked in the cre
 
 ## Wireframes
 
-The layout of the pages for this project were planned using Balsamiq's wireframes. The wireframes for mobile devices can be found [here.](docs/wireframes/wireframems1mobile.pdf) The wireframes for tablets can be found [here.](docs/wireframes/wireframems1tablet.pdf) The wireframes for desktops can be found [here.](docs/wireframes/wireframems1desktop.pdf)
+The layout of the pages for this project were planned using Balsamiq's wireframes.
+
+The wireframes for mobile devices can be found [here.](docs/wireframes/wireframems1mobile.pdf) They are ordered in the same order as the nav bar would suggest - Home, Discover, Facilities, Find Us.
+
+The wireframes for tablets can be found [here.](docs/wireframes/wireframems1tablet.pdf) They are ordered in the same order as the nav bar would suggest - Home, Discover, Facilities, Find Us.
+
+The wireframes for desktops can be found [here.](docs/wireframes/wireframems1desktop.pdf) They are ordered in the same order as the nav bar would suggest - Home, Discover, Facilities, Find Us.
 
 ---
 
