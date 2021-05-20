@@ -211,6 +211,10 @@ To investigate, I tried comparing the code with the pages on which it did work a
 
 ^You can see that that last script is commented out. Simply remove the <!--> from either end and it's good to go again.
 
+### White space beneath footer in index.html - unfixed
+
+This frustrating bug is one I have been unable to reproduce. Having submitted the project to the peer code review forum on Code Institute's Slack community, one user responded to say that they saw white space equal to the size of the footer underneath the footer. Unfortunately, they did not provide a screen shot or further explanation, and have not replied to my request for more information. Having tested this page myself on two different monitors, three different browsers and a mobile device I could not recreate this error. I class this bug as unfixed as without the means for further testing, I cannot address it. I am satisfied that the testing I have carried out means that the site will work correctly for the vast majority of users, but if my means permitted, I would test this reported error further.
+
 ---
 
 # Unexpected quirks
